@@ -40,3 +40,12 @@ body{background:linear-gradient(155deg,#061b16 0%,#0a2c23 48%,#041812 100%)}
 dialog{background:#0d2821;border-color:#326650;overflow-y:auto}.detail-layout{align-items:stretch}.detail-info{min-width:0}.detail-spec{flex-wrap:wrap}
 body.light{background:#eff8f3}
 @media(max-width:760px){.hero-phone-area{min-height:340px;padding-top:38px}.hero-phone-area>.creator-logo{top:0;width:190px;height:74px}.fold-art{width:140%;margin-left:-9%}.detail-photo{min-height:0;height:clamp(220px,44vh,420px);padding:16px}.detail-photo img{max-height:100%}}
+
+/* Full category previews with readable labels outside the artwork. */
+.category-card{height:auto;min-width:0;padding:0;display:flex;flex-direction:column;background:#0d2821}
+.category-card img{display:block;width:100%;height:auto;aspect-ratio:1.42;object-fit:contain;object-position:center;background:#061b16;filter:none;flex:none}
+.category-card:after{display:none}
+.category-card:hover img{transform:none}
+.category-label{position:static;display:block;padding:15px 14px 17px;font-size:19px;line-height:1.2}
+.category-label small{color:#aecbbd;line-height:1.5;margin-top:6px}
+@media(max-width:760px){.category-card{height:auto}.category-label{padding:12px;font-size:18px}.category-label small{font-size:11px}}
