@@ -51,3 +51,5 @@ body.light{background:#eff8f3}
 @media(max-width:760px){.category-card{height:auto}.category-label{padding:12px;font-size:18px}.category-label small{font-size:11px}}
 
 @media(min-width:761px){.category-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.category-card img{aspect-ratio:1.8}}
+
+.detail-actions .photo-note{font-size:12px;line-height:1.6;margin:0 0 4px}.detail-actions button:disabled{opacity:.65;cursor:wait;transform:none}
