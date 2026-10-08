@@ -11,7 +11,7 @@ function setFilter(name){selected=name;render();document.querySelector('#galleri
 function refreshHeart(){$('detail-heart').textContent=favs.has(active.id)?'♥ Nei preferiti':'♡ Salva nei preferiti'}
 function openDetail(w){active=w;$('detail-title').textContent=w.title;$('detail-category').textContent=catFor(w)||'DUO Wallpapers';$('detail-description').textContent=w.description||'Uno sfondo della collezione DUO Wallpapers. Pensato per uno schermo immersivo.';$('detail-source').textContent=w.source;$('detail-resolution').textContent=w.width+' × '+w.height+(w.generated?' · Alta definizione':' · File originale');$('detail-img').hidden=false;$('detail-fallback').hidden=true;$('detail-img').src=w.image;$('detail-img').style.objectFit='contain';const d=$('download');d.href=w.image;d.textContent=w.generated?'↓ Scarica wallpaper':'↓ Scarica originale';d.setAttribute('download',w.filename||w.title+'.jpg');d.target='_self';$('detail-note').textContent='Il download conserva la risoluzione originale. Per il rullino fotografico usa “Salva in Foto”.';$('open-photo').href=w.image;refreshHeart();$('detail').showModal();preparePhotoSave(w)}
 $('close').onclick=()=>$('detail').close();$('detail').addEventListener('click',e=>{if(e.target===$('detail'))$('detail').close()});$('detail-heart').onclick=()=>toggleFav(active.id);$('search').addEventListener('input',e=>{term=e.target.value.toLowerCase().trim();render();if(term)document.querySelector('#galleria').scrollIntoView({behavior:'smooth'})});$('theme').onclick=()=>{document.body.classList.toggle('light');localStorage.setItem('duo-theme',document.body.classList.contains('light')?'light':'dark')};if(localStorage.getItem('duo-theme')==='light')document.body.classList.add('light');$('reset').onclick=()=>{selected='Tutti';term='';$('search').value='';render()};
-fetch('wallpapers.json?v=collection-30').then(r=>{if(!r.ok)throw Error('Catalogo non disponibile');return r.json()}).then(data=>{wallpapers=data;$('total-count').textContent=data.length;const cats=['Tutti',...categories.map(c=>c.name)];$('filters').replaceChildren(...cats.map(name=>{const b=document.createElement('button');b.className='filter';b.dataset.filter=name;b.textContent=name;b.onclick=()=>setFilter(name);return b}));render()}).catch(err=>{$('gallery').textContent='Errore di caricamento: '+err.message+'. Pubblica su GitHub Pages o usa un server locale.'});
+fetch('wallpapers.json?v=collection-30').then(r=>{if(!r.ok)throw Error('Catalogo non disponibile');return r.json()}).then(data=>{wallpapers=data;startHeroSlideshow(data);$('total-count').textContent=data.length;const cats=['Tutti',...categories.map(c=>c.name)];$('filters').replaceChildren(...cats.map(name=>{const b=document.createElement('button');b.className='filter';b.dataset.filter=name;b.textContent=name;b.onclick=()=>setFilter(name);return b}));render()}).catch(err=>{$('gallery').textContent='Errore di caricamento: '+err.message+'. Pubblica su GitHub Pages o usa un server locale.'});
 
 /* Live lock screen: use the visitor's device time and local timezone. */
 function updateDeviceClock(){
@@ -25,3 +25,42 @@ updateDeviceClock();
 setInterval(updateDeviceClock,1000);
 document.addEventListener('visibilitychange',()=>{if(!document.hidden)updateDeviceClock()});
 window.addEventListener('pageshow',updateDeviceClock);
+
+/* Rotate the ten latest catalog additions every 20 seconds. */
+function startHeroSlideshow(items){
+  const slides=items.slice(0,10);
+  const first=document.querySelector('.fold-wallpaper');
+  if(!first||!slides.length)return;
+  const second=first.cloneNode(false);
+  second.style.opacity='0';
+  first.after(second);
+  const layers=[first,second];
+  let shown=0,index=0,busy=false;
+  function preload(w){
+    const image=new Image();
+    const ready=new Promise(resolve=>{image.onload=()=>resolve(true);image.onerror=()=>resolve(false)});
+    image.src=w.image;
+    return ready;
+  }
+  let ready=preload(slides[index]);
+  setInterval(async()=>{
+    if(document.hidden||busy)return;
+    busy=true;
+    const w=slides[index];
+    try{
+      if(await ready){
+        const next=1-shown;
+        layers[next].style.backgroundImage='url('+JSON.stringify(w.image)+')';
+        layers[next].style.opacity='1';
+        layers[shown].style.opacity='0';
+        shown=next;
+        document.querySelector('.hero-phone-area').setAttribute('aria-label','Telefono pieghevole con sfondo '+w.title);
+        document.querySelector('.float-tag').textContent='✦  '+w.title;
+      }
+    }finally{
+      index=(index+1)%slides.length;
+      ready=preload(slides[index]);
+      busy=false;
+    }
+  },20000);
+}

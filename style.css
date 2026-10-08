@@ -60,3 +60,6 @@ body.light{background:#eff8f3}
 .cta svg{width:21px;height:21px;flex:0 0 21px}
 @media(max-width:760px){.cta{gap:8px;width:100%}.cta a{font-size:12px;padding:14px 9px;gap:7px}.cta svg{width:19px;height:19px;flex-basis:19px}}
 @media(max-width:370px){.cta a{font-size:11px;padding:12px 7px;gap:5px}.cta svg{width:17px;height:17px;flex-basis:17px}}
+
+.fold-wallpaper{transition:opacity 1s ease-in-out;will-change:opacity}
+@media(prefers-reduced-motion:reduce){.fold-wallpaper{transition:none}}
