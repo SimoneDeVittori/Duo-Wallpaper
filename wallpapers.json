@@ -1,5 +1,149 @@
 [
   {
+    "id": "oled-volpe-curiosa",
+    "title": "Volpe curiosa",
+    "category": "Animali",
+    "image": "originals/volpe-curiosa.jpg",
+    "source": "SimDev3D · Collezione OLED",
+    "filename": "volpe-curiosa.jpg",
+    "width": 5340,
+    "height": 3756,
+    "description": "Una volpe incuriosita tra i tronchi del bosco.",
+    "hero": true
+  },
+  {
+    "id": "oled-gufo-sorpreso",
+    "title": "Gufo sorpreso",
+    "category": "Animali",
+    "image": "originals/gufo-sorpreso.jpg",
+    "source": "SimDev3D · Collezione OLED",
+    "filename": "gufo-sorpreso.jpg",
+    "width": 5340,
+    "height": 3756,
+    "description": "Un gufo dagli occhi spalancati nel cavo di un albero.",
+    "hero": true
+  },
+  {
+    "id": "oled-rana-direttore",
+    "title": "Rana direttore",
+    "category": "Animali",
+    "image": "originals/rana-direttore.jpg",
+    "source": "SimDev3D · Collezione OLED",
+    "filename": "rana-direttore.jpg",
+    "width": 5340,
+    "height": 3756,
+    "description": "Una piccola rana dirige la foresta da una foglia rossa.",
+    "hero": true
+  },
+  {
+    "id": "oled-marmotta-alpina",
+    "title": "Marmotta alpina",
+    "category": "Animali",
+    "image": "originals/marmotta-alpina.jpg",
+    "source": "SimDev3D · Collezione OLED",
+    "filename": "marmotta-alpina.jpg",
+    "width": 5340,
+    "height": 3756,
+    "description": "Una marmotta tra fiori alpini, laghi e vette innevate.",
+    "hero": true
+  },
+  {
+    "id": "oled-robot-timido",
+    "title": "Robot timido",
+    "category": "Paesaggi",
+    "image": "originals/robot-timido.jpg",
+    "source": "SimDev3D · Collezione OLED",
+    "filename": "robot-timido.jpg",
+    "width": 5340,
+    "height": 3756,
+    "description": "Un piccolo robot con un ombrello giallo in una strada bagnata dalla pioggia.",
+    "hero": true
+  },
+  {
+    "id": "oled-scale-infinite",
+    "title": "Scale infinite",
+    "category": "Paesaggi",
+    "image": "originals/scale-infinite.jpg",
+    "source": "SimDev3D · Collezione OLED",
+    "filename": "scale-infinite.jpg",
+    "width": 5340,
+    "height": 3756,
+    "description": "Scale e archi colorati si intrecciano in un paesaggio architettonico surreale.",
+    "hero": true
+  },
+  {
+    "id": "oled-foglia-macro",
+    "title": "Foglia macro",
+    "category": "Natura",
+    "image": "originals/foglia-macro.jpg",
+    "source": "SimDev3D · Collezione OLED",
+    "filename": "foglia-macro.jpg",
+    "width": 5340,
+    "height": 3756,
+    "description": "Gocce di rugiada e venature su una foglia verde.",
+    "hero": true
+  },
+  {
+    "id": "oled-piume-iridescenti",
+    "title": "Piume iridescenti",
+    "category": "Natura",
+    "image": "originals/piume-iridescenti.jpg",
+    "source": "SimDev3D · Collezione OLED",
+    "filename": "piume-iridescenti.jpg",
+    "width": 5340,
+    "height": 3756,
+    "description": "Le trame e i riflessi delle piume di un pavone.",
+    "hero": true
+  },
+  {
+    "id": "oled-dune-dorate",
+    "title": "Dune dorate",
+    "category": "Paesaggi",
+    "image": "originals/dune-dorate.jpg",
+    "source": "SimDev3D · Collezione OLED",
+    "filename": "dune-dorate.jpg",
+    "width": 5340,
+    "height": 3756,
+    "description": "La luce del tramonto disegna le creste delle dune.",
+    "hero": true
+  },
+  {
+    "id": "oled-medusa-abissale",
+    "title": "Medusa abissale",
+    "category": "Animali",
+    "image": "originals/medusa-abissale.jpg",
+    "source": "SimDev3D · Collezione OLED",
+    "filename": "medusa-abissale.jpg",
+    "width": 5340,
+    "height": 3756,
+    "description": "Una medusa luminosa emerge dal buio delle profondità marine.",
+    "hero": true
+  },
+  {
+    "id": "oled-polpo-curioso",
+    "title": "Polpo curioso",
+    "category": "Animali",
+    "image": "originals/polpo-curioso.jpg",
+    "source": "SimDev3D · Collezione OLED",
+    "filename": "polpo-curioso.jpg",
+    "width": 5340,
+    "height": 3756,
+    "description": "Un polpo si affaccia tra coralli e raggi di luce subacquei.",
+    "hero": true
+  },
+  {
+    "id": "oled-deserto-stelle",
+    "title": "Deserto di stelle",
+    "category": "Paesaggi",
+    "image": "originals/deserto-stelle.jpg",
+    "source": "SimDev3D · Collezione OLED",
+    "filename": "deserto-stelle.jpg",
+    "width": 5340,
+    "height": 3756,
+    "description": "La Via Lattea illumina le dune del deserto nella notte.",
+    "hero": true
+  },
+  {
     "id": "wildlife-leone-savana",
     "title": "Leone della savana",
     "category": "Animali",
@@ -9,7 +153,8 @@
     "width": 2670,
     "height": 1878,
     "description": "Un leone sulla roccia tra le erbe dorate della savana africana.",
-    "generated": true
+    "generated": true,
+    "hero": true
   },
   {
     "id": "wildlife-elefante-savanna",
@@ -21,7 +166,8 @@
     "width": 2670,
     "height": 1878,
     "description": "Un elefante alla pozza, tra acacie e luce calda del tramonto.",
-    "generated": true
+    "generated": true,
+    "hero": true
   },
   {
     "id": "wildlife-tigre-foresta",
@@ -33,7 +179,8 @@
     "width": 2670,
     "height": 1878,
     "description": "Una tigre attraversa un torrente nella foresta indiana.",
-    "generated": true
+    "generated": true,
+    "hero": true
   },
   {
     "id": "wildlife-leopardo-nevi",
@@ -45,7 +192,8 @@
     "width": 2670,
     "height": 1878,
     "description": "Un leopardo delle nevi sulle creste dell'Himalaya.",
-    "generated": true
+    "generated": true,
+    "hero": true
   },
   {
     "id": "wildlife-lupo-bosco",
@@ -57,7 +205,8 @@
     "width": 2670,
     "height": 1878,
     "description": "Un lupo nella foresta boreale innevata al crepuscolo.",
-    "generated": true
+    "generated": true,
+    "hero": true
   },
   {
     "id": "wildlife-orso-fiume",
@@ -69,7 +218,8 @@
     "width": 2670,
     "height": 1878,
     "description": "Un orso bruno nel fiume, tra boschi e montagne dell'Alaska.",
-    "generated": true
+    "generated": true,
+    "hero": true
   },
   {
     "id": "wildlife-gorilla-foresta",
@@ -81,7 +231,8 @@
     "width": 2670,
     "height": 1878,
     "description": "Un gorilla di montagna nella foresta tropicale avvolta dalla nebbia.",
-    "generated": true
+    "generated": true,
+    "hero": true
   },
   {
     "id": "wildlife-aquila-alpi",
@@ -93,7 +244,8 @@
     "width": 2670,
     "height": 1878,
     "description": "Un'aquila reale in volo sopra le valli alpine.",
-    "generated": true
+    "generated": true,
+    "hero": true
   },
   {
     "id": "wildlife-volpe-artica",
@@ -105,7 +257,8 @@
     "width": 2670,
     "height": 1878,
     "description": "Una volpe artica nella tundra innevata all'alba.",
-    "generated": true
+    "generated": true,
+    "hero": true
   },
   {
     "id": "wildlife-balena-oceano",
@@ -117,7 +270,8 @@
     "width": 2670,
     "height": 1878,
     "description": "Una megattera tra i raggi di luce dell'oceano.",
-    "generated": true
+    "generated": true,
+    "hero": true
   },
   {
     "id": "drive-0",
