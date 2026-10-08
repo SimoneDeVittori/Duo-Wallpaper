@@ -5,8 +5,8 @@
 /* Supplied foldable hardware, with a live HTML lock screen. */
 .hero-phone-area{overflow:visible}
 .fold-art{position:relative;width:145%;flex-shrink:0;aspect-ratio:16/9;margin-left:-10%;filter:drop-shadow(0 25px 35px #0008)}
-.fold-hardware{display:block;width:100%;height:100%;object-fit:contain;clip-path:polygon(16.4% 24%,17% 21%,19% 19%,22% 19%,32% 20.4%,34% 19%,37% 19%,45.7% 20.3%,47% 19%,50% 19%,63.8% 22%,80% 19%,82% 20%,83.5% 24%,83.5% 75%,82% 79%,80% 80.5%,64% 78%,47% 80.5%,45% 79%,34% 80.5%,31% 79%,21% 80.5%,18% 79%,16.4% 75%)}
-.fold-display{position:absolute;left:46%;top:21%;width:36%;height:57.3%;overflow:hidden;clip-path:polygon(0 5%,2% 0,49% 4.5%,96% 0,100% 5%,100% 95%,97% 100%,50% 96%,3% 100%,0 96%);color:white;background:#111827}
+.fold-hardware{display:block;width:100%;height:100%;object-fit:contain;clip-path:url(#hardware-outline)}
+.fold-display{position:absolute;left:46%;top:21%;width:36%;height:57.3%;overflow:hidden;clip-path:url(#screen-outline);color:white;background:#111827}
 .fold-wallpaper,.fold-shade{position:absolute;inset:0}
 .fold-wallpaper{background:url('originals/Matterhorn%2001.png') center 52%/cover}
 .fold-shade{background:linear-gradient(#07112060,transparent 65%,#0003)}
@@ -20,3 +20,23 @@
 @media(max-width:760px){.fold-art{width:140%;margin-left:-9%}.hero-phone-area{min-height:310px}.fold-time{font-size:clamp(30px,8vw,52px)}.fold-date{font-size:clamp(8px,2.2vw,13px)}.fold-status{font-size:8px}.float-tag{bottom:0}.creator-logo{width:190px;height:67px}}
 
 @media(min-width:1151px){.category-grid{grid-template-columns:repeat(6,minmax(0,1fr))}}
+
+/* Emerald atmosphere and smooth, responsive hardware outlines. */
+:root{--bg:#061b16;--panel:#0d2821;--panel2:#12372d;--accent:#71e6b7;--button:#008a60;--glow:rgba(20,195,134,.25)}
+body{background:linear-gradient(155deg,#061b16 0%,#0a2c23 48%,#041812 100%)}
+.topbar{background:rgba(5,28,22,.87)}
+.hero{background:radial-gradient(ellipse at 78% 38%,#147e58 0%,#084c38 35%,#05291f 65%,#061b16 100%)}
+.hero:before{background:linear-gradient(120deg,#06251c80,transparent 65%);opacity:1}
+.orb{background:#39d99a30}.eyebrow,.kicker{color:#8eeac2}.eyebrow{border-color:#78dfaf55;background:#4fe5a013}.live-dot{background:#86ffc5;box-shadow:0 0 12px #52e5ac}
+.hero h1 em,.banner h2 em{background-image:linear-gradient(100deg,#a7f3d0,#4bddaa,#d8ffe8)}
+.brandicon{background-image:linear-gradient(145deg,#a6fbe0,#34d399 55%,#12a371)}
+.primary{background:linear-gradient(110deg,#00885c,#16b47d);box-shadow:0 8px 28px #00a86b30}.dot,.card-arrow{color:#7fe6b5}.filter.selected{background:#078459}.category-card:hover{border-color:#61dbac}.wall-card:hover{border-color:#61dbac88}
+.float-tag{border-color:#85e3b844;background:#073a2aaa}.banner{background:linear-gradient(110deg,#0c3026,#10513b)}.banner-art{filter:drop-shadow(0 0 35px #34d39944)}
+.hero-phone-area>.creator-logo{position:absolute;top:0;left:50%;transform:translateX(-50%);width:235px;height:92px;margin:0;z-index:3}
+.creator-logo img{object-fit:contain}
+.fold-display{left:45.88%;top:20.9%;width:36%;height:57.9%}
+.detail-photo{height:auto;min-height:420px;background:#071b16;padding:20px}
+.detail-photo img{width:100%;height:100%;max-height:72vh;object-fit:contain;object-position:center}
+dialog{background:#0d2821;border-color:#326650;overflow-y:auto}.detail-layout{align-items:stretch}.detail-info{min-width:0}.detail-spec{flex-wrap:wrap}
+body.light{background:#eff8f3}
+@media(max-width:760px){.hero-phone-area{min-height:340px;padding-top:38px}.hero-phone-area>.creator-logo{top:0;width:190px;height:74px}.fold-art{width:140%;margin-left:-9%}.detail-photo{min-height:0;height:clamp(220px,44vh,420px);padding:16px}.detail-photo img{max-height:100%}}
