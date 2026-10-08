@@ -49,3 +49,5 @@ body.light{background:#eff8f3}
 .category-label{position:static;display:block;padding:15px 14px 17px;font-size:19px;line-height:1.2}
 .category-label small{color:#aecbbd;line-height:1.5;margin-top:6px}
 @media(max-width:760px){.category-card{height:auto}.category-label{padding:12px;font-size:18px}.category-label small{font-size:11px}}
+
+@media(min-width:761px){.category-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.category-card img{aspect-ratio:1.8}}
