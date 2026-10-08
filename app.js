@@ -26,31 +26,40 @@ setInterval(updateDeviceClock,1000);
 document.addEventListener('visibilitychange',()=>{if(!document.hidden)updateDeviceClock()});
 window.addEventListener('pageshow',updateDeviceClock);
 
-/* Rotate the ten latest catalog additions every 20 seconds. */
+/* Random rotation with no repeats within a cycle or across page openings. */
 function startHeroSlideshow(items){
   const slides=items.slice(0,10);
-  const heroButton=document.querySelector('.float-tag');
-  let currentWallpaper=items.find(w=>w.id==='drive-19')||slides[0];
-  heroButton.disabled=!currentWallpaper;
-  heroButton.onclick=()=>{if(currentWallpaper)openDetail(currentWallpaper)};
   const first=document.querySelector('.fold-wallpaper');
+  const heroButton=document.querySelector('.float-tag');
   if(!first||!slides.length)return;
+  first.style.backgroundImage='none';
   const second=first.cloneNode(false);
   second.style.opacity='0';
   first.after(second);
   const layers=[first,second];
-  let shown=0,index=0,busy=false;
+  let shown=0,busy=false,currentWallpaper=null,deck=[],lastId='';
+  try{lastId=localStorage.getItem('duo-last-hero')||''}catch{}
+  function nextWallpaper(){
+    if(!deck.length){
+      deck=[...slides];
+      for(let i=deck.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[deck[i],deck[j]]=[deck[j],deck[i]]}
+      if(deck.length>1&&deck[0].id===lastId){[deck[0],deck[1]]=[deck[1],deck[0]]}
+    }
+    return deck.shift();
+  }
   function preload(w){
     const image=new Image();
     const ready=new Promise(resolve=>{image.onload=()=>resolve(true);image.onerror=()=>resolve(false)});
     image.src=w.image;
-    return ready;
+    return {w,ready};
   }
-  let ready=preload(slides[index]);
-  setInterval(async()=>{
+  heroButton.disabled=true;
+  heroButton.onclick=()=>{if(currentWallpaper)openDetail(currentWallpaper)};
+  let pending=preload(nextWallpaper());
+  async function advance(){
     if(document.hidden||busy||$('detail').open)return;
     busy=true;
-    const w=slides[index];
+    const {w,ready}=pending;
     try{
       if(await ready){
         const next=1-shown;
@@ -58,16 +67,20 @@ function startHeroSlideshow(items){
         layers[next].style.opacity='1';
         layers[shown].style.opacity='0';
         shown=next;
-        document.querySelector('.hero-phone-area').setAttribute('aria-label','Telefono pieghevole con sfondo '+w.title);
         currentWallpaper=w;
+        lastId=w.id;
+        try{localStorage.setItem('duo-last-hero',lastId)}catch{}
+        document.querySelector('.hero-phone-area').setAttribute('aria-label','Telefono pieghevole con sfondo '+w.title);
+        heroButton.disabled=false;
         heroButton.textContent='✦  '+w.title;
         heroButton.setAttribute('aria-label','Apri '+w.title);
         heroButton.title='Visualizza e scarica '+w.title;
       }
     }finally{
-      index=(index+1)%slides.length;
-      ready=preload(slides[index]);
+      pending=preload(nextWallpaper());
       busy=false;
     }
-  },20000);
+  }
+  advance();
+  setInterval(advance,10000);
 }
