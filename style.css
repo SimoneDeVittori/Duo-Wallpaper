@@ -53,3 +53,10 @@ body.light{background:#eff8f3}
 @media(min-width:761px){.category-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.category-card img{aspect-ratio:1.8}}
 
 .detail-actions .photo-note{font-size:12px;line-height:1.6;margin:0 0 4px}.detail-actions button:disabled{opacity:.65;cursor:wait;transform:none}
+
+/* Keep the hero actions side by side, including narrow phone screens. */
+.cta{display:grid;grid-template-columns:1.15fr 1fr;gap:10px;max-width:510px}
+.cta a{min-width:0;padding:15px 12px;gap:9px;line-height:1.35;text-align:center}
+.cta svg{width:21px;height:21px;flex:0 0 21px}
+@media(max-width:760px){.cta{gap:8px;width:100%}.cta a{font-size:12px;padding:14px 9px;gap:7px}.cta svg{width:19px;height:19px;flex-basis:19px}}
+@media(max-width:370px){.cta a{font-size:11px;padding:12px 7px;gap:5px}.cta svg{width:17px;height:17px;flex-basis:17px}}
