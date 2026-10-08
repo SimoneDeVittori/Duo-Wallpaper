@@ -318,45 +318,5 @@
     "filename": "Matterhorn 01.png",
     "width": 1494,
     "height": 1052
-  },
-  {
-    "id": "aurora",
-    "title": "Aurora Boreale",
-    "category": "Natura",
-    "image": "assets/aurora.jpg",
-    "source": "DUO Studio · 4K",
-    "filename": "aurora.jpg",
-    "width": 2160,
-    "height": 3840
-  },
-  {
-    "id": "nebula",
-    "title": "Nebula Violet",
-    "category": "",
-    "image": "assets/nebula.jpg",
-    "source": "DUO Studio · 4K",
-    "filename": "nebula.jpg",
-    "width": 2160,
-    "height": 3840
-  },
-  {
-    "id": "dunes",
-    "title": "Dune di Notte",
-    "category": "",
-    "image": "assets/dunes.jpg",
-    "source": "DUO Studio · 4K",
-    "filename": "dunes.jpg",
-    "width": 2160,
-    "height": 3840
-  },
-  {
-    "id": "solar",
-    "title": "Solar Drift",
-    "category": "",
-    "image": "assets/solar.jpg",
-    "source": "DUO Studio · 4K",
-    "filename": "solar.jpg",
-    "width": 2160,
-    "height": 3840
   }
 ]
