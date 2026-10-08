@@ -29,6 +29,10 @@ window.addEventListener('pageshow',updateDeviceClock);
 /* Rotate the ten latest catalog additions every 20 seconds. */
 function startHeroSlideshow(items){
   const slides=items.slice(0,10);
+  const heroButton=document.querySelector('.float-tag');
+  let currentWallpaper=items.find(w=>w.id==='drive-19')||slides[0];
+  heroButton.disabled=!currentWallpaper;
+  heroButton.onclick=()=>{if(currentWallpaper)openDetail(currentWallpaper)};
   const first=document.querySelector('.fold-wallpaper');
   if(!first||!slides.length)return;
   const second=first.cloneNode(false);
@@ -44,7 +48,7 @@ function startHeroSlideshow(items){
   }
   let ready=preload(slides[index]);
   setInterval(async()=>{
-    if(document.hidden||busy)return;
+    if(document.hidden||busy||$('detail').open)return;
     busy=true;
     const w=slides[index];
     try{
@@ -55,7 +59,10 @@ function startHeroSlideshow(items){
         layers[shown].style.opacity='0';
         shown=next;
         document.querySelector('.hero-phone-area').setAttribute('aria-label','Telefono pieghevole con sfondo '+w.title);
-        document.querySelector('.float-tag').textContent='✦  '+w.title;
+        currentWallpaper=w;
+        heroButton.textContent='✦  '+w.title;
+        heroButton.setAttribute('aria-label','Apri '+w.title);
+        heroButton.title='Visualizza e scarica '+w.title;
       }
     }finally{
       index=(index+1)%slides.length;

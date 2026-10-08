@@ -63,3 +63,5 @@ body.light{background:#eff8f3}
 
 .fold-wallpaper{transition:opacity 1s ease-in-out;will-change:opacity}
 @media(prefers-reduced-motion:reduce){.fold-wallpaper{transition:none}}
+
+button.float-tag{color:var(--text);cursor:pointer;transition:background .2s,border-color .2s}button.float-tag:hover{background:#106446dd;border-color:#8eeac2}button.float-tag:focus-visible{outline:2px solid #b5ffdd;outline-offset:4px}
