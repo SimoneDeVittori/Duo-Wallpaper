@@ -1,0 +1,7 @@
+html.touch-refresh-enabled, .touch-refresh-enabled body{overscroll-behavior-y:none}
+.pull-refresh{position:fixed;top:calc(env(safe-area-inset-top,0px) + 8px);left:50%;z-index:40;display:flex;align-items:center;gap:9px;padding:11px 16px;border:1px solid var(--border);border-radius:30px;color:var(--text);background:var(--panel);box-shadow:0 6px 24px #0003;font-size:12px;font-weight:600;white-space:nowrap;pointer-events:none;opacity:0;transform:translate(-50%,calc(var(--pull,0px) - 35px));transition:opacity .15s}
+.pull-refresh.visible{opacity:1}
+.pull-refresh.ready{color:#5de4b6}
+.pull-refresh.refreshing svg{animation:pull-refresh-spin .8s linear infinite}
+@keyframes pull-refresh-spin{to{transform:rotate(360deg)}}
+@media(prefers-reduced-motion:reduce){.pull-refresh{transition:none}.pull-refresh.refreshing svg{animation:none}}
