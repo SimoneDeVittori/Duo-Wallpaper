@@ -1,5 +1,77 @@
 [
   {
+    "id": "urbanrail-20261014-berna-re460",
+    "title": "Re 460 nella stazione di Berna",
+    "category": "Vario",
+    "subcategory": "Treni",
+    "image": "originals/urbanrail-20261014-berna-re460.jpg",
+    "thumbnail": "previews/urbanrail-20261014-berna-re460.jpg",
+    "source": "SimDev3D · Treni",
+    "filename": "urbanrail-20261014-berna-re460.jpg",
+    "width": 5340,
+    "height": 3756,
+    "description": "Re 460 nella stazione di Berna — con spazio libero in alto al centro per l’orologio.",
+    "hero": true,
+    "generated": true,
+    "upscaled": true,
+    "nativeWidth": 1493,
+    "nativeHeight": 1054,
+    "clockSafeArea": {
+      "x": 0.25,
+      "y": 0,
+      "width": 0.5,
+      "height": 0.3
+    }
+  },
+  {
+    "id": "urbanrail-20261014-zurigo-re66",
+    "title": "Re 6/6 a Zurigo",
+    "category": "Vario",
+    "subcategory": "Treni",
+    "image": "originals/urbanrail-20261014-zurigo-re66.jpg",
+    "thumbnail": "previews/urbanrail-20261014-zurigo-re66.jpg",
+    "source": "SimDev3D · Treni",
+    "filename": "urbanrail-20261014-zurigo-re66.jpg",
+    "width": 5340,
+    "height": 3756,
+    "description": "Re 6/6 a Zurigo — con spazio libero in alto al centro per l’orologio.",
+    "hero": true,
+    "generated": true,
+    "upscaled": true,
+    "nativeWidth": 1495,
+    "nativeHeight": 1052,
+    "clockSafeArea": {
+      "x": 0.25,
+      "y": 0,
+      "width": 0.5,
+      "height": 0.3
+    }
+  },
+  {
+    "id": "urbanrail-20261014-basilea-notte",
+    "title": "Giruno nella notte di Basilea",
+    "category": "Vario",
+    "subcategory": "Treni",
+    "image": "originals/urbanrail-20261014-basilea-notte.jpg",
+    "thumbnail": "previews/urbanrail-20261014-basilea-notte.jpg",
+    "source": "SimDev3D · Treni",
+    "filename": "urbanrail-20261014-basilea-notte.jpg",
+    "width": 5340,
+    "height": 3756,
+    "description": "Giruno nella notte di Basilea — con spazio libero in alto al centro per l’orologio.",
+    "hero": true,
+    "generated": true,
+    "upscaled": true,
+    "nativeWidth": 1492,
+    "nativeHeight": 1054,
+    "clockSafeArea": {
+      "x": 0.25,
+      "y": 0,
+      "width": 0.5,
+      "height": 0.3
+    }
+  },
+  {
     "id": "rail-20261014-vapore-alpi",
     "title": "Treno a vapore nelle Alpi",
     "category": "Vario",
