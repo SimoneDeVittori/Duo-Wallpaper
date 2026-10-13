@@ -104,6 +104,8 @@ html{background:#05251d;color-scheme:dark}
 @media(max-width:760px){
   .wall-card{aspect-ratio:4/3;display:grid;grid-template-rows:minmax(0,1fr) auto;min-width:0}
   .wall-preview{height:100%;min-height:0;aspect-ratio:auto}
+  .wall-preview img{object-fit:contain;object-position:center}
+  .wall-card:hover .wall-preview img{transform:none}
   .wall-info{padding:8px 10px;min-width:0}
   .wall-info>div{min-width:0}
   .wall-info strong{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:12px;line-height:1.25}
