@@ -111,3 +111,11 @@ html{background:#05251d;color-scheme:dark}
   .wall-info strong{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:12px;line-height:1.25}
   .wall-info small{margin-top:3px;font-size:10px;line-height:1.2}
 }
+
+/* Show full wallpapers in naturally sized cards on desktop as well. */
+@media(min-width:761px){
+  .wall-card{aspect-ratio:auto;display:block;min-width:0;align-self:start}
+  .wall-preview{height:auto;min-height:0;aspect-ratio:auto}
+  .wall-preview img{display:block;width:100%;height:auto;object-fit:contain;object-position:center}
+  .wall-card:hover .wall-preview img{transform:none}
+}
