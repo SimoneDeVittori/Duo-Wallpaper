@@ -91,3 +91,6 @@ html{background:#05251d;color-scheme:dark}
 @keyframes wall-loading{to{transform:rotate(360deg)}}
 @media(prefers-reduced-motion:reduce){.wall-preview.loading::after{animation-duration:2s}}
 @media(max-width:760px),(hover:none) and (pointer:coarse){#open-photo{display:none}.detail-actions #detail-heart{grid-column:1/-1}}
+
+.hero-heading-row{display:contents}
+@media(max-width:760px){.hero-heading-row{display:flex;align-items:center;justify-content:space-between;gap:8px}.hero-heading-row .eyebrow{font-size:9px;letter-spacing:1px;padding:10px}.hero-heading-row .creator-logo{position:static;transform:none;flex:0 0 98px;width:98px;height:46px;margin:0}.hero{gap:0;padding-bottom:22px;min-height:0}.hero-stats{margin-top:22px}.hero-phone-area{padding-top:0;min-height:0;margin-top:-24px}}

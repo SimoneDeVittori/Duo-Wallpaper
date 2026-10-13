@@ -103,3 +103,14 @@ function installDetailSwipeToClose(dialog){
   dialog.addEventListener('touchcancel',()=>{start=null},{passive:true});
 }
 installDetailSwipeToClose($('detail'));
+
+/* Keep the creator's single logo beside the eyebrow on phones. */
+const heroLogo=document.querySelector('.creator-logo');
+const mobileHero=window.matchMedia('(max-width:760px)');
+function placeHeroLogo(){
+  if(!heroLogo)return;
+  if(mobileHero.matches)document.querySelector('.hero-heading-row').append(heroLogo);
+  else document.querySelector('.hero-phone-area').prepend(heroLogo);
+}
+placeHeroLogo();
+mobileHero.addEventListener('change',placeHeroLogo);
