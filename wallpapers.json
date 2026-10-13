@@ -74,7 +74,7 @@
   {
     "id": "cartoon-vintage-20261013-01-il-gatto-del-cinema",
     "title": "Il gatto del cinema",
-    "category": "Cartoon vintage",
+    "category": "Cartoon",
     "image": "originals/cartoon-vintage-20261013-01-il-gatto-del-cinema.jpg",
     "thumbnail": "previews/cartoon-vintage-20261013-01-il-gatto-del-cinema.jpg",
     "source": "SimDev3D · Cartoon vintage",
@@ -93,12 +93,13 @@
       "y": 0,
       "width": 0.5,
       "height": 0.3
-    }
+    },
+    "subcategory": "Cartoon vintage"
   },
   {
     "id": "cartoon-vintage-20261013-02-la-volpe-in-bicicletta",
     "title": "La volpe in bicicletta",
-    "category": "Cartoon vintage",
+    "category": "Cartoon",
     "image": "originals/cartoon-vintage-20261013-02-la-volpe-in-bicicletta.jpg",
     "thumbnail": "previews/cartoon-vintage-20261013-02-la-volpe-in-bicicletta.jpg",
     "source": "SimDev3D · Cartoon vintage",
@@ -117,12 +118,13 @@
       "y": 0,
       "width": 0.5,
       "height": 0.3
-    }
+    },
+    "subcategory": "Cartoon vintage"
   },
   {
     "id": "cartoon-vintage-20261013-03-il-coniglio-e-il-grammofono",
     "title": "Il coniglio e il grammofono",
-    "category": "Cartoon vintage",
+    "category": "Cartoon",
     "image": "originals/cartoon-vintage-20261013-03-il-coniglio-e-il-grammofono.jpg",
     "thumbnail": "previews/cartoon-vintage-20261013-03-il-coniglio-e-il-grammofono.jpg",
     "source": "SimDev3D · Cartoon vintage",
@@ -141,12 +143,13 @@
       "y": 0,
       "width": 0.5,
       "height": 0.3
-    }
+    },
+    "subcategory": "Cartoon vintage"
   },
   {
     "id": "cartoon-vintage-20261013-04-lorsetto-ferroviere",
     "title": "L’orsetto ferroviere",
-    "category": "Cartoon vintage",
+    "category": "Cartoon",
     "image": "originals/cartoon-vintage-20261013-04-lorsetto-ferroviere.jpg",
     "thumbnail": "previews/cartoon-vintage-20261013-04-lorsetto-ferroviere.jpg",
     "source": "SimDev3D · Cartoon vintage",
@@ -165,12 +168,13 @@
       "y": 0,
       "width": 0.5,
       "height": 0.3
-    }
+    },
+    "subcategory": "Cartoon vintage"
   },
   {
     "id": "cartoon-vintage-20261013-05-il-paperotto-al-diner",
     "title": "Il paperotto al diner",
-    "category": "Cartoon vintage",
+    "category": "Cartoon",
     "image": "originals/cartoon-vintage-20261013-05-il-paperotto-al-diner.jpg",
     "thumbnail": "previews/cartoon-vintage-20261013-05-il-paperotto-al-diner.jpg",
     "source": "SimDev3D · Cartoon vintage",
@@ -189,12 +193,13 @@
       "y": 0,
       "width": 0.5,
       "height": 0.3
-    }
+    },
+    "subcategory": "Cartoon vintage"
   },
   {
     "id": "snoopy-20261013-01-snoopy-sotto-la-pioggia",
     "title": "Snoopy sotto la pioggia",
-    "category": "Snoopy",
+    "category": "Cartoon",
     "image": "originals/snoopy-20261013-01-snoopy-sotto-la-pioggia.jpg",
     "thumbnail": "previews/snoopy-20261013-01-snoopy-sotto-la-pioggia.jpg",
     "source": "SimDev3D · Fan art",
@@ -213,12 +218,13 @@
       "y": 0,
       "width": 0.5,
       "height": 0.3
-    }
+    },
+    "subcategory": "Snoopy"
   },
   {
     "id": "snoopy-20261013-02-snoopy-a-spasso-nella-pioggia",
     "title": "Snoopy a spasso nella pioggia",
-    "category": "Snoopy",
+    "category": "Cartoon",
     "image": "originals/snoopy-20261013-02-snoopy-a-spasso-nella-pioggia.jpg",
     "thumbnail": "previews/snoopy-20261013-02-snoopy-a-spasso-nella-pioggia.jpg",
     "source": "SimDev3D · Fan art",
@@ -237,12 +243,13 @@
       "y": 0,
       "width": 0.5,
       "height": 0.3
-    }
+    },
+    "subcategory": "Snoopy"
   },
   {
     "id": "snoopy-20261013-03-snoopy-e-la-finestra-piovosa",
     "title": "Snoopy e la finestra piovosa",
-    "category": "Snoopy",
+    "category": "Cartoon",
     "image": "originals/snoopy-20261013-03-snoopy-e-la-finestra-piovosa.jpg",
     "thumbnail": "previews/snoopy-20261013-03-snoopy-e-la-finestra-piovosa.jpg",
     "source": "SimDev3D · Fan art",
@@ -261,12 +268,13 @@
       "y": 0,
       "width": 0.5,
       "height": 0.3
-    }
+    },
+    "subcategory": "Snoopy"
   },
   {
     "id": "snoopy-20261013-04-snoopy-nella-notte",
     "title": "Snoopy nella notte",
-    "category": "Snoopy",
+    "category": "Cartoon",
     "image": "originals/snoopy-20261013-04-snoopy-nella-notte.jpg",
     "thumbnail": "previews/snoopy-20261013-04-snoopy-nella-notte.jpg",
     "source": "SimDev3D · Fan art",
@@ -285,12 +293,13 @@
       "y": 0,
       "width": 0.5,
       "height": 0.3
-    }
+    },
+    "subcategory": "Snoopy"
   },
   {
     "id": "snoopy-20261013-05-snoopy-e-lautunno",
     "title": "Snoopy e l’autunno",
-    "category": "Snoopy",
+    "category": "Cartoon",
     "image": "originals/snoopy-20261013-05-snoopy-e-lautunno.jpg",
     "thumbnail": "previews/snoopy-20261013-05-snoopy-e-lautunno.jpg",
     "source": "SimDev3D · Fan art",
@@ -309,7 +318,8 @@
       "y": 0,
       "width": 0.5,
       "height": 0.3
-    }
+    },
+    "subcategory": "Snoopy"
   },
   {
     "id": "aurora-20261013-01-lavertezzo-nella-notte",
@@ -1622,7 +1632,7 @@
   {
     "id": "wonder-01-colibri-smeraldo",
     "title": "Colibrì smeraldo",
-    "category": "Colibrì",
+    "category": "Animali",
     "image": "originals/wonder-01-colibri-smeraldo.jpg",
     "thumbnail": "previews/wonder-01-colibri-smeraldo.jpg",
     "source": "SimDev3D · Collezione Wonder",
@@ -1635,12 +1645,13 @@
     "upscaled": true,
     "nativeWidth": 1495,
     "nativeHeight": 1052,
-    "tone": "Chiaro"
+    "tone": "Chiaro",
+    "subcategory": "Colibrì"
   },
   {
     "id": "wonder-02-colibri-rubino",
     "title": "Colibrì rubino",
-    "category": "Colibrì",
+    "category": "Animali",
     "image": "originals/wonder-02-colibri-rubino.jpg",
     "thumbnail": "previews/wonder-02-colibri-rubino.jpg",
     "source": "SimDev3D · Collezione Wonder",
@@ -1653,12 +1664,13 @@
     "upscaled": true,
     "nativeWidth": 1495,
     "nativeHeight": 1052,
-    "tone": "Scuro"
+    "tone": "Scuro",
+    "subcategory": "Colibrì"
   },
   {
     "id": "wonder-03-colibri-violetto",
     "title": "Colibrì violetto",
-    "category": "Colibrì",
+    "category": "Animali",
     "image": "originals/wonder-03-colibri-violetto.jpg",
     "thumbnail": "previews/wonder-03-colibri-violetto.jpg",
     "source": "SimDev3D · Collezione Wonder",
@@ -1671,12 +1683,13 @@
     "upscaled": true,
     "nativeWidth": 1491,
     "nativeHeight": 1055,
-    "tone": "Chiaro"
+    "tone": "Chiaro",
+    "subcategory": "Colibrì"
   },
   {
     "id": "wonder-04-colibri-al-tramonto",
     "title": "Colibrì al tramonto",
-    "category": "Colibrì",
+    "category": "Animali",
     "image": "originals/wonder-04-colibri-al-tramonto.jpg",
     "thumbnail": "previews/wonder-04-colibri-al-tramonto.jpg",
     "source": "SimDev3D · Collezione Wonder",
@@ -1689,12 +1702,13 @@
     "upscaled": true,
     "nativeWidth": 1494,
     "nativeHeight": 1052,
-    "tone": "Scuro"
+    "tone": "Scuro",
+    "subcategory": "Colibrì"
   },
   {
     "id": "wonder-05-colibri-e-fiori-bianchi",
     "title": "Colibrì e fiori bianchi",
-    "category": "Colibrì",
+    "category": "Animali",
     "image": "originals/wonder-05-colibri-e-fiori-bianchi.jpg",
     "thumbnail": "previews/wonder-05-colibri-e-fiori-bianchi.jpg",
     "source": "SimDev3D · Collezione Wonder",
@@ -1707,12 +1721,13 @@
     "upscaled": true,
     "nativeWidth": 1495,
     "nativeHeight": 1052,
-    "tone": "Chiaro"
+    "tone": "Chiaro",
+    "subcategory": "Colibrì"
   },
   {
     "id": "wonder-06-colibri-sotto-la-pioggia",
     "title": "Colibrì sotto la pioggia",
-    "category": "Colibrì",
+    "category": "Animali",
     "image": "originals/wonder-06-colibri-sotto-la-pioggia.jpg",
     "thumbnail": "previews/wonder-06-colibri-sotto-la-pioggia.jpg",
     "source": "SimDev3D · Collezione Wonder",
@@ -1725,12 +1740,13 @@
     "upscaled": true,
     "nativeWidth": 1495,
     "nativeHeight": 1052,
-    "tone": "Scuro"
+    "tone": "Scuro",
+    "subcategory": "Colibrì"
   },
   {
     "id": "wonder-07-colibri-boreale",
     "title": "Colibrì boreale",
-    "category": "Colibrì",
+    "category": "Animali",
     "image": "originals/wonder-07-colibri-boreale.jpg",
     "thumbnail": "previews/wonder-07-colibri-boreale.jpg",
     "source": "SimDev3D · Collezione Wonder",
@@ -1743,12 +1759,13 @@
     "upscaled": true,
     "nativeWidth": 1495,
     "nativeHeight": 1052,
-    "tone": "Scuro"
+    "tone": "Scuro",
+    "subcategory": "Colibrì"
   },
   {
     "id": "wonder-08-colibri-azzurro",
     "title": "Colibrì azzurro",
-    "category": "Colibrì",
+    "category": "Animali",
     "image": "originals/wonder-08-colibri-azzurro.jpg",
     "thumbnail": "previews/wonder-08-colibri-azzurro.jpg",
     "source": "SimDev3D · Collezione Wonder",
@@ -1761,12 +1778,13 @@
     "upscaled": true,
     "nativeWidth": 1495,
     "nativeHeight": 1052,
-    "tone": "Chiaro"
+    "tone": "Chiaro",
+    "subcategory": "Colibrì"
   },
   {
     "id": "wonder-09-danza-dei-colibri",
     "title": "Danza dei colibrì",
-    "category": "Colibrì",
+    "category": "Animali",
     "image": "originals/wonder-09-danza-dei-colibri.jpg",
     "thumbnail": "previews/wonder-09-danza-dei-colibri.jpg",
     "source": "SimDev3D · Collezione Wonder",
@@ -1779,12 +1797,13 @@
     "upscaled": true,
     "nativeWidth": 1494,
     "nativeHeight": 1053,
-    "tone": "Chiaro"
+    "tone": "Chiaro",
+    "subcategory": "Colibrì"
   },
   {
     "id": "wonder-10-colibri-nella-nebbia",
     "title": "Colibrì nella nebbia",
-    "category": "Colibrì",
+    "category": "Animali",
     "image": "originals/wonder-10-colibri-nella-nebbia.jpg",
     "thumbnail": "previews/wonder-10-colibri-nella-nebbia.jpg",
     "source": "SimDev3D · Collezione Wonder",
@@ -1797,7 +1816,8 @@
     "upscaled": true,
     "nativeWidth": 1495,
     "nativeHeight": 1052,
-    "tone": "Scuro"
+    "tone": "Scuro",
+    "subcategory": "Colibrì"
   },
   {
     "id": "wonder-11-la-casa-degli-incubi",
@@ -1892,7 +1912,7 @@
   {
     "id": "wonder-16-chucky-nellombra",
     "title": "Chucky nell’ombra",
-    "category": "Chucky",
+    "category": "Halloween",
     "image": "originals/wonder-16-chucky-nellombra.jpg",
     "thumbnail": "previews/wonder-16-chucky-nellombra.jpg",
     "source": "SimDev3D · Fan art",
@@ -1905,12 +1925,13 @@
     "upscaled": true,
     "nativeWidth": 1495,
     "nativeHeight": 1052,
-    "tone": "Scuro"
+    "tone": "Scuro",
+    "subcategory": "Chucky"
   },
   {
     "id": "wonder-17-chucky-a-halloween",
     "title": "Chucky a Halloween",
-    "category": "Chucky",
+    "category": "Halloween",
     "image": "originals/wonder-17-chucky-a-halloween.jpg",
     "thumbnail": "previews/wonder-17-chucky-a-halloween.jpg",
     "source": "SimDev3D · Fan art",
@@ -1923,7 +1944,8 @@
     "upscaled": true,
     "nativeWidth": 1495,
     "nativeHeight": 1052,
-    "tone": "Scuro"
+    "tone": "Scuro",
+    "subcategory": "Chucky"
   },
   {
     "id": "wonder-18-trex-nella-foresta",
@@ -1946,7 +1968,7 @@
   {
     "id": "wonder-26-totoro-sotto-la-pioggia",
     "title": "Totoro sotto la pioggia",
-    "category": "Cartoni animati",
+    "category": "Cartoon",
     "image": "originals/wonder-26-totoro-sotto-la-pioggia.jpg",
     "thumbnail": "previews/wonder-26-totoro-sotto-la-pioggia.jpg",
     "source": "SimDev3D · Fan art",
@@ -1959,7 +1981,8 @@
     "upscaled": true,
     "nativeWidth": 1494,
     "nativeHeight": 1053,
-    "tone": "Scuro"
+    "tone": "Scuro",
+    "subcategory": "Cartoni animati"
   },
   {
     "id": "cosmos-01-nebulosa-notturna",
@@ -2000,7 +2023,7 @@
   {
     "id": "cosmos-03-eclissi-di-fuoco",
     "title": "Eclissi di fuoco",
-    "category": "Pianeti",
+    "category": "Spazio",
     "image": "originals/cosmos-03-eclissi-di-fuoco.jpg",
     "thumbnail": "previews/cosmos-03-eclissi-di-fuoco.jpg",
     "source": "SimDev3D · Collezione Cosmos",
@@ -2013,12 +2036,13 @@
     "upscaled": true,
     "nativeWidth": 1495,
     "nativeHeight": 1052,
-    "tone": "Scuro"
+    "tone": "Scuro",
+    "subcategory": "Pianeti"
   },
   {
     "id": "cosmos-04-saturno-di-perla",
     "title": "Saturno di perla",
-    "category": "Pianeti",
+    "category": "Spazio",
     "image": "originals/cosmos-04-saturno-di-perla.jpg",
     "thumbnail": "previews/cosmos-04-saturno-di-perla.jpg",
     "source": "SimDev3D · Collezione Cosmos",
@@ -2031,12 +2055,13 @@
     "upscaled": true,
     "nativeWidth": 1495,
     "nativeHeight": 1052,
-    "tone": "Chiaro"
+    "tone": "Chiaro",
+    "subcategory": "Pianeti"
   },
   {
     "id": "cosmos-05-deserto-di-marte",
     "title": "Deserto di Marte",
-    "category": "Extraterrestri",
+    "category": "Spazio",
     "image": "originals/cosmos-05-deserto-di-marte.jpg",
     "thumbnail": "previews/cosmos-05-deserto-di-marte.jpg",
     "source": "SimDev3D · Collezione Cosmos",
@@ -2049,12 +2074,13 @@
     "upscaled": true,
     "nativeWidth": 1495,
     "nativeHeight": 1052,
-    "tone": "Chiaro"
+    "tone": "Chiaro",
+    "subcategory": "Extraterrestri"
   },
   {
     "id": "cosmos-06-lago-alieno",
     "title": "Lago alieno",
-    "category": "Extraterrestri",
+    "category": "Spazio",
     "image": "originals/cosmos-06-lago-alieno.jpg",
     "thumbnail": "previews/cosmos-06-lago-alieno.jpg",
     "source": "SimDev3D · Collezione Cosmos",
@@ -2067,7 +2093,8 @@
     "upscaled": true,
     "nativeWidth": 1494,
     "nativeHeight": 1053,
-    "tone": "Scuro"
+    "tone": "Scuro",
+    "subcategory": "Extraterrestri"
   },
   {
     "id": "cosmos-07-leopardo-dombra",
@@ -2234,7 +2261,7 @@
   {
     "id": "cosmos-16-pianeta-oceano",
     "title": "Pianeta oceano",
-    "category": "Pianeti",
+    "category": "Spazio",
     "image": "originals/cosmos-16-pianeta-oceano.jpg",
     "thumbnail": "previews/cosmos-16-pianeta-oceano.jpg",
     "source": "SimDev3D · Collezione Cosmos",
@@ -2247,12 +2274,13 @@
     "upscaled": true,
     "nativeWidth": 1494,
     "nativeHeight": 1053,
-    "tone": "Chiaro"
+    "tone": "Chiaro",
+    "subcategory": "Pianeti"
   },
   {
     "id": "cosmos-17-pianeta-di-lava",
     "title": "Pianeta di lava",
-    "category": "Pianeti",
+    "category": "Spazio",
     "image": "originals/cosmos-17-pianeta-di-lava.jpg",
     "thumbnail": "previews/cosmos-17-pianeta-di-lava.jpg",
     "source": "SimDev3D · Collezione Cosmos",
@@ -2265,12 +2293,13 @@
     "upscaled": true,
     "nativeWidth": 1495,
     "nativeHeight": 1052,
-    "tone": "Scuro"
+    "tone": "Scuro",
+    "subcategory": "Pianeti"
   },
   {
     "id": "cosmos-18-gigante-di-ametista",
     "title": "Gigante di ametista",
-    "category": "Pianeti",
+    "category": "Spazio",
     "image": "originals/cosmos-18-gigante-di-ametista.jpg",
     "thumbnail": "previews/cosmos-18-gigante-di-ametista.jpg",
     "source": "SimDev3D · Collezione Cosmos",
@@ -2283,12 +2312,13 @@
     "upscaled": true,
     "nativeWidth": 1494,
     "nativeHeight": 1052,
-    "tone": "Chiaro"
+    "tone": "Chiaro",
+    "subcategory": "Pianeti"
   },
   {
     "id": "cosmos-19-luna-di-cristallo",
     "title": "Luna di cristallo",
-    "category": "Pianeti",
+    "category": "Spazio",
     "image": "originals/cosmos-19-luna-di-cristallo.jpg",
     "thumbnail": "previews/cosmos-19-luna-di-cristallo.jpg",
     "source": "SimDev3D · Collezione Cosmos",
@@ -2301,12 +2331,13 @@
     "upscaled": true,
     "nativeWidth": 1494,
     "nativeHeight": 1052,
-    "tone": "Scuro"
+    "tone": "Scuro",
+    "subcategory": "Pianeti"
   },
   {
     "id": "cosmos-20-alba-su-titano",
     "title": "Alba su Titano",
-    "category": "Extraterrestri",
+    "category": "Spazio",
     "image": "originals/cosmos-20-alba-su-titano.jpg",
     "thumbnail": "previews/cosmos-20-alba-su-titano.jpg",
     "source": "SimDev3D · Collezione Cosmos",
@@ -2319,12 +2350,13 @@
     "upscaled": true,
     "nativeWidth": 1496,
     "nativeHeight": 1051,
-    "tone": "Chiaro"
+    "tone": "Chiaro",
+    "subcategory": "Extraterrestri"
   },
   {
     "id": "cosmos-21-canyon-extraterrestre",
     "title": "Canyon extraterrestre",
-    "category": "Extraterrestri",
+    "category": "Spazio",
     "image": "originals/cosmos-21-canyon-extraterrestre.jpg",
     "thumbnail": "previews/cosmos-21-canyon-extraterrestre.jpg",
     "source": "SimDev3D · Collezione Cosmos",
@@ -2337,12 +2369,13 @@
     "upscaled": true,
     "nativeWidth": 1496,
     "nativeHeight": 1051,
-    "tone": "Scuro"
+    "tone": "Scuro",
+    "subcategory": "Extraterrestri"
   },
   {
     "id": "cosmos-22-dune-di-vetro",
     "title": "Dune di vetro",
-    "category": "Extraterrestri",
+    "category": "Spazio",
     "image": "originals/cosmos-22-dune-di-vetro.jpg",
     "thumbnail": "previews/cosmos-22-dune-di-vetro.jpg",
     "source": "SimDev3D · Collezione Cosmos",
@@ -2355,12 +2388,13 @@
     "upscaled": true,
     "nativeWidth": 1495,
     "nativeHeight": 1052,
-    "tone": "Chiaro"
+    "tone": "Chiaro",
+    "subcategory": "Extraterrestri"
   },
   {
     "id": "cosmos-23-oceano-di-europa",
     "title": "Oceano di Europa",
-    "category": "Extraterrestri",
+    "category": "Spazio",
     "image": "originals/cosmos-23-oceano-di-europa.jpg",
     "thumbnail": "previews/cosmos-23-oceano-di-europa.jpg",
     "source": "SimDev3D · Collezione Cosmos",
@@ -2373,12 +2407,13 @@
     "upscaled": true,
     "nativeWidth": 1494,
     "nativeHeight": 1052,
-    "tone": "Scuro"
+    "tone": "Scuro",
+    "subcategory": "Extraterrestri"
   },
   {
     "id": "cosmos-24-foresta-aliena",
     "title": "Foresta aliena",
-    "category": "Extraterrestri",
+    "category": "Spazio",
     "image": "originals/cosmos-24-foresta-aliena.jpg",
     "thumbnail": "previews/cosmos-24-foresta-aliena.jpg",
     "source": "SimDev3D · Collezione Cosmos",
@@ -2391,7 +2426,8 @@
     "upscaled": true,
     "nativeWidth": 1495,
     "nativeHeight": 1052,
-    "tone": "Chiaro"
+    "tone": "Chiaro",
+    "subcategory": "Extraterrestri"
   },
   {
     "id": "cosmos-25-tigre-nella-notte",

@@ -9,3 +9,5 @@ GitHub Pages pubblica il ramo `main` dalla radice. Il sito offre ricerca, filtri
 Per aggiungere uno sfondo, carica il file in `originals/` e aggiungi una voce in `wallpapers.json` con id, title, category, image, source, filename, width e height.
 
 Concept indipendente non affiliato ad Apple.
+
+Le categorie raggruppano i temi: Cartoon include cartoon vintage, cartoni animati e Snoopy; Spazio include pianeti ed extraterrestri; Halloween include Chucky; Animali include colibrì e camaleonti. I temi originali restano ricercabili tramite `subcategory`. I nuovi wallpaper devono usare queste categorie comuni.
