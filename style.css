@@ -65,3 +65,7 @@ body.light{background:#eff8f3}
 @media(prefers-reduced-motion:reduce){.fold-wallpaper{transition:none}}
 
 button.float-tag{color:var(--text);cursor:pointer;transition:background .2s,border-color .2s}button.float-tag:hover{background:#106446dd;border-color:#8eeac2}button.float-tag:focus-visible{outline:2px solid #b5ffdd;outline-offset:4px}
+
+/* Download directly on desktop; mobile saves from the detail dialog. */
+.card-arrow{display:inline-flex;align-items:center;justify-content:center;flex-shrink:0;padding:8px;border-radius:8px}.card-arrow:hover{background:#ffffff12}.card-arrow:focus-visible{outline:2px solid currentColor;outline-offset:2px}
+@media(max-width:760px),(hover:none) and (pointer:coarse){.card-arrow{display:none}}
