@@ -11,3 +11,5 @@ Per aggiungere uno sfondo, carica il file in `originals/` e aggiungi una voce in
 Concept indipendente non affiliato ad Apple.
 
 Le categorie raggruppano i temi: Cartoon include cartoon vintage, cartoni animati e Snoopy; Spazio include pianeti ed extraterrestri; Halloween include Chucky; Animali include colibrì e camaleonti. I temi originali restano ricercabili tramite `subcategory`. I nuovi wallpaper devono usare queste categorie comuni.
+
+Paesaggi e Città raccoglie borghi, città e luoghi costruiti; Natura raccoglie montagne, laghi, canyon, deserti e paesaggi naturali; Vario raccoglie oggetti, circo e scene fantastiche. Il pappagallo è in Animali. Il filtro “Tutti · dal più nuovo” mantiene l’ordine del catalogo, con le nuove collezioni aggiunte in testa.
