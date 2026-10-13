@@ -69,3 +69,6 @@ button.float-tag{color:var(--text);cursor:pointer;transition:background .2s,bord
 /* Download directly on desktop; mobile saves from the detail dialog. */
 .card-arrow{display:inline-flex;align-items:center;justify-content:center;flex-shrink:0;padding:8px;border-radius:8px}.card-arrow:hover{background:#ffffff12}.card-arrow:focus-visible{outline:2px solid currentColor;outline-offset:2px}
 @media(max-width:760px),(hover:none) and (pointer:coarse){.card-arrow{display:none}}
+
+/* Bare heart icon with a vivid red selected state. */
+.heart{border:0;border-radius:0;background:transparent;display:flex;align-items:center;justify-content:center;color:#fff;padding:5px;transition:transform .18s,color .18s}.heart svg{width:26px;height:26px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;filter:drop-shadow(0 1px 3px #000a)}.heart:hover{transform:scale(1.12)}.heart.liked{color:#ff2038}.heart.liked svg{fill:currentColor;stroke:currentColor}.heart:focus-visible{outline:2px solid currentColor;outline-offset:3px}
