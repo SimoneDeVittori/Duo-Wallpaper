@@ -83,3 +83,11 @@ button.float-tag{color:var(--text);cursor:pointer;transition:background .2s,bord
 /* Paint iOS status-bar and safe areas in the site's dark green. */
 html{background:#05251d;color-scheme:dark}
 @media(max-width:760px){.topbar{height:calc(65px + env(safe-area-inset-top,0px));padding-top:env(safe-area-inset-top,0px)}body{padding-bottom:env(safe-area-inset-bottom,0px)}}
+
+/* Green loading placeholders with a visible loading indicator. */
+.wall-preview,.category-card{background:#0d382d}
+.wall-preview.loading img{opacity:0}
+.wall-preview.loading::after{content:"";position:absolute;left:50%;top:50%;width:30px;height:30px;margin:-15px 0 0 -15px;border:3px solid #b2ead633;border-top-color:#76e4b7;border-radius:50%;animation:wall-loading .8s linear infinite;pointer-events:none}
+@keyframes wall-loading{to{transform:rotate(360deg)}}
+@media(prefers-reduced-motion:reduce){.wall-preview.loading::after{animation-duration:2s}}
+@media(max-width:760px),(hover:none) and (pointer:coarse){#open-photo{display:none}.detail-actions #detail-heart{grid-column:1/-1}}
