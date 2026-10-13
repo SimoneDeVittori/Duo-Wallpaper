@@ -85,3 +85,21 @@ function startHeroSlideshow(items){
   advance();
   setInterval(advance,10000);
 }
+
+/* A downward swipe from the top of the mobile sheet dismisses it. */
+function installDetailSwipeToClose(dialog){
+  let start=null;
+  dialog.addEventListener('touchstart',event=>{
+    start=null;
+    if(!window.matchMedia('(max-width:760px), (hover:none) and (pointer:coarse)').matches||dialog.scrollTop>0||event.touches.length!==1||event.target.closest('button,a,input'))return;
+    const touch=event.touches[0];start={x:touch.clientX,y:touch.clientY,time:Date.now()};
+  },{passive:true});
+  dialog.addEventListener('touchend',event=>{
+    const origin=start;start=null;
+    if(!origin||!event.changedTouches.length)return;
+    const touch=event.changedTouches[0],dy=touch.clientY-origin.y,dx=Math.abs(touch.clientX-origin.x);
+    if(dy>=80&&dy>dx*1.4&&Date.now()-origin.time<1000)dialog.close();
+  },{passive:true});
+  dialog.addEventListener('touchcancel',()=>{start=null},{passive:true});
+}
+installDetailSwipeToClose($('detail'));
