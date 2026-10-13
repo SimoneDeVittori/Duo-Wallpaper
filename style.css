@@ -100,11 +100,11 @@ html{background:#05251d;color-scheme:dark}
 
 @media(max-width:760px){.hero{padding-top:8px}}
 
-/* The complete mobile card, including its caption, has a 4:3 outline. */
+/* Mobile cards follow each wallpaper's natural proportions. */
 @media(max-width:760px){
-  .wall-card{aspect-ratio:4/3;display:grid;grid-template-rows:minmax(0,1fr) auto;min-width:0}
-  .wall-preview{height:100%;min-height:0;aspect-ratio:auto}
-  .wall-preview img{object-fit:contain;object-position:center}
+  .wall-card{aspect-ratio:auto;display:block;min-width:0;align-self:start}
+  .wall-preview{height:auto;min-height:0;aspect-ratio:auto}
+  .wall-preview img{display:block;width:100%;height:auto;object-fit:contain;object-position:center}
   .wall-card:hover .wall-preview img{transform:none}
   .wall-info{padding:8px 10px;min-width:0}
   .wall-info>div{min-width:0}
