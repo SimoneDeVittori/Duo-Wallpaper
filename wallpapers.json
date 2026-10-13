@@ -1,5 +1,77 @@
 [
   {
+    "id": "chameleon-20261013-01-camaleonte-smeraldo",
+    "title": "Camaleonte smeraldo",
+    "category": "Animali",
+    "image": "originals/chameleon-20261013-01-camaleonte-smeraldo.jpg",
+    "thumbnail": "previews/chameleon-20261013-01-camaleonte-smeraldo.jpg",
+    "source": "SimDev3D · Camaleonti",
+    "filename": "chameleon-20261013-01-camaleonte-smeraldo.jpg",
+    "width": 5340,
+    "height": 3756,
+    "description": "Camaleonte smeraldo — con spazio libero in alto al centro per l’orologio.",
+    "hero": true,
+    "generated": true,
+    "upscaled": true,
+    "nativeWidth": 1494,
+    "nativeHeight": 1053,
+    "tone": "Scuro",
+    "clockSafeArea": {
+      "x": 0.25,
+      "y": 0,
+      "width": 0.5,
+      "height": 0.3
+    }
+  },
+  {
+    "id": "chameleon-20261013-02-camaleonte-arcobaleno",
+    "title": "Camaleonte arcobaleno",
+    "category": "Animali",
+    "image": "originals/chameleon-20261013-02-camaleonte-arcobaleno.jpg",
+    "thumbnail": "previews/chameleon-20261013-02-camaleonte-arcobaleno.jpg",
+    "source": "SimDev3D · Camaleonti",
+    "filename": "chameleon-20261013-02-camaleonte-arcobaleno.jpg",
+    "width": 5340,
+    "height": 3756,
+    "description": "Camaleonte arcobaleno — con spazio libero in alto al centro per l’orologio.",
+    "hero": true,
+    "generated": true,
+    "upscaled": true,
+    "nativeWidth": 1495,
+    "nativeHeight": 1052,
+    "tone": "Chiaro",
+    "clockSafeArea": {
+      "x": 0.25,
+      "y": 0,
+      "width": 0.5,
+      "height": 0.3
+    }
+  },
+  {
+    "id": "chameleon-20261013-03-camaleonte-nella-pioggia",
+    "title": "Camaleonte nella pioggia",
+    "category": "Animali",
+    "image": "originals/chameleon-20261013-03-camaleonte-nella-pioggia.jpg",
+    "thumbnail": "previews/chameleon-20261013-03-camaleonte-nella-pioggia.jpg",
+    "source": "SimDev3D · Camaleonti",
+    "filename": "chameleon-20261013-03-camaleonte-nella-pioggia.jpg",
+    "width": 5340,
+    "height": 3756,
+    "description": "Camaleonte nella pioggia — con spazio libero in alto al centro per l’orologio.",
+    "hero": true,
+    "generated": true,
+    "upscaled": true,
+    "nativeWidth": 1494,
+    "nativeHeight": 1053,
+    "tone": "Scuro",
+    "clockSafeArea": {
+      "x": 0.25,
+      "y": 0,
+      "width": 0.5,
+      "height": 0.3
+    }
+  },
+  {
     "id": "cartoon-vintage-20261013-01-il-gatto-del-cinema",
     "title": "Il gatto del cinema",
     "category": "Cartoon vintage",
