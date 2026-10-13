@@ -79,3 +79,7 @@ button.float-tag{color:var(--text);cursor:pointer;transition:background .2s,bord
 @media(max-width:760px){dialog{max-height:94vh}.detail-actions .photo-note{font-size:11px;line-height:1.4;margin:0}.detail-photo img{max-height:none}}
 
 .close{background:#0b503b;border-color:#65d7a8;color:#e4fff3}.close:hover{background:#126c50}
+
+/* Paint iOS status-bar and safe areas in the site's dark green. */
+html{background:#05251d;color-scheme:dark}
+@media(max-width:760px){.topbar{height:calc(65px + env(safe-area-inset-top,0px));padding-top:env(safe-area-inset-top,0px)}body{padding-bottom:env(safe-area-inset-bottom,0px)}}
