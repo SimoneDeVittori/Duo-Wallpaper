@@ -2,6 +2,7 @@
 let photoRequest=0, photoFile=null, photoWallpaper=null;
 const photoButton=document.getElementById('save-photos');
 const photoNote=document.getElementById('photo-note');
+function desktopPhotoDownload(){return !window.matchMedia('(max-width:760px), (hover:none) and (pointer:coarse)').matches;}
 const manualPhotoNote='Apri l’immagine, tienila premuta e scegli “Salva in Foto” o “Salva immagine”.';
 function manualPhotoMode(message=manualPhotoNote){
   photoFile=null;
@@ -13,6 +14,8 @@ async function preparePhotoSave(w){
   const request=++photoRequest;
   photoWallpaper=w;
   photoFile=null;
+  photoNote.hidden=desktopPhotoDownload();
+  if(desktopPhotoDownload()){photoButton.disabled=false;photoButton.textContent='Scarica sfondo';photoNote.textContent='';return;}
   if(!navigator.share||!navigator.canShare){manualPhotoMode();return;}
   photoButton.disabled=true;
   photoButton.textContent='Preparo immagine…';
@@ -34,6 +37,13 @@ async function preparePhotoSave(w){
 }
 photoButton.addEventListener('click',async()=>{
   if(!photoWallpaper)return;
+  if(desktopPhotoDownload()){
+    const link=document.createElement('a');
+    link.href=photoWallpaper.image;
+    link.download=photoWallpaper.filename||photoWallpaper.image.split('/').pop();
+    document.body.append(link);link.click();link.remove();
+    return;
+  }
   if(!photoFile){window.open(photoWallpaper.image,'_blank','noopener');return;}
   const request=photoRequest;
   photoButton.disabled=true;

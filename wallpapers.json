@@ -1,5 +1,149 @@
 [
   {
+    "id": "rail-20261014-vapore-alpi",
+    "title": "Treno a vapore nelle Alpi",
+    "category": "Vario",
+    "subcategory": "Treni",
+    "image": "originals/rail-20261014-vapore-alpi.jpg",
+    "thumbnail": "previews/rail-20261014-vapore-alpi.jpg",
+    "source": "SimDev3D · Treni",
+    "filename": "rail-20261014-vapore-alpi.jpg",
+    "width": 5340,
+    "height": 3756,
+    "description": "Treno a vapore nelle Alpi — con spazio libero in alto al centro per l’orologio.",
+    "hero": true,
+    "generated": true,
+    "upscaled": true,
+    "nativeWidth": 1494,
+    "nativeHeight": 1052,
+    "clockSafeArea": {
+      "x": 0.25,
+      "y": 0,
+      "width": 0.5,
+      "height": 0.3
+    }
+  },
+  {
+    "id": "rail-20261014-vapore-viadotto",
+    "title": "Treno a vapore sul viadotto",
+    "category": "Vario",
+    "subcategory": "Treni",
+    "image": "originals/rail-20261014-vapore-viadotto.jpg",
+    "thumbnail": "previews/rail-20261014-vapore-viadotto.jpg",
+    "source": "SimDev3D · Treni",
+    "filename": "rail-20261014-vapore-viadotto.jpg",
+    "width": 5340,
+    "height": 3756,
+    "description": "Treno a vapore sul viadotto — con spazio libero in alto al centro per l’orologio.",
+    "hero": true,
+    "generated": true,
+    "upscaled": true,
+    "nativeWidth": 1495,
+    "nativeHeight": 1052,
+    "clockSafeArea": {
+      "x": 0.25,
+      "y": 0,
+      "width": 0.5,
+      "height": 0.3
+    }
+  },
+  {
+    "id": "rail-20261014-coccodrillo",
+    "title": "Coccodrillo nel cuore delle Alpi",
+    "category": "Vario",
+    "subcategory": "Treni",
+    "image": "originals/rail-20261014-coccodrillo.jpg",
+    "thumbnail": "previews/rail-20261014-coccodrillo.jpg",
+    "source": "SimDev3D · Treni",
+    "filename": "rail-20261014-coccodrillo.jpg",
+    "width": 5340,
+    "height": 3756,
+    "description": "Coccodrillo nel cuore delle Alpi — con spazio libero in alto al centro per l’orologio.",
+    "hero": true,
+    "generated": true,
+    "upscaled": true,
+    "nativeWidth": 1495,
+    "nativeHeight": 1052,
+    "clockSafeArea": {
+      "x": 0.25,
+      "y": 0,
+      "width": 0.5,
+      "height": 0.3
+    }
+  },
+  {
+    "id": "rail-20261014-cargo",
+    "title": "FFS Cargo tra le montagne",
+    "category": "Vario",
+    "subcategory": "Treni",
+    "image": "originals/rail-20261014-cargo.jpg",
+    "thumbnail": "previews/rail-20261014-cargo.jpg",
+    "source": "SimDev3D · Treni",
+    "filename": "rail-20261014-cargo.jpg",
+    "width": 5340,
+    "height": 3756,
+    "description": "FFS Cargo tra le montagne — con spazio libero in alto al centro per l’orologio.",
+    "hero": true,
+    "generated": true,
+    "upscaled": true,
+    "nativeWidth": 1494,
+    "nativeHeight": 1052,
+    "clockSafeArea": {
+      "x": 0.25,
+      "y": 0,
+      "width": 0.5,
+      "height": 0.3
+    }
+  },
+  {
+    "id": "rail-20261014-re44-rossa",
+    "title": "Re 4/4 rossa sul Lago di Lucerna",
+    "category": "Vario",
+    "subcategory": "Treni",
+    "image": "originals/rail-20261014-re44-rossa.jpg",
+    "thumbnail": "previews/rail-20261014-re44-rossa.jpg",
+    "source": "SimDev3D · Treni",
+    "filename": "rail-20261014-re44-rossa.jpg",
+    "width": 5340,
+    "height": 3756,
+    "description": "Re 4/4 rossa sul Lago di Lucerna — con spazio libero in alto al centro per l’orologio.",
+    "hero": true,
+    "generated": true,
+    "upscaled": true,
+    "nativeWidth": 1494,
+    "nativeHeight": 1052,
+    "clockSafeArea": {
+      "x": 0.25,
+      "y": 0,
+      "width": 0.5,
+      "height": 0.3
+    }
+  },
+  {
+    "id": "rail-20261014-re44-verde",
+    "title": "Re 4/4 verde tra i vigneti",
+    "category": "Vario",
+    "subcategory": "Treni",
+    "image": "originals/rail-20261014-re44-verde.jpg",
+    "thumbnail": "previews/rail-20261014-re44-verde.jpg",
+    "source": "SimDev3D · Treni",
+    "filename": "rail-20261014-re44-verde.jpg",
+    "width": 5340,
+    "height": 3756,
+    "description": "Re 4/4 verde tra i vigneti — con spazio libero in alto al centro per l’orologio.",
+    "hero": true,
+    "generated": true,
+    "upscaled": true,
+    "nativeWidth": 1494,
+    "nativeHeight": 1052,
+    "clockSafeArea": {
+      "x": 0.25,
+      "y": 0,
+      "width": 0.5,
+      "height": 0.3
+    }
+  },
+  {
     "id": "vintage10-20261013-radio",
     "title": "Radio d’epoca",
     "category": "Vario",
@@ -2674,7 +2818,7 @@
   {
     "id": "cosmos-09-drago-dossidiana",
     "title": "Drago d’ossidiana",
-    "category": "Draghi",
+    "category": "Fantasy",
     "image": "originals/cosmos-09-drago-dossidiana.jpg",
     "thumbnail": "previews/cosmos-09-drago-dossidiana.jpg",
     "source": "SimDev3D · Collezione Cosmos",
@@ -2687,12 +2831,13 @@
     "upscaled": true,
     "nativeWidth": 1494,
     "nativeHeight": 1053,
-    "tone": "Scuro"
+    "tone": "Scuro",
+    "subcategory": "Draghi"
   },
   {
     "id": "cosmos-10-drago-delle-nuvole",
     "title": "Drago delle nuvole",
-    "category": "Draghi",
+    "category": "Fantasy",
     "image": "originals/cosmos-10-drago-delle-nuvole.jpg",
     "thumbnail": "previews/cosmos-10-drago-delle-nuvole.jpg",
     "source": "SimDev3D · Collezione Cosmos",
@@ -2705,7 +2850,8 @@
     "upscaled": true,
     "nativeWidth": 1495,
     "nativeHeight": 1052,
-    "tone": "Chiaro"
+    "tone": "Chiaro",
+    "subcategory": "Draghi"
   },
   {
     "id": "cosmos-11-aurora-cosmica",
@@ -3115,7 +3261,7 @@
   {
     "id": "cosmos-33-drago-di-fuoco",
     "title": "Drago di fuoco",
-    "category": "Draghi",
+    "category": "Fantasy",
     "image": "originals/cosmos-33-drago-di-fuoco.jpg",
     "thumbnail": "previews/cosmos-33-drago-di-fuoco.jpg",
     "source": "SimDev3D · Collezione Cosmos",
@@ -3128,12 +3274,13 @@
     "upscaled": true,
     "nativeWidth": 1495,
     "nativeHeight": 1052,
-    "tone": "Scuro"
+    "tone": "Scuro",
+    "subcategory": "Draghi"
   },
   {
     "id": "cosmos-34-drago-di-ghiaccio",
     "title": "Drago di ghiaccio",
-    "category": "Draghi",
+    "category": "Fantasy",
     "image": "originals/cosmos-34-drago-di-ghiaccio.jpg",
     "thumbnail": "previews/cosmos-34-drago-di-ghiaccio.jpg",
     "source": "SimDev3D · Collezione Cosmos",
@@ -3146,12 +3293,13 @@
     "upscaled": true,
     "nativeWidth": 1494,
     "nativeHeight": 1052,
-    "tone": "Chiaro"
+    "tone": "Chiaro",
+    "subcategory": "Draghi"
   },
   {
     "id": "cosmos-35-drago-della-luna",
     "title": "Drago della luna",
-    "category": "Draghi",
+    "category": "Fantasy",
     "image": "originals/cosmos-35-drago-della-luna.jpg",
     "thumbnail": "previews/cosmos-35-drago-della-luna.jpg",
     "source": "SimDev3D · Collezione Cosmos",
@@ -3164,12 +3312,13 @@
     "upscaled": true,
     "nativeWidth": 1494,
     "nativeHeight": 1052,
-    "tone": "Scuro"
+    "tone": "Scuro",
+    "subcategory": "Draghi"
   },
   {
     "id": "cosmos-36-drago-smeraldo",
     "title": "Drago smeraldo",
-    "category": "Draghi",
+    "category": "Fantasy",
     "image": "originals/cosmos-36-drago-smeraldo.jpg",
     "thumbnail": "previews/cosmos-36-drago-smeraldo.jpg",
     "source": "SimDev3D · Collezione Cosmos",
@@ -3182,12 +3331,13 @@
     "upscaled": true,
     "nativeWidth": 1495,
     "nativeHeight": 1052,
-    "tone": "Chiaro"
+    "tone": "Chiaro",
+    "subcategory": "Draghi"
   },
   {
     "id": "cosmos-37-drago-delle-stelle",
     "title": "Drago delle stelle",
-    "category": "Draghi",
+    "category": "Fantasy",
     "image": "originals/cosmos-37-drago-delle-stelle.jpg",
     "thumbnail": "previews/cosmos-37-drago-delle-stelle.jpg",
     "source": "SimDev3D · Collezione Cosmos",
@@ -3200,12 +3350,13 @@
     "upscaled": true,
     "nativeWidth": 1494,
     "nativeHeight": 1053,
-    "tone": "Scuro"
+    "tone": "Scuro",
+    "subcategory": "Draghi"
   },
   {
     "id": "cosmos-38-drago-dellalba",
     "title": "Drago dell’alba",
-    "category": "Draghi",
+    "category": "Fantasy",
     "image": "originals/cosmos-38-drago-dellalba.jpg",
     "thumbnail": "previews/cosmos-38-drago-dellalba.jpg",
     "source": "SimDev3D · Collezione Cosmos",
@@ -3218,7 +3369,8 @@
     "upscaled": true,
     "nativeWidth": 1495,
     "nativeHeight": 1052,
-    "tone": "Chiaro"
+    "tone": "Chiaro",
+    "subcategory": "Draghi"
   },
   {
     "id": "lumina-lago-alpino-turchese",
