@@ -21,10 +21,16 @@ if(duoAndroid){document.documentElement.classList.add('android');document.queryS
   const svg=document.querySelector('.topbar .brand-wordmark');
   const letters=svg.querySelector('text');
   function alignWordmark(){
-    const box=letters.getBBox();
-    if(!(box.width>0&&box.height>0))return;
-    svg.setAttribute('viewBox',[box.x,box.y,box.width,box.height].join(' '));
-    svg.style.width=(22*box.width/box.height)+'px';
+    const style=getComputedStyle(letters);
+    const context=document.createElement('canvas').getContext('2d');
+    if(!context)return;
+    context.font=style.fontWeight+' '+style.fontSize+' '+style.fontFamily;
+    const ink=context.measureText(letters.textContent);
+    const width=ink.actualBoundingBoxLeft+ink.actualBoundingBoxRight;
+    const height=ink.actualBoundingBoxAscent+ink.actualBoundingBoxDescent;
+    if(!(width>0&&height>0))return;
+    svg.setAttribute('viewBox',[-ink.actualBoundingBoxLeft,22-ink.actualBoundingBoxAscent,width,height].join(' '));
+    svg.style.width=(22*width/height)+'px';
   }
   alignWordmark();
   if(document.fonts)document.fonts.ready.then(alignWordmark);
