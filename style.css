@@ -177,7 +177,7 @@ html[lang="en"] .hero-stats{align-items:flex-start}html[lang="en"] .hero-stats .
 }
 
 /* Match the DUO wordmark to the green icon. */
-.topbar .brand-name{font-size:28px;line-height:1;font-weight:750}
+.topbar .brand-name{font-size:22px;line-height:1;font-weight:750}
 .topbar .brand>span:last-child{display:inline-flex;align-items:center;gap:5px}
 @media(max-width:760px){.topbar .muted-brand{font-size:12px}.topbar .brandicon{font-size:28px;line-height:1}}
 @media(max-width:370px){
