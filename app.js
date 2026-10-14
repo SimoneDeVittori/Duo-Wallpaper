@@ -32,9 +32,22 @@ function refreshDetailNavigation(){
   $('detail-next').disabled=index<0||index>=detailItems.length-1;
   $('detail-position').textContent=(index+1)+' / '+detailItems.length;
 }
+function fitDetailTitle(){
+  if(!$('detail').open)return;
+  const title=$('detail-title');
+  title.style.fontSize='';
+  let size=parseFloat(getComputedStyle(title).fontSize);
+  while(title.scrollWidth>title.clientWidth&&size>12){
+    size=Math.max(12,size-.5);
+    title.style.fontSize=size+'px';
+  }
+}
+window.addEventListener('resize',fitDetailTitle);
+if(document.fonts)document.fonts.ready.then(fitDetailTitle);
 function showDetailWallpaper(w){
   active=w;
   $('detail-title').textContent=w.title;
+  $('detail-title').title=w.title;
   $('detail-resolution').textContent=w.width+' × '+w.height;
   $('detail-img').hidden=false;
   $('detail-fallback').hidden=true;
@@ -46,11 +59,13 @@ function showDetailWallpaper(w){
   refreshHeart();
   refreshDetailNavigation();
   preparePhotoSave(w);
+  fitDetailTitle();
 }
 function openDetail(w,items=wallpapers){
   detailItems=items.some(item=>item.id===w.id)?[...items]:[w];
   showDetailWallpaper(w);
   if(!$('detail').open)$('detail').showModal();
+  fitDetailTitle();
 }
 function navigateDetail(direction){
   if(!$('detail').open||!active)return;
