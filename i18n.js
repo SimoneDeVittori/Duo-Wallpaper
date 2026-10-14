@@ -1,6 +1,7 @@
 /* Shared interface vocabulary; catalog IDs, filenames and favourites stay stable. */
 (() => {
  const en={
+  'Genera il tuo sfondo con IA':'Generate your wallpaper with AI',
   'Categorie':'Categories','Galleria':'Gallery','Preferiti':'Favourites','Cerca...':'Search','Cerca sfondi':'Search wallpapers',
   'UNA NUOVA PROSPETTIVA':'A NEW PERSPECTIVE','Il tuo Duo.<br><em>Un altro mondo.</em>':'Your Duo.<br><em>Another world.</em>',
   'Wallpaper spettacolari, dettagli incredibili. Una collezione in 4K pensata per valorizzare ogni pixel del tuo iPhone Duo.':'Stunning wallpapers, incredible detail. A 4K collection designed to make every pixel of your iPhone Duo shine.',
@@ -41,7 +42,7 @@
   document.documentElement.lang=language;
   document.title=duoT('DUO Wallpapers — Sfondi 4K per iPhone Duo');
   attr('meta[name="description"]','content','DUO Wallpapers — una collezione di sfondi 4K per iPhone Duo. Esplora, salva e scarica.');
-  for(const [selector,key] of [['[data-nav="categorie"]','Categorie'],['[data-nav="galleria"]','Galleria'],['[data-nav="preferiti"]','Preferiti'],['.hero-copy>p','Wallpaper spettacolari, dettagli incredibili. Una collezione in 4K pensata per valorizzare ogni pixel del tuo iPhone Duo.'],['.hero-stats div:nth-of-type(1) small','sfondi in collezione'],['.hero-stats div:nth-of-type(2) small','alta risoluzione'],['.hero-stats div:nth-of-type(3) small','gratuiti'],['.gallery-section .kicker','LA COLLEZIONE'],['.favourites-section .kicker','LA TUA SELEZIONE'],['.favourites-section .section-top p','Ritrova velocemente gli sfondi che ami.'],['#fav-empty','Non hai ancora preferiti. Tocca ♡ su uno sfondo per salvarlo qui.'],['.detail-spec span','Dimensioni'],['#open-photo','Apri immagine'],['#detail-fallback','Anteprima non disponibile: file da importare da Google Drive']])text(selector,key);
+  for(const [selector,key] of [['#ai-create-link','Genera il tuo sfondo con IA'],['[data-nav="categorie"]','Categorie'],['[data-nav="galleria"]','Galleria'],['[data-nav="preferiti"]','Preferiti'],['.hero-copy>p','Wallpaper spettacolari, dettagli incredibili. Una collezione in 4K pensata per valorizzare ogni pixel del tuo iPhone Duo.'],['.hero-stats div:nth-of-type(1) small','sfondi in collezione'],['.hero-stats div:nth-of-type(2) small','alta risoluzione'],['.hero-stats div:nth-of-type(3) small','gratuiti'],['.gallery-section .kicker','LA COLLEZIONE'],['.favourites-section .kicker','LA TUA SELEZIONE'],['.favourites-section .section-top p','Ritrova velocemente gli sfondi che ami.'],['#fav-empty','Non hai ancora preferiti. Tocca ♡ su uno sfondo per salvarlo qui.'],['.detail-spec span','Dimensioni'],['#open-photo','Apri immagine'],['#detail-fallback','Anteprima non disponibile: file da importare da Google Drive']])text(selector,key);
   document.querySelector('.eyebrow').innerHTML='<span class="live-dot"></span> '+duoT('UNA NUOVA PROSPETTIVA');
   document.querySelector('.hero h1').innerHTML=duoT('Il tuo Duo.<br><em>Un altro mondo.</em>');
   document.querySelector('.gallery-section h2').innerHTML=duoT('Sfondi da esplorare')+'<span class="dot">.</span>';
