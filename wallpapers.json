@@ -2,7 +2,7 @@
   {
     "id": "locomotiva-knie-20261014-berna",
     "title": "Locomotiva Knie a Berna",
-    "category": "Vario",
+    "category": "Treni",
     "subcategory": "Treni",
     "image": "originals/locomotiva-knie-20261014-berna.jpg",
     "thumbnail": "previews/locomotiva-knie-20261014-berna.jpg",
@@ -21,12 +21,13 @@
       "y": 0,
       "width": 0.5,
       "height": 0.3
-    }
+    },
+    "titleEn": "Knie locomotive in Bern"
   },
   {
     "id": "locomotiva-knie-20261014-ginevra",
     "title": "Locomotiva Knie a Ginevra",
-    "category": "Vario",
+    "category": "Treni",
     "subcategory": "Treni",
     "image": "originals/locomotiva-knie-20261014-ginevra.jpg",
     "thumbnail": "previews/locomotiva-knie-20261014-ginevra.jpg",
@@ -45,12 +46,13 @@
       "y": 0,
       "width": 0.5,
       "height": 0.3
-    }
+    },
+    "titleEn": "Knie locomotive in Geneva"
   },
   {
     "id": "locomotiva-knie-20261014-berna-cielo",
     "title": "Locomotiva Knie — cielo di Berna",
-    "category": "Vario",
+    "category": "Treni",
     "subcategory": "Treni",
     "image": "originals/locomotiva-knie-20261014-berna-cielo.jpg",
     "thumbnail": "previews/locomotiva-knie-20261014-berna-cielo.jpg",
@@ -69,12 +71,13 @@
       "y": 0,
       "width": 0.5,
       "height": 0.3
-    }
+    },
+    "titleEn": "Knie locomotive — Bern skies"
   },
   {
     "id": "extra6-20261014-coccodrillo-deposito",
     "title": "Coccodrillo nel deposito storico",
-    "category": "Vario",
+    "category": "Treni",
     "subcategory": "Treni",
     "image": "originals/extra6-20261014-coccodrillo-deposito.jpg",
     "thumbnail": "previews/extra6-20261014-coccodrillo-deposito.jpg",
@@ -93,12 +96,13 @@
       "y": 0,
       "width": 0.5,
       "height": 0.3
-    }
+    },
+    "titleEn": "Crocodile locomotive in the historic depot"
   },
   {
     "id": "extra6-20261014-re420-losanna",
     "title": "Re 420 nella stazione di Losanna",
-    "category": "Vario",
+    "category": "Treni",
     "subcategory": "Treni",
     "image": "originals/extra6-20261014-re420-losanna.jpg",
     "thumbnail": "previews/extra6-20261014-re420-losanna.jpg",
@@ -117,12 +121,13 @@
       "y": 0,
       "width": 0.5,
       "height": 0.3
-    }
+    },
+    "titleEn": "Re 420 at Lausanne station"
   },
   {
     "id": "extra6-20261014-re450-zurigo",
     "title": "Treno pendolare nella Zurigo notturna",
-    "category": "Vario",
+    "category": "Treni",
     "subcategory": "Treni",
     "image": "originals/extra6-20261014-re450-zurigo.jpg",
     "thumbnail": "previews/extra6-20261014-re450-zurigo.jpg",
@@ -141,7 +146,8 @@
       "y": 0,
       "width": 0.5,
       "height": 0.3
-    }
+    },
+    "titleEn": "Commuter train in Zurich at night"
   },
   {
     "id": "extra6-20261014-trex-vulcano",
@@ -165,7 +171,8 @@
       "y": 0,
       "width": 0.5,
       "height": 0.3
-    }
+    },
+    "titleEn": "T-rex in the volcanic night"
   },
   {
     "id": "extra6-20261014-triceratopo",
@@ -189,7 +196,8 @@
       "y": 0,
       "width": 0.5,
       "height": 0.3
-    }
+    },
+    "titleEn": "Triceratops at dawn"
   },
   {
     "id": "extra6-20261014-brachiosauro",
@@ -213,12 +221,13 @@
       "y": 0,
       "width": 0.5,
       "height": 0.3
-    }
+    },
+    "titleEn": "Brachiosaurus in the primeval forest"
   },
   {
     "id": "urbanrail-20261014-berna-re460",
     "title": "Re 460 nella stazione di Berna",
-    "category": "Vario",
+    "category": "Treni",
     "subcategory": "Treni",
     "image": "originals/urbanrail-20261014-berna-re460.jpg",
     "thumbnail": "previews/urbanrail-20261014-berna-re460.jpg",
@@ -237,12 +246,13 @@
       "y": 0,
       "width": 0.5,
       "height": 0.3
-    }
+    },
+    "titleEn": "Re 460 at Bern station"
   },
   {
     "id": "urbanrail-20261014-zurigo-re66",
     "title": "Re 6/6 a Zurigo",
-    "category": "Vario",
+    "category": "Treni",
     "subcategory": "Treni",
     "image": "originals/urbanrail-20261014-zurigo-re66.jpg",
     "thumbnail": "previews/urbanrail-20261014-zurigo-re66.jpg",
@@ -261,12 +271,13 @@
       "y": 0,
       "width": 0.5,
       "height": 0.3
-    }
+    },
+    "titleEn": "Re 6/6 in Zurich"
   },
   {
     "id": "urbanrail-20261014-basilea-notte",
     "title": "Giruno nella notte di Basilea",
-    "category": "Vario",
+    "category": "Treni",
     "subcategory": "Treni",
     "image": "originals/urbanrail-20261014-basilea-notte.jpg",
     "thumbnail": "previews/urbanrail-20261014-basilea-notte.jpg",
@@ -285,12 +296,13 @@
       "y": 0,
       "width": 0.5,
       "height": 0.3
-    }
+    },
+    "titleEn": "Giruno in Basel at night"
   },
   {
     "id": "rail-20261014-vapore-alpi",
     "title": "Treno a vapore nelle Alpi",
-    "category": "Vario",
+    "category": "Treni",
     "subcategory": "Treni",
     "image": "originals/rail-20261014-vapore-alpi.jpg",
     "thumbnail": "previews/rail-20261014-vapore-alpi.jpg",
@@ -309,12 +321,13 @@
       "y": 0,
       "width": 0.5,
       "height": 0.3
-    }
+    },
+    "titleEn": "Steam train in the Alps"
   },
   {
     "id": "rail-20261014-vapore-viadotto",
     "title": "Treno a vapore sul viadotto",
-    "category": "Vario",
+    "category": "Treni",
     "subcategory": "Treni",
     "image": "originals/rail-20261014-vapore-viadotto.jpg",
     "thumbnail": "previews/rail-20261014-vapore-viadotto.jpg",
@@ -333,12 +346,13 @@
       "y": 0,
       "width": 0.5,
       "height": 0.3
-    }
+    },
+    "titleEn": "Steam train on the viaduct"
   },
   {
     "id": "rail-20261014-coccodrillo",
     "title": "Coccodrillo nel cuore delle Alpi",
-    "category": "Vario",
+    "category": "Treni",
     "subcategory": "Treni",
     "image": "originals/rail-20261014-coccodrillo.jpg",
     "thumbnail": "previews/rail-20261014-coccodrillo.jpg",
@@ -357,12 +371,13 @@
       "y": 0,
       "width": 0.5,
       "height": 0.3
-    }
+    },
+    "titleEn": "Crocodile locomotive in the heart of the Alps"
   },
   {
     "id": "rail-20261014-cargo",
     "title": "FFS Cargo tra le montagne",
-    "category": "Vario",
+    "category": "Treni",
     "subcategory": "Treni",
     "image": "originals/rail-20261014-cargo.jpg",
     "thumbnail": "previews/rail-20261014-cargo.jpg",
@@ -381,12 +396,13 @@
       "y": 0,
       "width": 0.5,
       "height": 0.3
-    }
+    },
+    "titleEn": "SBB Cargo among the mountains"
   },
   {
     "id": "rail-20261014-re44-rossa",
     "title": "Re 4/4 rossa sul Lago di Lucerna",
-    "category": "Vario",
+    "category": "Treni",
     "subcategory": "Treni",
     "image": "originals/rail-20261014-re44-rossa.jpg",
     "thumbnail": "previews/rail-20261014-re44-rossa.jpg",
@@ -405,12 +421,13 @@
       "y": 0,
       "width": 0.5,
       "height": 0.3
-    }
+    },
+    "titleEn": "Red Re 4/4 on Lake Lucerne"
   },
   {
     "id": "rail-20261014-re44-verde",
     "title": "Re 4/4 verde tra i vigneti",
-    "category": "Vario",
+    "category": "Treni",
     "subcategory": "Treni",
     "image": "originals/rail-20261014-re44-verde.jpg",
     "thumbnail": "previews/rail-20261014-re44-verde.jpg",
@@ -429,7 +446,8 @@
       "y": 0,
       "width": 0.5,
       "height": 0.3
-    }
+    },
+    "titleEn": "Green Re 4/4 among the vineyards"
   },
   {
     "id": "vintage10-20261013-radio",
@@ -453,12 +471,13 @@
       "y": 0,
       "width": 0.5,
       "height": 0.3
-    }
+    },
+    "titleEn": "Vintage radio"
   },
   {
     "id": "vintage10-20261013-treno",
     "title": "Treno nella nebbia",
-    "category": "Vario",
+    "category": "Treni",
     "subcategory": "Vintage",
     "image": "originals/vintage10-20261013-treno.jpg",
     "thumbnail": "previews/vintage10-20261013-treno.jpg",
@@ -477,7 +496,8 @@
       "y": 0,
       "width": 0.5,
       "height": 0.3
-    }
+    },
+    "titleEn": "Train in the mist"
   },
   {
     "id": "vintage10-20261013-diner",
@@ -501,7 +521,8 @@
       "y": 0,
       "width": 0.5,
       "height": 0.3
-    }
+    },
+    "titleEn": "American diner"
   },
   {
     "id": "vintage10-20261013-vespa",
@@ -525,7 +546,8 @@
       "y": 0,
       "width": 0.5,
       "height": 0.3
-    }
+    },
+    "titleEn": "Scooter in the village"
   },
   {
     "id": "vintage10-20261013-cinema",
@@ -549,7 +571,8 @@
       "y": 0,
       "width": 0.5,
       "height": 0.3
-    }
+    },
+    "titleEn": "Cinema from another era"
   },
   {
     "id": "vintage10-20261013-macchina-scrivere",
@@ -573,7 +596,8 @@
       "y": 0,
       "width": 0.5,
       "height": 0.3
-    }
+    },
+    "titleEn": "Letters from the past"
   },
   {
     "id": "vintage10-20261013-auto",
@@ -597,7 +621,8 @@
       "y": 0,
       "width": 0.5,
       "height": 0.3
-    }
+    },
+    "titleEn": "Vintage car at sunset"
   },
   {
     "id": "vintage10-20261013-biblioteca",
@@ -621,7 +646,8 @@
       "y": 0,
       "width": 0.5,
       "height": 0.3
-    }
+    },
+    "titleEn": "Vintage library"
   },
   {
     "id": "vintage10-20261013-jukebox",
@@ -645,7 +671,8 @@
       "y": 0,
       "width": 0.5,
       "height": 0.3
-    }
+    },
+    "titleEn": "Jukebox at night"
   },
   {
     "id": "vintage10-20261013-serra",
@@ -669,7 +696,8 @@
       "y": 0,
       "width": 0.5,
       "height": 0.3
-    }
+    },
+    "titleEn": "Vintage greenhouse"
   },
   {
     "id": "birds8-20261013-gufo-lunare",
@@ -693,7 +721,8 @@
       "y": 0,
       "width": 0.5,
       "height": 0.3
-    }
+    },
+    "titleEn": "Eagle owl in the moonlit forest"
   },
   {
     "id": "birds8-20261013-gufo-nevi",
@@ -717,7 +746,8 @@
       "y": 0,
       "width": 0.5,
       "height": 0.3
-    }
+    },
+    "titleEn": "Snowy owl in flight"
   },
   {
     "id": "birds8-20261013-gufo-autunno",
@@ -741,7 +771,8 @@
       "y": 0,
       "width": 0.5,
       "height": 0.3
-    }
+    },
+    "titleEn": "Owl in golden autumn"
   },
   {
     "id": "birds8-20261013-gufo-volo-notte",
@@ -765,7 +796,8 @@
       "y": 0,
       "width": 0.5,
       "height": 0.3
-    }
+    },
+    "titleEn": "Owl flying at night"
   },
   {
     "id": "birds8-20261013-aquila-alpi",
@@ -789,7 +821,8 @@
       "y": 0,
       "width": 0.5,
       "height": 0.3
-    }
+    },
+    "titleEn": "Golden eagle over the Alps"
   },
   {
     "id": "birds8-20261013-aquila-volo",
@@ -813,7 +846,8 @@
       "y": 0,
       "width": 0.5,
       "height": 0.3
-    }
+    },
+    "titleEn": "Golden eagle in flight"
   },
   {
     "id": "birds8-20261013-aquila-costa",
@@ -837,7 +871,8 @@
       "y": 0,
       "width": 0.5,
       "height": 0.3
-    }
+    },
+    "titleEn": "Eagle on the coast at sunset"
   },
   {
     "id": "birds8-20261013-aquila-oceano",
@@ -861,7 +896,8 @@
       "y": 0,
       "width": 0.5,
       "height": 0.3
-    }
+    },
+    "titleEn": "Eagle flying over the ocean"
   },
   {
     "id": "tiger-20261013-bianca-neve",
@@ -885,7 +921,8 @@
       "y": 0,
       "width": 0.5,
       "height": 0.3
-    }
+    },
+    "titleEn": "White tiger in the snow"
   },
   {
     "id": "tiger-20261013-bianca-notte",
@@ -909,7 +946,8 @@
       "y": 0,
       "width": 0.5,
       "height": 0.3
-    }
+    },
+    "titleEn": "White tiger in the moonlight"
   },
   {
     "id": "tiger-20261013-bengalese-cascata",
@@ -933,7 +971,8 @@
       "y": 0,
       "width": 0.5,
       "height": 0.3
-    }
+    },
+    "titleEn": "Bengal tiger by the waterfall"
   },
   {
     "id": "tiger-20261013-bengalese-tramonto",
@@ -957,7 +996,8 @@
       "y": 0,
       "width": 0.5,
       "height": 0.3
-    }
+    },
+    "titleEn": "Bengal tiger at sunset"
   },
   {
     "id": "chameleon-20261013-01-camaleonte-smeraldo",
@@ -981,7 +1021,8 @@
       "y": 0,
       "width": 0.5,
       "height": 0.3
-    }
+    },
+    "titleEn": "Emerald chameleon"
   },
   {
     "id": "chameleon-20261013-02-camaleonte-arcobaleno",
@@ -1005,7 +1046,8 @@
       "y": 0,
       "width": 0.5,
       "height": 0.3
-    }
+    },
+    "titleEn": "Rainbow chameleon"
   },
   {
     "id": "chameleon-20261013-03-camaleonte-nella-pioggia",
@@ -1029,7 +1071,8 @@
       "y": 0,
       "width": 0.5,
       "height": 0.3
-    }
+    },
+    "titleEn": "Chameleon in the rain"
   },
   {
     "id": "cartoon-vintage-20261013-01-il-gatto-del-cinema",
@@ -1054,7 +1097,8 @@
       "width": 0.5,
       "height": 0.3
     },
-    "subcategory": "Cartoon vintage"
+    "subcategory": "Cartoon vintage",
+    "titleEn": "The cinema cat"
   },
   {
     "id": "cartoon-vintage-20261013-02-la-volpe-in-bicicletta",
@@ -1079,7 +1123,8 @@
       "width": 0.5,
       "height": 0.3
     },
-    "subcategory": "Cartoon vintage"
+    "subcategory": "Cartoon vintage",
+    "titleEn": "The cycling fox"
   },
   {
     "id": "cartoon-vintage-20261013-03-il-coniglio-e-il-grammofono",
@@ -1104,7 +1149,8 @@
       "width": 0.5,
       "height": 0.3
     },
-    "subcategory": "Cartoon vintage"
+    "subcategory": "Cartoon vintage",
+    "titleEn": "The rabbit and the gramophone"
   },
   {
     "id": "cartoon-vintage-20261013-04-lorsetto-ferroviere",
@@ -1129,7 +1175,8 @@
       "width": 0.5,
       "height": 0.3
     },
-    "subcategory": "Cartoon vintage"
+    "subcategory": "Cartoon vintage",
+    "titleEn": "The little railway bear"
   },
   {
     "id": "cartoon-vintage-20261013-05-il-paperotto-al-diner",
@@ -1154,7 +1201,8 @@
       "width": 0.5,
       "height": 0.3
     },
-    "subcategory": "Cartoon vintage"
+    "subcategory": "Cartoon vintage",
+    "titleEn": "The duckling at the diner"
   },
   {
     "id": "snoopy-20261013-01-snoopy-sotto-la-pioggia",
@@ -1179,7 +1227,8 @@
       "width": 0.5,
       "height": 0.3
     },
-    "subcategory": "Snoopy"
+    "subcategory": "Snoopy",
+    "titleEn": "Snoopy in the rain"
   },
   {
     "id": "snoopy-20261013-02-snoopy-a-spasso-nella-pioggia",
@@ -1204,7 +1253,8 @@
       "width": 0.5,
       "height": 0.3
     },
-    "subcategory": "Snoopy"
+    "subcategory": "Snoopy",
+    "titleEn": "Snoopy walking in the rain"
   },
   {
     "id": "snoopy-20261013-03-snoopy-e-la-finestra-piovosa",
@@ -1229,7 +1279,8 @@
       "width": 0.5,
       "height": 0.3
     },
-    "subcategory": "Snoopy"
+    "subcategory": "Snoopy",
+    "titleEn": "Snoopy and the rainy window"
   },
   {
     "id": "snoopy-20261013-04-snoopy-nella-notte",
@@ -1254,7 +1305,8 @@
       "width": 0.5,
       "height": 0.3
     },
-    "subcategory": "Snoopy"
+    "subcategory": "Snoopy",
+    "titleEn": "Snoopy at night"
   },
   {
     "id": "snoopy-20261013-05-snoopy-e-lautunno",
@@ -1279,7 +1331,8 @@
       "width": 0.5,
       "height": 0.3
     },
-    "subcategory": "Snoopy"
+    "subcategory": "Snoopy",
+    "titleEn": "Snoopy in autumn"
   },
   {
     "id": "aurora-20261013-01-lavertezzo-nella-notte",
@@ -1304,7 +1357,8 @@
       "width": 0.5,
       "height": 0.3
     },
-    "subcategory": "Paesaggi"
+    "subcategory": "Paesaggi",
+    "titleEn": "Lavertezzo at night"
   },
   {
     "id": "aurora-20261013-02-luci-sul-lago-di-cauma",
@@ -1329,12 +1383,13 @@
       "width": 0.5,
       "height": 0.3
     },
-    "subcategory": "Paesaggi"
+    "subcategory": "Paesaggi",
+    "titleEn": "Lights on Lake Cauma"
   },
   {
     "id": "aurora-20261013-03-il-treno-del-bernina",
     "title": "Il treno del Bernina",
-    "category": "Paesaggi e Città",
+    "category": "Treni",
     "image": "originals/aurora-20261013-03-il-treno-del-bernina.jpg",
     "thumbnail": "previews/aurora-20261013-03-il-treno-del-bernina.jpg",
     "source": "SimDev3D · Collezione Aurora · Creazione AI",
@@ -1354,7 +1409,8 @@
       "width": 0.5,
       "height": 0.3
     },
-    "subcategory": "Paesaggi"
+    "subcategory": "Paesaggi",
+    "titleEn": "The Bernina train"
   },
   {
     "id": "aurora-20261013-04-lavaux-al-crepuscolo",
@@ -1379,7 +1435,8 @@
       "width": 0.5,
       "height": 0.3
     },
-    "subcategory": "Paesaggi"
+    "subcategory": "Paesaggi",
+    "titleEn": "Lavaux at dusk"
   },
   {
     "id": "aurora-20261013-05-silenzio-sul-ghiacciaio",
@@ -1404,7 +1461,8 @@
       "width": 0.5,
       "height": 0.3
     },
-    "subcategory": "Paesaggi"
+    "subcategory": "Paesaggi",
+    "titleEn": "Silence on the glacier"
   },
   {
     "id": "aurora-20261013-06-ascona-dopo-la-pioggia",
@@ -1429,7 +1487,8 @@
       "width": 0.5,
       "height": 0.3
     },
-    "subcategory": "Paesaggi"
+    "subcategory": "Paesaggi",
+    "titleEn": "Ascona after the rain"
   },
   {
     "id": "aurora-20261013-07-lauterbrunnen-nella-nebbia",
@@ -1454,7 +1513,8 @@
       "width": 0.5,
       "height": 0.3
     },
-    "subcategory": "Paesaggi"
+    "subcategory": "Paesaggi",
+    "titleEn": "Lauterbrunnen in the mist"
   },
   {
     "id": "aurora-20261013-08-la-lince-nel-sottobosco",
@@ -1478,7 +1538,8 @@
       "y": 0,
       "width": 0.5,
       "height": 0.3
-    }
+    },
+    "titleEn": "Lynx in the undergrowth"
   },
   {
     "id": "aurora-20261013-09-lontra-tra-le-ninfee",
@@ -1502,7 +1563,8 @@
       "y": 0,
       "width": 0.5,
       "height": 0.3
-    }
+    },
+    "titleEn": "Otter among the water lilies"
   },
   {
     "id": "aurora-20261013-10-il-martin-pescatore",
@@ -1526,7 +1588,8 @@
       "y": 0,
       "width": 0.5,
       "height": 0.3
-    }
+    },
+    "titleEn": "The kingfisher"
   },
   {
     "id": "aurora-20261013-11-panda-rosso-assonnato",
@@ -1550,7 +1613,8 @@
       "y": 0,
       "width": 0.5,
       "height": 0.3
-    }
+    },
+    "titleEn": "Sleepy red panda"
   },
   {
     "id": "aurora-20261013-12-camaleonte-di-smeraldo",
@@ -1574,7 +1638,8 @@
       "y": 0,
       "width": 0.5,
       "height": 0.3
-    }
+    },
+    "titleEn": "Emerald chameleon"
   },
   {
     "id": "aurora-20261013-13-pinguino-sotto-laurora",
@@ -1598,7 +1663,8 @@
       "y": 0,
       "width": 0.5,
       "height": 0.3
-    }
+    },
+    "titleEn": "Penguin under the aurora"
   },
   {
     "id": "aurora-20261013-14-il-cerbiatto-nel-bosco",
@@ -1622,7 +1688,8 @@
       "y": 0,
       "width": 0.5,
       "height": 0.3
-    }
+    },
+    "titleEn": "Fawn in the forest"
   },
   {
     "id": "aurora-20261013-15-robottino-giardiniere",
@@ -1646,7 +1713,8 @@
       "y": 0,
       "width": 0.5,
       "height": 0.3
-    }
+    },
+    "titleEn": "Little gardener robot"
   },
   {
     "id": "aurora-20261013-16-il-robot-astronomo",
@@ -1670,7 +1738,8 @@
       "y": 0,
       "width": 0.5,
       "height": 0.3
-    }
+    },
+    "titleEn": "The astronomer robot"
   },
   {
     "id": "aurora-20261013-17-robottino-pasticcere",
@@ -1694,7 +1763,8 @@
       "y": 0,
       "width": 0.5,
       "height": 0.3
-    }
+    },
+    "titleEn": "Little pastry chef robot"
   },
   {
     "id": "aurora-20261013-18-il-postino-delle-stelle",
@@ -1718,7 +1788,8 @@
       "y": 0,
       "width": 0.5,
       "height": 0.3
-    }
+    },
+    "titleEn": "The star postman"
   },
   {
     "id": "aurora-20261013-19-robottino-sul-lago",
@@ -1742,7 +1813,8 @@
       "y": 0,
       "width": 0.5,
       "height": 0.3
-    }
+    },
+    "titleEn": "Little robot by the lake"
   },
   {
     "id": "aurora-20261013-20-il-robot-e-la-farfalla",
@@ -1766,7 +1838,8 @@
       "y": 0,
       "width": 0.5,
       "height": 0.3
-    }
+    },
+    "titleEn": "The robot and the butterfly"
   },
   {
     "id": "aurora-20261013-21-il-custode-del-faro",
@@ -1790,7 +1863,8 @@
       "y": 0,
       "width": 0.5,
       "height": 0.3
-    }
+    },
+    "titleEn": "The lighthouse keeper"
   },
   {
     "id": "aurora-20261013-22-giardino-di-cristallo",
@@ -1814,7 +1888,8 @@
       "y": 0,
       "width": 0.5,
       "height": 0.3
-    }
+    },
+    "titleEn": "Crystal garden"
   },
   {
     "id": "aurora-20261013-23-onde-dinchiostro",
@@ -1838,7 +1913,8 @@
       "y": 0,
       "width": 0.5,
       "height": 0.3
-    }
+    },
+    "titleEn": "Waves of ink"
   },
   {
     "id": "aurora-20261013-24-felci-di-rame",
@@ -1862,7 +1938,8 @@
       "y": 0,
       "width": 0.5,
       "height": 0.3
-    }
+    },
+    "titleEn": "Copper ferns"
   },
   {
     "id": "aurora-20261013-25-la-biblioteca-sospesa",
@@ -1887,7 +1964,8 @@
       "width": 0.5,
       "height": 0.3
     },
-    "subcategory": "Paesaggi"
+    "subcategory": "Paesaggi",
+    "titleEn": "The floating library"
   },
   {
     "id": "aurora-20261013-26-casa-nella-conchiglia",
@@ -1912,7 +1990,8 @@
       "width": 0.5,
       "height": 0.3
     },
-    "subcategory": "Paesaggi"
+    "subcategory": "Paesaggi",
+    "titleEn": "House in a seashell"
   },
   {
     "id": "aurora-20261013-27-il-villaggio-dei-funghi",
@@ -1937,7 +2016,8 @@
       "width": 0.5,
       "height": 0.3
     },
-    "subcategory": "Paesaggi"
+    "subcategory": "Paesaggi",
+    "titleEn": "The mushroom village"
   },
   {
     "id": "aurora-20261013-28-portale-tra-le-montagne",
@@ -1962,7 +2042,8 @@
       "width": 0.5,
       "height": 0.3
     },
-    "subcategory": "Paesaggi"
+    "subcategory": "Paesaggi",
+    "titleEn": "Portal among the mountains"
   },
   {
     "id": "robot-cities-01-robottino-a-las-vegas",
@@ -1986,7 +2067,8 @@
       "y": 0,
       "width": 0.5,
       "height": 0.3
-    }
+    },
+    "titleEn": "Little robot in Las Vegas"
   },
   {
     "id": "robot-cities-02-robottino-a-new-york",
@@ -2010,7 +2092,8 @@
       "y": 0,
       "width": 0.5,
       "height": 0.3
-    }
+    },
+    "titleEn": "Little robot in New York"
   },
   {
     "id": "robot-cities-03-robottino-a-berna",
@@ -2034,7 +2117,8 @@
       "y": 0,
       "width": 0.5,
       "height": 0.3
-    }
+    },
+    "titleEn": "Little robot in Bern"
   },
   {
     "id": "robot-cities-04-robottino-a-zurigo",
@@ -2058,7 +2142,8 @@
       "y": 0,
       "width": 0.5,
       "height": 0.3
-    }
+    },
+    "titleEn": "Little robot in Zurich"
   },
   {
     "id": "robot-cities-05-robottino-a-tokyo",
@@ -2082,7 +2167,8 @@
       "y": 0,
       "width": 0.5,
       "height": 0.3
-    }
+    },
+    "titleEn": "Little robot in Tokyo"
   },
   {
     "id": "robot-cities-06-robottino-a-londra",
@@ -2106,7 +2192,8 @@
       "y": 0,
       "width": 0.5,
       "height": 0.3
-    }
+    },
+    "titleEn": "Little robot in London"
   },
   {
     "id": "robot-cities-07-robottino-a-dubai",
@@ -2130,7 +2217,8 @@
       "y": 0,
       "width": 0.5,
       "height": 0.3
-    }
+    },
+    "titleEn": "Little robot in Dubai"
   },
   {
     "id": "robot-cities-08-robottino-a-hong-kong",
@@ -2154,7 +2242,8 @@
       "y": 0,
       "width": 0.5,
       "height": 0.3
-    }
+    },
+    "titleEn": "Little robot in Hong Kong"
   },
   {
     "id": "robot-cities-09-robottino-a-venezia",
@@ -2178,7 +2267,8 @@
       "y": 0,
       "width": 0.5,
       "height": 0.3
-    }
+    },
+    "titleEn": "Little robot in Venice"
   },
   {
     "id": "robot-wonders-01-robottino-al-colosseo",
@@ -2202,7 +2292,8 @@
       "y": 0,
       "width": 0.5,
       "height": 0.3
-    }
+    },
+    "titleEn": "Little robot at the Colosseum"
   },
   {
     "id": "robot-wonders-02-robottino-al-taj-mahal",
@@ -2226,7 +2317,8 @@
       "y": 0,
       "width": 0.5,
       "height": 0.3
-    }
+    },
+    "titleEn": "Little robot at the Taj Mahal"
   },
   {
     "id": "robot-wonders-03-robottino-sulla-grande-muraglia",
@@ -2250,7 +2342,8 @@
       "y": 0,
       "width": 0.5,
       "height": 0.3
-    }
+    },
+    "titleEn": "Little robot on the Great Wall"
   },
   {
     "id": "robot-wonders-04-robottino-a-petra",
@@ -2274,7 +2367,8 @@
       "y": 0,
       "width": 0.5,
       "height": 0.3
-    }
+    },
+    "titleEn": "Little robot in Petra"
   },
   {
     "id": "robot-wonders-05-robottino-a-machu-picchu",
@@ -2298,7 +2392,8 @@
       "y": 0,
       "width": 0.5,
       "height": 0.3
-    }
+    },
+    "titleEn": "Little robot at Machu Picchu"
   },
   {
     "id": "robot-wonders-06-robottino-a-chichen-itza",
@@ -2322,7 +2417,8 @@
       "y": 0,
       "width": 0.5,
       "height": 0.3
-    }
+    },
+    "titleEn": "Little robot at Chichén Itzá"
   },
   {
     "id": "robot-wonders-07-robottino-a-rio",
@@ -2346,7 +2442,8 @@
       "y": 0,
       "width": 0.5,
       "height": 0.3
-    }
+    },
+    "titleEn": "Little robot in Rio"
   },
   {
     "id": "robot-wonders-08-robottino-alle-piramidi",
@@ -2370,7 +2467,8 @@
       "y": 0,
       "width": 0.5,
       "height": 0.3
-    }
+    },
+    "titleEn": "Little robot at the Pyramids"
   },
   {
     "id": "robot-wonders-09-robottino-al-grand-canyon",
@@ -2394,7 +2492,8 @@
       "y": 0,
       "width": 0.5,
       "height": 0.3
-    }
+    },
+    "titleEn": "Little robot at the Grand Canyon"
   },
   {
     "id": "robot-wonders-10-robottino-alla-torre-eiffel",
@@ -2418,7 +2517,8 @@
       "y": 0,
       "width": 0.5,
       "height": 0.3
-    }
+    },
+    "titleEn": "Little robot at the Eiffel Tower"
   },
   {
     "id": "robot-vintage-01-robottino-al-diner",
@@ -2436,7 +2536,8 @@
     "upscaled": true,
     "nativeWidth": 1494,
     "nativeHeight": 1052,
-    "tone": "Chiaro"
+    "tone": "Chiaro",
+    "titleEn": "Little robot at the diner"
   },
   {
     "id": "robot-vintage-02-il-piccolo-proiezionista",
@@ -2454,7 +2555,8 @@
     "upscaled": true,
     "nativeWidth": 1495,
     "nativeHeight": 1052,
-    "tone": "Scuro"
+    "tone": "Scuro",
+    "titleEn": "The little projectionist"
   },
   {
     "id": "robot-vintage-03-robottino-in-biblioteca",
@@ -2472,7 +2574,8 @@
     "upscaled": true,
     "nativeWidth": 1495,
     "nativeHeight": 1052,
-    "tone": "Chiaro"
+    "tone": "Chiaro",
+    "titleEn": "Little robot in the library"
   },
   {
     "id": "robot-vintage-04-lorologiaio-meccanico",
@@ -2490,7 +2593,8 @@
     "upscaled": true,
     "nativeWidth": 1494,
     "nativeHeight": 1052,
-    "tone": "Scuro"
+    "tone": "Scuro",
+    "titleEn": "The mechanical watchmaker"
   },
   {
     "id": "robot-vintage-05-robottino-sul-treno",
@@ -2508,7 +2612,8 @@
     "upscaled": true,
     "nativeWidth": 1495,
     "nativeHeight": 1052,
-    "tone": "Chiaro"
+    "tone": "Chiaro",
+    "titleEn": "Little robot on the train"
   },
   {
     "id": "robot-vintage-06-il-custode-dei-vinili",
@@ -2526,7 +2631,8 @@
     "upscaled": true,
     "nativeWidth": 1494,
     "nativeHeight": 1052,
-    "tone": "Scuro"
+    "tone": "Scuro",
+    "titleEn": "The vinyl keeper"
   },
   {
     "id": "robot-vintage-07-robottino-fotografo",
@@ -2544,7 +2650,8 @@
     "upscaled": true,
     "nativeWidth": 1494,
     "nativeHeight": 1053,
-    "tone": "Chiaro"
+    "tone": "Chiaro",
+    "titleEn": "Little photographer robot"
   },
   {
     "id": "robot-vintage-08-il-piccolo-giardiniere",
@@ -2562,7 +2669,8 @@
     "upscaled": true,
     "nativeWidth": 1493,
     "nativeHeight": 1054,
-    "tone": "Chiaro"
+    "tone": "Chiaro",
+    "titleEn": "The little gardener"
   },
   {
     "id": "robot-vintage-09-robottino-alla-radio",
@@ -2580,7 +2688,8 @@
     "upscaled": true,
     "nativeWidth": 1495,
     "nativeHeight": 1052,
-    "tone": "Scuro"
+    "tone": "Scuro",
+    "titleEn": "Little robot at the radio"
   },
   {
     "id": "robot-vintage-10-la-bottega-dei-giocattoli",
@@ -2598,7 +2707,8 @@
     "upscaled": true,
     "nativeWidth": 1493,
     "nativeHeight": 1053,
-    "tone": "Chiaro"
+    "tone": "Chiaro",
+    "titleEn": "The toy workshop"
   },
   {
     "id": "wonder-01-colibri-smeraldo",
@@ -2617,7 +2727,8 @@
     "nativeWidth": 1495,
     "nativeHeight": 1052,
     "tone": "Chiaro",
-    "subcategory": "Colibrì"
+    "subcategory": "Colibrì",
+    "titleEn": "Emerald hummingbird"
   },
   {
     "id": "wonder-02-colibri-rubino",
@@ -2636,7 +2747,8 @@
     "nativeWidth": 1495,
     "nativeHeight": 1052,
     "tone": "Scuro",
-    "subcategory": "Colibrì"
+    "subcategory": "Colibrì",
+    "titleEn": "Ruby hummingbird"
   },
   {
     "id": "wonder-03-colibri-violetto",
@@ -2655,7 +2767,8 @@
     "nativeWidth": 1491,
     "nativeHeight": 1055,
     "tone": "Chiaro",
-    "subcategory": "Colibrì"
+    "subcategory": "Colibrì",
+    "titleEn": "Violet hummingbird"
   },
   {
     "id": "wonder-04-colibri-al-tramonto",
@@ -2674,7 +2787,8 @@
     "nativeWidth": 1494,
     "nativeHeight": 1052,
     "tone": "Scuro",
-    "subcategory": "Colibrì"
+    "subcategory": "Colibrì",
+    "titleEn": "Hummingbird at sunset"
   },
   {
     "id": "wonder-05-colibri-e-fiori-bianchi",
@@ -2693,7 +2807,8 @@
     "nativeWidth": 1495,
     "nativeHeight": 1052,
     "tone": "Chiaro",
-    "subcategory": "Colibrì"
+    "subcategory": "Colibrì",
+    "titleEn": "Hummingbird and white flowers"
   },
   {
     "id": "wonder-06-colibri-sotto-la-pioggia",
@@ -2712,7 +2827,8 @@
     "nativeWidth": 1495,
     "nativeHeight": 1052,
     "tone": "Scuro",
-    "subcategory": "Colibrì"
+    "subcategory": "Colibrì",
+    "titleEn": "Hummingbird in the rain"
   },
   {
     "id": "wonder-07-colibri-boreale",
@@ -2731,7 +2847,8 @@
     "nativeWidth": 1495,
     "nativeHeight": 1052,
     "tone": "Scuro",
-    "subcategory": "Colibrì"
+    "subcategory": "Colibrì",
+    "titleEn": "Northern hummingbird"
   },
   {
     "id": "wonder-08-colibri-azzurro",
@@ -2750,7 +2867,8 @@
     "nativeWidth": 1495,
     "nativeHeight": 1052,
     "tone": "Chiaro",
-    "subcategory": "Colibrì"
+    "subcategory": "Colibrì",
+    "titleEn": "Blue hummingbird"
   },
   {
     "id": "wonder-09-danza-dei-colibri",
@@ -2769,7 +2887,8 @@
     "nativeWidth": 1494,
     "nativeHeight": 1053,
     "tone": "Chiaro",
-    "subcategory": "Colibrì"
+    "subcategory": "Colibrì",
+    "titleEn": "Dance of the hummingbirds"
   },
   {
     "id": "wonder-10-colibri-nella-nebbia",
@@ -2788,7 +2907,8 @@
     "nativeWidth": 1495,
     "nativeHeight": 1052,
     "tone": "Scuro",
-    "subcategory": "Colibrì"
+    "subcategory": "Colibrì",
+    "titleEn": "Hummingbird in the mist"
   },
   {
     "id": "wonder-11-la-casa-degli-incubi",
@@ -2806,7 +2926,8 @@
     "upscaled": true,
     "nativeWidth": 1495,
     "nativeHeight": 1052,
-    "tone": "Scuro"
+    "tone": "Scuro",
+    "titleEn": "The house of nightmares"
   },
   {
     "id": "wonder-12-lo-spaventapasseri",
@@ -2824,7 +2945,8 @@
     "upscaled": true,
     "nativeWidth": 1495,
     "nativeHeight": 1052,
-    "tone": "Scuro"
+    "tone": "Scuro",
+    "titleEn": "The scarecrow"
   },
   {
     "id": "wonder-13-il-cimitero-dei-fantasmi",
@@ -2842,7 +2964,8 @@
     "upscaled": true,
     "nativeWidth": 1494,
     "nativeHeight": 1052,
-    "tone": "Scuro"
+    "tone": "Scuro",
+    "titleEn": "The ghost cemetery"
   },
   {
     "id": "wonder-14-la-strega-nel-bosco",
@@ -2860,7 +2983,8 @@
     "upscaled": true,
     "nativeWidth": 1491,
     "nativeHeight": 1055,
-    "tone": "Scuro"
+    "tone": "Scuro",
+    "titleEn": "The witch in the forest"
   },
   {
     "id": "wonder-15-il-clown-della-notte",
@@ -2878,7 +3002,8 @@
     "upscaled": true,
     "nativeWidth": 1494,
     "nativeHeight": 1052,
-    "tone": "Scuro"
+    "tone": "Scuro",
+    "titleEn": "The night clown"
   },
   {
     "id": "wonder-16-chucky-nellombra",
@@ -2897,7 +3022,8 @@
     "nativeWidth": 1495,
     "nativeHeight": 1052,
     "tone": "Scuro",
-    "subcategory": "Chucky"
+    "subcategory": "Chucky",
+    "titleEn": "Chucky in the shadows"
   },
   {
     "id": "wonder-17-chucky-a-halloween",
@@ -2916,7 +3042,8 @@
     "nativeWidth": 1495,
     "nativeHeight": 1052,
     "tone": "Scuro",
-    "subcategory": "Chucky"
+    "subcategory": "Chucky",
+    "titleEn": "Chucky at Halloween"
   },
   {
     "id": "wonder-18-trex-nella-foresta",
@@ -2934,7 +3061,8 @@
     "upscaled": true,
     "nativeWidth": 1495,
     "nativeHeight": 1052,
-    "tone": "Scuro"
+    "tone": "Scuro",
+    "titleEn": "T-rex in the forest"
   },
   {
     "id": "wonder-26-totoro-sotto-la-pioggia",
@@ -2953,7 +3081,8 @@
     "nativeWidth": 1494,
     "nativeHeight": 1053,
     "tone": "Scuro",
-    "subcategory": "Cartoni animati"
+    "subcategory": "Cartoni animati",
+    "titleEn": "Totoro in the rain"
   },
   {
     "id": "cosmos-01-nebulosa-notturna",
@@ -2971,7 +3100,8 @@
     "upscaled": true,
     "nativeWidth": 1495,
     "nativeHeight": 1052,
-    "tone": "Scuro"
+    "tone": "Scuro",
+    "titleEn": "Night nebula"
   },
   {
     "id": "cosmos-02-galassia-dorata",
@@ -2989,7 +3119,8 @@
     "upscaled": true,
     "nativeWidth": 1494,
     "nativeHeight": 1052,
-    "tone": "Chiaro"
+    "tone": "Chiaro",
+    "titleEn": "Golden galaxy"
   },
   {
     "id": "cosmos-03-eclissi-di-fuoco",
@@ -3008,7 +3139,8 @@
     "nativeWidth": 1495,
     "nativeHeight": 1052,
     "tone": "Scuro",
-    "subcategory": "Pianeti"
+    "subcategory": "Pianeti",
+    "titleEn": "Eclipse of fire"
   },
   {
     "id": "cosmos-04-saturno-di-perla",
@@ -3027,7 +3159,8 @@
     "nativeWidth": 1495,
     "nativeHeight": 1052,
     "tone": "Chiaro",
-    "subcategory": "Pianeti"
+    "subcategory": "Pianeti",
+    "titleEn": "Pearl Saturn"
   },
   {
     "id": "cosmos-05-deserto-di-marte",
@@ -3046,7 +3179,8 @@
     "nativeWidth": 1495,
     "nativeHeight": 1052,
     "tone": "Chiaro",
-    "subcategory": "Extraterrestri"
+    "subcategory": "Extraterrestri",
+    "titleEn": "Martian desert"
   },
   {
     "id": "cosmos-06-lago-alieno",
@@ -3065,7 +3199,8 @@
     "nativeWidth": 1494,
     "nativeHeight": 1053,
     "tone": "Scuro",
-    "subcategory": "Extraterrestri"
+    "subcategory": "Extraterrestri",
+    "titleEn": "Alien lake"
   },
   {
     "id": "cosmos-07-leopardo-dombra",
@@ -3083,7 +3218,8 @@
     "upscaled": true,
     "nativeWidth": 1494,
     "nativeHeight": 1052,
-    "tone": "Scuro"
+    "tone": "Scuro",
+    "titleEn": "Shadow leopard"
   },
   {
     "id": "cosmos-08-volpe-artica",
@@ -3101,7 +3237,8 @@
     "upscaled": true,
     "nativeWidth": 1493,
     "nativeHeight": 1054,
-    "tone": "Chiaro"
+    "tone": "Chiaro",
+    "titleEn": "Arctic fox"
   },
   {
     "id": "cosmos-09-drago-dossidiana",
@@ -3120,7 +3257,8 @@
     "nativeWidth": 1494,
     "nativeHeight": 1053,
     "tone": "Scuro",
-    "subcategory": "Draghi"
+    "subcategory": "Draghi",
+    "titleEn": "Obsidian dragon"
   },
   {
     "id": "cosmos-10-drago-delle-nuvole",
@@ -3139,7 +3277,8 @@
     "nativeWidth": 1495,
     "nativeHeight": 1052,
     "tone": "Chiaro",
-    "subcategory": "Draghi"
+    "subcategory": "Draghi",
+    "titleEn": "Cloud dragon"
   },
   {
     "id": "cosmos-11-aurora-cosmica",
@@ -3157,7 +3296,8 @@
     "upscaled": true,
     "nativeWidth": 1495,
     "nativeHeight": 1052,
-    "tone": "Scuro"
+    "tone": "Scuro",
+    "titleEn": "Cosmic aurora"
   },
   {
     "id": "cosmos-12-nascita-di-una-stella",
@@ -3175,7 +3315,8 @@
     "upscaled": true,
     "nativeWidth": 1494,
     "nativeHeight": 1052,
-    "tone": "Chiaro"
+    "tone": "Chiaro",
+    "titleEn": "Birth of a star"
   },
   {
     "id": "cosmos-13-buco-nero",
@@ -3193,7 +3334,8 @@
     "upscaled": true,
     "nativeWidth": 1494,
     "nativeHeight": 1052,
-    "tone": "Scuro"
+    "tone": "Scuro",
+    "titleEn": "Black hole"
   },
   {
     "id": "cosmos-14-cometa-di-ghiaccio",
@@ -3211,7 +3353,8 @@
     "upscaled": true,
     "nativeWidth": 1495,
     "nativeHeight": 1052,
-    "tone": "Chiaro"
+    "tone": "Chiaro",
+    "titleEn": "Ice comet"
   },
   {
     "id": "cosmos-15-via-lattea-viola",
@@ -3229,7 +3372,8 @@
     "upscaled": true,
     "nativeWidth": 1494,
     "nativeHeight": 1052,
-    "tone": "Scuro"
+    "tone": "Scuro",
+    "titleEn": "Purple Milky Way"
   },
   {
     "id": "cosmos-16-pianeta-oceano",
@@ -3248,7 +3392,8 @@
     "nativeWidth": 1494,
     "nativeHeight": 1053,
     "tone": "Chiaro",
-    "subcategory": "Pianeti"
+    "subcategory": "Pianeti",
+    "titleEn": "Ocean planet"
   },
   {
     "id": "cosmos-17-pianeta-di-lava",
@@ -3267,7 +3412,8 @@
     "nativeWidth": 1495,
     "nativeHeight": 1052,
     "tone": "Scuro",
-    "subcategory": "Pianeti"
+    "subcategory": "Pianeti",
+    "titleEn": "Lava planet"
   },
   {
     "id": "cosmos-18-gigante-di-ametista",
@@ -3286,7 +3432,8 @@
     "nativeWidth": 1494,
     "nativeHeight": 1052,
     "tone": "Chiaro",
-    "subcategory": "Pianeti"
+    "subcategory": "Pianeti",
+    "titleEn": "Amethyst giant"
   },
   {
     "id": "cosmos-19-luna-di-cristallo",
@@ -3305,7 +3452,8 @@
     "nativeWidth": 1494,
     "nativeHeight": 1052,
     "tone": "Scuro",
-    "subcategory": "Pianeti"
+    "subcategory": "Pianeti",
+    "titleEn": "Crystal moon"
   },
   {
     "id": "cosmos-20-alba-su-titano",
@@ -3324,7 +3472,8 @@
     "nativeWidth": 1496,
     "nativeHeight": 1051,
     "tone": "Chiaro",
-    "subcategory": "Extraterrestri"
+    "subcategory": "Extraterrestri",
+    "titleEn": "Dawn on Titan"
   },
   {
     "id": "cosmos-21-canyon-extraterrestre",
@@ -3343,7 +3492,8 @@
     "nativeWidth": 1496,
     "nativeHeight": 1051,
     "tone": "Scuro",
-    "subcategory": "Extraterrestri"
+    "subcategory": "Extraterrestri",
+    "titleEn": "Extraterrestrial canyon"
   },
   {
     "id": "cosmos-22-dune-di-vetro",
@@ -3362,7 +3512,8 @@
     "nativeWidth": 1495,
     "nativeHeight": 1052,
     "tone": "Chiaro",
-    "subcategory": "Extraterrestri"
+    "subcategory": "Extraterrestri",
+    "titleEn": "Glass dunes"
   },
   {
     "id": "cosmos-23-oceano-di-europa",
@@ -3381,7 +3532,8 @@
     "nativeWidth": 1494,
     "nativeHeight": 1052,
     "tone": "Scuro",
-    "subcategory": "Extraterrestri"
+    "subcategory": "Extraterrestri",
+    "titleEn": "Europa's ocean"
   },
   {
     "id": "cosmos-24-foresta-aliena",
@@ -3400,7 +3552,8 @@
     "nativeWidth": 1495,
     "nativeHeight": 1052,
     "tone": "Chiaro",
-    "subcategory": "Extraterrestri"
+    "subcategory": "Extraterrestri",
+    "titleEn": "Alien forest"
   },
   {
     "id": "cosmos-25-tigre-nella-notte",
@@ -3418,7 +3571,8 @@
     "upscaled": true,
     "nativeWidth": 1495,
     "nativeHeight": 1052,
-    "tone": "Scuro"
+    "tone": "Scuro",
+    "titleEn": "Tiger at night"
   },
   {
     "id": "cosmos-26-gufi-della-neve",
@@ -3436,7 +3590,8 @@
     "upscaled": true,
     "nativeWidth": 1495,
     "nativeHeight": 1052,
-    "tone": "Chiaro"
+    "tone": "Chiaro",
+    "titleEn": "Snowy owls"
   },
   {
     "id": "cosmos-27-medusa-cosmica",
@@ -3454,7 +3609,8 @@
     "upscaled": true,
     "nativeWidth": 1495,
     "nativeHeight": 1052,
-    "tone": "Scuro"
+    "tone": "Scuro",
+    "titleEn": "Cosmic jellyfish"
   },
   {
     "id": "cosmos-28-fenicotteri-rosa",
@@ -3472,7 +3628,8 @@
     "upscaled": true,
     "nativeWidth": 1494,
     "nativeHeight": 1052,
-    "tone": "Chiaro"
+    "tone": "Chiaro",
+    "titleEn": "Pink flamingos"
   },
   {
     "id": "cosmos-29-lupo-al-chiaro-di-luna",
@@ -3490,7 +3647,8 @@
     "upscaled": true,
     "nativeWidth": 1495,
     "nativeHeight": 1052,
-    "tone": "Scuro"
+    "tone": "Scuro",
+    "titleEn": "Wolf in the moonlight"
   },
   {
     "id": "cosmos-30-cavallo-nella-luce",
@@ -3508,7 +3666,8 @@
     "upscaled": true,
     "nativeWidth": 1495,
     "nativeHeight": 1052,
-    "tone": "Chiaro"
+    "tone": "Chiaro",
+    "titleEn": "Horse in the light"
   },
   {
     "id": "cosmos-31-pantera-delle-nevi",
@@ -3526,7 +3685,8 @@
     "upscaled": true,
     "nativeWidth": 1496,
     "nativeHeight": 1051,
-    "tone": "Scuro"
+    "tone": "Scuro",
+    "titleEn": "Snow panther"
   },
   {
     "id": "cosmos-32-martin-pescatore",
@@ -3544,7 +3704,8 @@
     "upscaled": true,
     "nativeWidth": 1495,
     "nativeHeight": 1052,
-    "tone": "Chiaro"
+    "tone": "Chiaro",
+    "titleEn": "Kingfisher"
   },
   {
     "id": "cosmos-33-drago-di-fuoco",
@@ -3563,7 +3724,8 @@
     "nativeWidth": 1495,
     "nativeHeight": 1052,
     "tone": "Scuro",
-    "subcategory": "Draghi"
+    "subcategory": "Draghi",
+    "titleEn": "Fire dragon"
   },
   {
     "id": "cosmos-34-drago-di-ghiaccio",
@@ -3582,7 +3744,8 @@
     "nativeWidth": 1494,
     "nativeHeight": 1052,
     "tone": "Chiaro",
-    "subcategory": "Draghi"
+    "subcategory": "Draghi",
+    "titleEn": "Ice dragon"
   },
   {
     "id": "cosmos-35-drago-della-luna",
@@ -3601,7 +3764,8 @@
     "nativeWidth": 1494,
     "nativeHeight": 1052,
     "tone": "Scuro",
-    "subcategory": "Draghi"
+    "subcategory": "Draghi",
+    "titleEn": "Moon dragon"
   },
   {
     "id": "cosmos-36-drago-smeraldo",
@@ -3620,7 +3784,8 @@
     "nativeWidth": 1495,
     "nativeHeight": 1052,
     "tone": "Chiaro",
-    "subcategory": "Draghi"
+    "subcategory": "Draghi",
+    "titleEn": "Emerald dragon"
   },
   {
     "id": "cosmos-37-drago-delle-stelle",
@@ -3639,7 +3804,8 @@
     "nativeWidth": 1494,
     "nativeHeight": 1053,
     "tone": "Scuro",
-    "subcategory": "Draghi"
+    "subcategory": "Draghi",
+    "titleEn": "Star dragon"
   },
   {
     "id": "cosmos-38-drago-dellalba",
@@ -3658,7 +3824,8 @@
     "nativeWidth": 1495,
     "nativeHeight": 1052,
     "tone": "Chiaro",
-    "subcategory": "Draghi"
+    "subcategory": "Draghi",
+    "titleEn": "Dawn dragon"
   },
   {
     "id": "lumina-lago-alpino-turchese",
@@ -3675,7 +3842,8 @@
     "upscaled": true,
     "nativeWidth": 1495,
     "nativeHeight": 1052,
-    "subcategory": "Paesaggi"
+    "subcategory": "Paesaggi",
+    "titleEn": "Turquoise alpine lake"
   },
   {
     "id": "lumina-lavanda-provenza",
@@ -3692,7 +3860,8 @@
     "upscaled": true,
     "nativeWidth": 1495,
     "nativeHeight": 1052,
-    "subcategory": "Paesaggi"
+    "subcategory": "Paesaggi",
+    "titleEn": "Lavender in Provence"
   },
   {
     "id": "lumina-cascata-smeraldo",
@@ -3708,7 +3877,8 @@
     "generated": true,
     "upscaled": true,
     "nativeWidth": 1494,
-    "nativeHeight": 1052
+    "nativeHeight": 1052,
+    "titleEn": "Emerald waterfall"
   },
   {
     "id": "lumina-delfini-acqua-cristallina",
@@ -3724,7 +3894,8 @@
     "generated": true,
     "upscaled": true,
     "nativeWidth": 1495,
-    "nativeHeight": 1052
+    "nativeHeight": 1052,
+    "titleEn": "Dolphins in crystal-clear water"
   },
   {
     "id": "lumina-pulcinella-di-mare",
@@ -3740,7 +3911,8 @@
     "generated": true,
     "upscaled": true,
     "nativeWidth": 1495,
-    "nativeHeight": 1052
+    "nativeHeight": 1052,
+    "titleEn": "Atlantic puffin"
   },
   {
     "id": "lumina-cervo-prato-alpino",
@@ -3756,7 +3928,8 @@
     "generated": true,
     "upscaled": true,
     "nativeWidth": 1495,
-    "nativeHeight": 1052
+    "nativeHeight": 1052,
+    "titleEn": "Deer in the alpine meadow"
   },
   {
     "id": "lumina-colibri-fiori-corallo",
@@ -3772,7 +3945,8 @@
     "generated": true,
     "upscaled": true,
     "nativeWidth": 1495,
-    "nativeHeight": 1052
+    "nativeHeight": 1052,
+    "titleEn": "Hummingbird and coral flowers"
   },
   {
     "id": "lumina-terrazze-di-riso",
@@ -3789,7 +3963,8 @@
     "upscaled": true,
     "nativeWidth": 1494,
     "nativeHeight": 1052,
-    "subcategory": "Paesaggi"
+    "subcategory": "Paesaggi",
+    "titleEn": "Rice terraces"
   },
   {
     "id": "lumina-lago-lugano-primavera",
@@ -3806,7 +3981,8 @@
     "upscaled": true,
     "nativeWidth": 1495,
     "nativeHeight": 1052,
-    "subcategory": "Paesaggi"
+    "subcategory": "Paesaggi",
+    "titleEn": "Lake Lugano in spring"
   },
   {
     "id": "lumina-fenicotteri-laguna-rosa",
@@ -3822,7 +3998,8 @@
     "generated": true,
     "upscaled": true,
     "nativeWidth": 1495,
-    "nativeHeight": 1052
+    "nativeHeight": 1052,
+    "titleEn": "Flamingos in the pink lagoon"
   },
   {
     "id": "lumina-bambu-luce-dorata",
@@ -3838,7 +4015,8 @@
     "generated": true,
     "upscaled": true,
     "nativeWidth": 1495,
-    "nativeHeight": 1052
+    "nativeHeight": 1052,
+    "titleEn": "Bamboo in golden light"
   },
   {
     "id": "lumina-costa-mediterranea",
@@ -3855,7 +4033,8 @@
     "upscaled": true,
     "nativeWidth": 1495,
     "nativeHeight": 1052,
-    "subcategory": "Paesaggi"
+    "subcategory": "Paesaggi",
+    "titleEn": "Mediterranean coast"
   },
   {
     "id": "lumina-farfalla-azzurra",
@@ -3871,7 +4050,8 @@
     "generated": true,
     "upscaled": true,
     "nativeWidth": 1495,
-    "nativeHeight": 1052
+    "nativeHeight": 1052,
+    "titleEn": "Blue butterfly"
   },
   {
     "id": "lumina-girasoli-orizzonte",
@@ -3887,7 +4067,8 @@
     "generated": true,
     "upscaled": true,
     "nativeWidth": 1495,
-    "nativeHeight": 1052
+    "nativeHeight": 1052,
+    "titleEn": "Sunflowers on the horizon"
   },
   {
     "id": "lumina-mongolfiere-cappadocia",
@@ -3904,7 +4085,8 @@
     "upscaled": true,
     "nativeWidth": 1495,
     "nativeHeight": 1052,
-    "subcategory": "Paesaggi"
+    "subcategory": "Paesaggi",
+    "titleEn": "Hot air balloons in Cappadocia"
   },
   {
     "id": "lumina-isola-tra-le-nuvole",
@@ -3921,7 +4103,8 @@
     "upscaled": true,
     "nativeWidth": 1495,
     "nativeHeight": 1052,
-    "subcategory": "Paesaggi"
+    "subcategory": "Paesaggi",
+    "titleEn": "Island among the clouds"
   },
   {
     "id": "lumina-casa-del-colibri",
@@ -3937,7 +4120,8 @@
     "generated": true,
     "upscaled": true,
     "nativeWidth": 1495,
-    "nativeHeight": 1052
+    "nativeHeight": 1052,
+    "titleEn": "The hummingbird's house"
   },
   {
     "id": "lumina-lucciole-nel-bosco",
@@ -3953,7 +4137,8 @@
     "generated": true,
     "upscaled": true,
     "nativeWidth": 1494,
-    "nativeHeight": 1052
+    "nativeHeight": 1052,
+    "titleEn": "Fireflies in the forest"
   },
   {
     "id": "lumina-balena-sotto-la-luna",
@@ -3969,7 +4154,8 @@
     "generated": true,
     "upscaled": true,
     "nativeWidth": 1495,
-    "nativeHeight": 1052
+    "nativeHeight": 1052,
+    "titleEn": "Whale under the moon"
   },
   {
     "id": "lumina-dolomiti-notte-stellata",
@@ -3986,7 +4172,8 @@
     "upscaled": true,
     "nativeWidth": 1495,
     "nativeHeight": 1052,
-    "subcategory": "Paesaggi"
+    "subcategory": "Paesaggi",
+    "titleEn": "Dolomites under a starry sky"
   },
   {
     "id": "oled-volpe-curiosa",
@@ -3998,7 +4185,8 @@
     "width": 5340,
     "height": 3756,
     "description": "Una volpe incuriosita tra i tronchi del bosco.",
-    "hero": true
+    "hero": true,
+    "titleEn": "Curious fox"
   },
   {
     "id": "oled-gufo-sorpreso",
@@ -4010,7 +4198,8 @@
     "width": 5340,
     "height": 3756,
     "description": "Un gufo dagli occhi spalancati nel cavo di un albero.",
-    "hero": true
+    "hero": true,
+    "titleEn": "Surprised owl"
   },
   {
     "id": "oled-rana-direttore",
@@ -4022,7 +4211,8 @@
     "width": 5340,
     "height": 3756,
     "description": "Una piccola rana dirige la foresta da una foglia rossa.",
-    "hero": true
+    "hero": true,
+    "titleEn": "Frog conductor"
   },
   {
     "id": "oled-marmotta-alpina",
@@ -4034,7 +4224,8 @@
     "width": 5340,
     "height": 3756,
     "description": "Una marmotta tra fiori alpini, laghi e vette innevate.",
-    "hero": true
+    "hero": true,
+    "titleEn": "Alpine marmot"
   },
   {
     "id": "oled-robot-timido",
@@ -4047,7 +4238,8 @@
     "height": 3756,
     "description": "Un piccolo robot con un ombrello giallo in una strada bagnata dalla pioggia.",
     "hero": true,
-    "subcategory": "Paesaggi"
+    "subcategory": "Paesaggi",
+    "titleEn": "Shy robot"
   },
   {
     "id": "oled-scale-infinite",
@@ -4060,7 +4252,8 @@
     "height": 3756,
     "description": "Scale e archi colorati si intrecciano in un paesaggio architettonico surreale.",
     "hero": true,
-    "subcategory": "Paesaggi"
+    "subcategory": "Paesaggi",
+    "titleEn": "Infinite stairs"
   },
   {
     "id": "oled-foglia-macro",
@@ -4072,7 +4265,8 @@
     "width": 5340,
     "height": 3756,
     "description": "Gocce di rugiada e venature su una foglia verde.",
-    "hero": true
+    "hero": true,
+    "titleEn": "Macro leaf"
   },
   {
     "id": "oled-piume-iridescenti",
@@ -4084,7 +4278,8 @@
     "width": 5340,
     "height": 3756,
     "description": "Le trame e i riflessi delle piume di un pavone.",
-    "hero": true
+    "hero": true,
+    "titleEn": "Iridescent feathers"
   },
   {
     "id": "oled-dune-dorate",
@@ -4097,7 +4292,8 @@
     "height": 3756,
     "description": "La luce del tramonto disegna le creste delle dune.",
     "hero": true,
-    "subcategory": "Paesaggi"
+    "subcategory": "Paesaggi",
+    "titleEn": "Golden dunes"
   },
   {
     "id": "oled-medusa-abissale",
@@ -4109,7 +4305,8 @@
     "width": 5340,
     "height": 3756,
     "description": "Una medusa luminosa emerge dal buio delle profondità marine.",
-    "hero": true
+    "hero": true,
+    "titleEn": "Deep-sea jellyfish"
   },
   {
     "id": "oled-polpo-curioso",
@@ -4121,7 +4318,8 @@
     "width": 5340,
     "height": 3756,
     "description": "Un polpo si affaccia tra coralli e raggi di luce subacquei.",
-    "hero": true
+    "hero": true,
+    "titleEn": "Curious octopus"
   },
   {
     "id": "oled-deserto-stelle",
@@ -4134,7 +4332,8 @@
     "height": 3756,
     "description": "La Via Lattea illumina le dune del deserto nella notte.",
     "hero": true,
-    "subcategory": "Paesaggi"
+    "subcategory": "Paesaggi",
+    "titleEn": "Desert of stars"
   },
   {
     "id": "wildlife-leone-savana",
@@ -4147,7 +4346,8 @@
     "height": 1878,
     "description": "Un leone sulla roccia tra le erbe dorate della savana africana.",
     "generated": true,
-    "hero": true
+    "hero": true,
+    "titleEn": "Savanna lion"
   },
   {
     "id": "wildlife-elefante-savanna",
@@ -4160,7 +4360,8 @@
     "height": 1878,
     "description": "Un elefante alla pozza, tra acacie e luce calda del tramonto.",
     "generated": true,
-    "hero": true
+    "hero": true,
+    "titleEn": "Elephant at sunset"
   },
   {
     "id": "wildlife-tigre-foresta",
@@ -4173,7 +4374,8 @@
     "height": 1878,
     "description": "Una tigre attraversa un torrente nella foresta indiana.",
     "generated": true,
-    "hero": true
+    "hero": true,
+    "titleEn": "Tiger in the forest"
   },
   {
     "id": "wildlife-leopardo-nevi",
@@ -4186,7 +4388,8 @@
     "height": 1878,
     "description": "Un leopardo delle nevi sulle creste dell'Himalaya.",
     "generated": true,
-    "hero": true
+    "hero": true,
+    "titleEn": "Snow leopard"
   },
   {
     "id": "wildlife-lupo-bosco",
@@ -4199,7 +4402,8 @@
     "height": 1878,
     "description": "Un lupo nella foresta boreale innevata al crepuscolo.",
     "generated": true,
-    "hero": true
+    "hero": true,
+    "titleEn": "Wolf in the snow"
   },
   {
     "id": "wildlife-orso-fiume",
@@ -4212,7 +4416,8 @@
     "height": 1878,
     "description": "Un orso bruno nel fiume, tra boschi e montagne dell'Alaska.",
     "generated": true,
-    "hero": true
+    "hero": true,
+    "titleEn": "Bear by the river"
   },
   {
     "id": "wildlife-gorilla-foresta",
@@ -4225,7 +4430,8 @@
     "height": 1878,
     "description": "Un gorilla di montagna nella foresta tropicale avvolta dalla nebbia.",
     "generated": true,
-    "hero": true
+    "hero": true,
+    "titleEn": "Gorilla in the forest"
   },
   {
     "id": "wildlife-aquila-alpi",
@@ -4238,7 +4444,8 @@
     "height": 1878,
     "description": "Un'aquila reale in volo sopra le valli alpine.",
     "generated": true,
-    "hero": true
+    "hero": true,
+    "titleEn": "Eagle over the Alps"
   },
   {
     "id": "wildlife-volpe-artica",
@@ -4251,7 +4458,8 @@
     "height": 1878,
     "description": "Una volpe artica nella tundra innevata all'alba.",
     "generated": true,
-    "hero": true
+    "hero": true,
+    "titleEn": "Arctic fox"
   },
   {
     "id": "wildlife-balena-oceano",
@@ -4264,7 +4472,8 @@
     "height": 1878,
     "description": "Una megattera tra i raggi di luce dell'oceano.",
     "generated": true,
-    "hero": true
+    "hero": true,
+    "titleEn": "Whale in the ocean"
   },
   {
     "id": "drive-0",
@@ -4275,7 +4484,8 @@
     "filename": "goccia-di-ghiaccio.jpg",
     "width": 2990,
     "height": 2104,
-    "subcategory": "Paesaggi"
+    "subcategory": "Paesaggi",
+    "titleEn": "Drop of ice"
   },
   {
     "id": "drive-1",
@@ -4286,7 +4496,8 @@
     "filename": "prusa-core-one.jpg",
     "width": 4096,
     "height": 2882,
-    "subcategory": "Paesaggi"
+    "subcategory": "Paesaggi",
+    "titleEn": "Prusa CORE One"
   },
   {
     "id": "drive-2",
@@ -4297,7 +4508,8 @@
     "filename": "faro-e-veliero-al-tramonto.jpg",
     "width": 4096,
     "height": 2882,
-    "subcategory": "Paesaggi"
+    "subcategory": "Paesaggi",
+    "titleEn": "Lighthouse and sailboat at sunset"
   },
   {
     "id": "drive-3",
@@ -4308,7 +4520,8 @@
     "filename": "europa-dallo-spazio.jpg",
     "width": 2990,
     "height": 2104,
-    "subcategory": "Paesaggi"
+    "subcategory": "Paesaggi",
+    "titleEn": "Europe from space"
   },
   {
     "id": "drive-4",
@@ -4319,7 +4532,8 @@
     "filename": "hollywood-sotto-le-stelle.jpg",
     "width": 4096,
     "height": 2882,
-    "subcategory": "Paesaggi"
+    "subcategory": "Paesaggi",
+    "titleEn": "Hollywood under the stars"
   },
   {
     "id": "drive-5",
@@ -4330,7 +4544,8 @@
     "filename": "circo-knie-in-controluce.jpg",
     "width": 4096,
     "height": 2882,
-    "subcategory": "Paesaggi"
+    "subcategory": "Paesaggi",
+    "titleEn": "Knie circus backlit"
   },
   {
     "id": "drive-6",
@@ -4341,7 +4556,8 @@
     "filename": "canyon-sotto-la-via-lattea.jpg",
     "width": 4096,
     "height": 2882,
-    "subcategory": "Paesaggi"
+    "subcategory": "Paesaggi",
+    "titleEn": "Canyon under the Milky Way"
   },
   {
     "id": "drive-7",
@@ -4352,7 +4568,8 @@
     "filename": "canyon-al-tramonto.png",
     "width": 1495,
     "height": 1052,
-    "subcategory": "Paesaggi"
+    "subcategory": "Paesaggi",
+    "titleEn": "Canyon at sunset"
   },
   {
     "id": "drive-8",
@@ -4363,7 +4580,8 @@
     "filename": "lago-di-lugano-al-crepuscolo.jpg",
     "width": 4096,
     "height": 2882,
-    "subcategory": "Paesaggi"
+    "subcategory": "Paesaggi",
+    "titleEn": "Lake Lugano at dusk"
   },
   {
     "id": "drive-9",
@@ -4374,7 +4592,8 @@
     "filename": "strada-nel-bosco-autunnale.jpg",
     "width": 4096,
     "height": 2882,
-    "subcategory": "Paesaggi"
+    "subcategory": "Paesaggi",
+    "titleEn": "Road through the autumn forest"
   },
   {
     "id": "drive-10",
@@ -4385,7 +4604,8 @@
     "filename": "albero-solitario-tra-le-colline.png",
     "width": 1495,
     "height": 1052,
-    "subcategory": "Paesaggi"
+    "subcategory": "Paesaggi",
+    "titleEn": "Lone tree among the hills"
   },
   {
     "id": "drive-11",
@@ -4395,18 +4615,20 @@
     "source": "DUO Wallpapers · Originale",
     "filename": "Death Valley.png",
     "width": 1495,
-    "height": 1052
+    "height": 1052,
+    "titleEn": "Death Valley"
   },
   {
     "id": "drive-12",
     "title": "Locomotiva al tramonto",
-    "category": "Vario",
+    "category": "Treni",
     "image": "originals/9BDB843D-7036-43ED-8B35-8D084DE92050.PNG",
     "source": "DUO Wallpapers · Originale",
     "filename": "locomotiva-al-tramonto.png",
     "width": 1495,
     "height": 1052,
-    "subcategory": "Paesaggi"
+    "subcategory": "Paesaggi",
+    "titleEn": "Locomotive at sunset"
   },
   {
     "id": "drive-13",
@@ -4417,7 +4639,8 @@
     "filename": "ara-scarlatta-nella-foresta.jpg",
     "width": 4096,
     "height": 2749,
-    "subcategory": "Paesaggi"
+    "subcategory": "Paesaggi",
+    "titleEn": "Scarlet macaw in the forest"
   },
   {
     "id": "drive-14",
@@ -4428,7 +4651,8 @@
     "filename": "cervino-riflesso-al-crepuscolo.jpg",
     "width": 4096,
     "height": 3058,
-    "subcategory": "Paesaggi"
+    "subcategory": "Paesaggi",
+    "titleEn": "Matterhorn reflected at dusk"
   },
   {
     "id": "drive-15",
@@ -4439,7 +4663,8 @@
     "filename": "cervino-nella-luce-dorata.jpg",
     "width": 4096,
     "height": 3058,
-    "subcategory": "Paesaggi"
+    "subcategory": "Paesaggi",
+    "titleEn": "Matterhorn in golden light"
   },
   {
     "id": "drive-16",
@@ -4450,7 +4675,8 @@
     "filename": "cervino-e-lago-alpino.jpg",
     "width": 4096,
     "height": 3058,
-    "subcategory": "Paesaggi"
+    "subcategory": "Paesaggi",
+    "titleEn": "Matterhorn and alpine lake"
   },
   {
     "id": "drive-17",
@@ -4461,7 +4687,8 @@
     "filename": "hollywood-nella-luce-del-tramonto.jpg",
     "width": 4096,
     "height": 2872,
-    "subcategory": "Paesaggi"
+    "subcategory": "Paesaggi",
+    "titleEn": "Hollywood in the sunset light"
   },
   {
     "id": "drive-18",
@@ -4472,7 +4699,8 @@
     "filename": "ultima-luce-sul-canyon.jpg",
     "width": 4096,
     "height": 3058,
-    "subcategory": "Paesaggi"
+    "subcategory": "Paesaggi",
+    "titleEn": "Last light over the canyon"
   },
   {
     "id": "drive-19",
@@ -4482,6 +4710,7 @@
     "source": "DUO Wallpapers · Originale",
     "filename": "Matterhorn 01.png",
     "width": 1494,
-    "height": 1052
+    "height": 1052,
+    "titleEn": "Matterhorn"
   }
 ]

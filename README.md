@@ -29,3 +29,7 @@ La collezione Treni in città aggiunge tre treni svizzeri in stazioni urbane, un
 La collezione Treni e dinosauri aggiunge altri tre treni svizzeri urbani e tre dinosauri, con spazio libero in alto al centro per l’orologio.
 
 La collezione Locomotiva Knie aggiunge tre sfondi con la sola locomotiva Re 420 241 dalla foto di riferimento, ambientati a Berna e Ginevra, senza vagoni né tendone. Download 5340 × 3756 pixel ingranditi; dimensioni native nel catalogo.
+
+Treni è una categoria dedicata con 18 sfondi ferroviari, comprese le tre locomotive Knie, il Bernina e i treni vintage. Il Robottino sul treno mantiene la categoria Robottini.
+
+La pagina offre IT / EN in alto, salva la lingua scelta e traduce interfaccia, categorie, titoli dei 229 sfondi e istruzioni di download.
