@@ -189,3 +189,9 @@ html[lang="en"] .hero-stats{align-items:flex-start}html[lang="en"] .hero-stats .
   .topbar .search input{width:100%}
   body{padding-top:calc(110px + env(safe-area-inset-top,0px))}
 }
+
+/* Align the visible vector outlines, independent of font baselines. */
+.topbar .brand{align-items:center}
+.topbar svg.brandicon{display:block;width:22px;height:22px;flex:0 0 22px;overflow:visible}
+.topbar .brand-name{display:flex;align-items:center;height:22px;line-height:0}
+.topbar .brand-wordmark{display:block;height:22px;flex:none;overflow:visible}
