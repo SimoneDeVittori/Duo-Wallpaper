@@ -141,3 +141,10 @@ html{background:#05251d;color-scheme:dark}
 /* Keep download titles on one line, including the longest catalog names. */
 .detail-info h2{font-size:22px;line-height:1.25;min-width:0;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 @media(max-width:760px){.detail-info h2{font-size:16px;padding-right:36px}}
+
+/* Preserve the supplied palette instead of automatic Android darkening. */
+html.android{color-scheme:only light}
+html.android body{background:linear-gradient(155deg,#093e2d 0%,#0e5940 48%,#073323 100%)}
+html.android .hero{background:#0b4935 url('assets/android-emerald-background.svg') center/cover no-repeat}
+html.android .hero:before{background:none;opacity:0}
+html.android .hero-glow,html.android .orb{opacity:.45}

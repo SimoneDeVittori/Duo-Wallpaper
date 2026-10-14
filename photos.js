@@ -2,6 +2,7 @@
 let photoRequest=0, photoFile=null, photoWallpaper=null;
 const photoButton=document.getElementById('save-photos');
 const photoNote=document.getElementById('photo-note');
+function androidPhotoDownload(){return document.documentElement.classList.contains('android')||/Android/i.test(navigator.userAgent)||navigator.userAgentData?.platform==='Android';}
 function desktopPhotoDownload(){return !window.matchMedia('(max-width:760px), (hover:none) and (pointer:coarse)').matches;}
 const manualPhotoNote='Apri l’immagine, tienila premuta e scegli “Salva in Foto” o “Salva immagine”.';
 function manualPhotoMode(message=manualPhotoNote){
@@ -15,6 +16,13 @@ async function preparePhotoSave(w){
   photoWallpaper=w;
   photoFile=null;
   photoNote.hidden=desktopPhotoDownload();
+  if(androidPhotoDownload()){
+    photoButton.disabled=false;
+    photoButton.textContent='Scarica sfondo';
+    photoNote.hidden=false;
+    photoNote.textContent='Scarica il file alla risoluzione originale. Lo trovi nella cartella Download.';
+    return;
+  }
   if(desktopPhotoDownload()){photoButton.disabled=false;photoButton.textContent='Scarica sfondo';photoNote.textContent='';return;}
   if(!navigator.share||!navigator.canShare){manualPhotoMode();return;}
   photoButton.disabled=true;
@@ -37,11 +45,12 @@ async function preparePhotoSave(w){
 }
 photoButton.addEventListener('click',async()=>{
   if(!photoWallpaper)return;
-  if(desktopPhotoDownload()){
+  if(androidPhotoDownload()||desktopPhotoDownload()){
     const link=document.createElement('a');
     link.href=photoWallpaper.image;
     link.download=photoWallpaper.filename||photoWallpaper.image.split('/').pop();
     document.body.append(link);link.click();link.remove();
+    if(androidPhotoDownload())photoNote.textContent='Download avviato. Controlla la cartella Download o la notifica del browser.';
     return;
   }
   if(!photoFile){window.open(photoWallpaper.image,'_blank','noopener');return;}
