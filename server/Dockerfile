@@ -5,5 +5,4 @@ ENV PORT=8080
 ENV QUOTA_FILE=/data/duo-quota.json
 ENV MAX_DAILY_GENERATIONS=10
 EXPOSE 8080
-USER node
 CMD ["node", "generate.mjs"]
