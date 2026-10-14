@@ -6,7 +6,7 @@ if(location.hash)history.replaceState(history.state,'',location.pathname+locatio
 // Apply Android's rendering choice before the first paint.
 const duoAndroid=/Android/i.test(navigator.userAgent)||navigator.userAgentData?.platform==='Android';
 if(duoAndroid){document.documentElement.classList.add('android');document.querySelector('meta[name="color-scheme"]').content='only light';}
-</script><meta name="description" content="DUO Wallpapers — una collezione di sfondi 4K per iPhone Duo. Esplora, salva e scarica."><title>DUO Wallpapers — Sfondi 4K per iPhone Duo</title><link rel="stylesheet" href="style.css?v=larger-wallpapers-20261014"><link rel="apple-touch-icon" sizes="180x180" href="duo-home-180-v2.png"><link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png?v=1"><link rel="icon" type="image/png" sizes="192x192" href="icon-192.png?v=1"><link rel="manifest" href="site.webmanifest?v=2"><meta name="apple-mobile-web-app-title" content="DUO Wallpapers"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black"><link rel="stylesheet" href="pull-refresh.css?v=1"></head><body>
+</script><meta name="description" content="DUO Wallpapers — una collezione di sfondi 4K per iPhone Duo. Esplora, salva e scarica."><title>DUO Wallpapers — Sfondi 4K per iPhone Duo</title><link rel="stylesheet" href="style.css?v=wallpapers-70pct-20261014"><link rel="apple-touch-icon" sizes="180x180" href="duo-home-180-v2.png"><link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png?v=1"><link rel="icon" type="image/png" sizes="192x192" href="icon-192.png?v=1"><link rel="manifest" href="site.webmanifest?v=2"><meta name="apple-mobile-web-app-title" content="DUO Wallpapers"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black"><link rel="stylesheet" href="pull-refresh.css?v=1"></head><body>
 <div class="noise"></div><header class="topbar"><a href="#home" class="brand" aria-label="DUO Wallpapers"><svg class="brandicon" viewBox="0 0 22 22" width="22" height="22" aria-hidden="true" fill="none"><rect x="1" y="1" width="20" height="20" stroke="currentColor" stroke-width="2"/><path d="M11 1v20" stroke="currentColor" stroke-width="1.5"/></svg><span><span class="brand-name"><svg class="brand-wordmark" viewBox="0 0 140 22" width="140" height="22" aria-hidden="true">
 <defs><clipPath id="duo-wallpapers-intersection" clipPathUnits="userSpaceOnUse"><text class="brand-duo-mask" x="0" y="22" font-family="Outfit,sans-serif" font-size="30" font-weight="750">DUO</text></clipPath></defs>
 <text class="brand-duo-text" x="0" y="22" fill="currentColor" font-family="Outfit,sans-serif" font-size="30" font-weight="750">DUO</text>
@@ -39,7 +39,7 @@ if(duoAndroid){document.documentElement.classList.add('android');document.queryS
     if(!context)return;
     const d=measure(duo),w=measure(wallpapers);
     if(!(d.height>0&&w.height>0))return;
-    const ds=22/d.height,ws=13/w.height;
+    const ds=22/d.height,ws=(22*.7)/w.height;
     const duoWidth=d.width*ds;
     const wordX=duoWidth-5.5;
     const duoTransform='translate('+(d.left*ds)+' '+(d.ascent*ds)+') scale('+ds+')';
