@@ -7,7 +7,7 @@ const key=process.env.OPENAI_API_KEY;
 const origin=process.env.ALLOWED_ORIGIN||'https://simonedevittori.github.io';
 const maxDaily=Number(process.env.MAX_DAILY_GENERATIONS||10);
 const quotaFile=process.env.QUOTA_FILE;
-if(!key||!quotaFile||!Number.isInteger(maxDaily)||maxDaily<1)throw Error('Set OPENAI_API_KEY, QUOTA_FILE and a valid MAX_DAILY_GENERATIONS');
+if(!quotaFile||!Number.isInteger(maxDaily)||maxDaily<1)throw Error('Set QUOTA_FILE and a valid MAX_DAILY_GENERATIONS');
 fs.mkdirSync(path.dirname(quotaFile),{recursive:true});
 let quota={day:'',count:0,last:0};
 if(fs.existsSync(quotaFile)){quota=JSON.parse(fs.readFileSync(quotaFile,'utf8'));if(typeof quota.day!=='string'||!Number.isInteger(quota.count)||quota.count<0||!Number.isFinite(quota.last))throw Error('Invalid quota file');}
@@ -16,12 +16,15 @@ function reserve(){const now=Date.now(),day=new Date(now).toISOString().slice(0,
 const server=http.createServer(async(req,res)=>{
  const headers={'Content-Type':'application/json','Cache-Control':'no-store','Vary':'Origin'};
  const send=(code,data)=>{res.writeHead(code,headers);res.end(JSON.stringify(data))};
+ if(req.url==='/health'&&req.method==='GET'){send(200,{ok:true});return}
  if(req.headers.origin!==origin){send(403,{error:'origin_not_allowed'});return}
  headers['Access-Control-Allow-Origin']=origin;headers['Access-Control-Allow-Methods']='POST, OPTIONS';headers['Access-Control-Allow-Headers']='Content-Type';
+ if(req.url==='/status'&&req.method==='GET'){send(200,{ready:Boolean(key)});return}
  if(req.url!=='/generate'){send(404,{error:'not_found'});return}
  if(req.method==='OPTIONS'){send(204,{});return}
  if(req.method!=='POST'){send(405,{error:'method_not_allowed'});return}
  if(!req.headers['content-type']?.startsWith('application/json')){send(415,{error:'json_required'});return}
+ if(!key){send(503,{error:'not_configured'});return}
  try {
   const parts=[];let bytes=0;for await(const part of req){bytes+=part.length;if(bytes>12000){send(413,{error:'too_large'});return}parts.push(part)}const body=Buffer.concat(parts).toString('utf8');
   let input;try{input=JSON.parse(body)}catch{send(400,{error:'invalid_json'});return}
