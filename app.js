@@ -6,8 +6,8 @@ function catFor(w){return categoryAliases[w.category]||w.category||''}
 function hasLocal(w){return true}
 function imagePath(w){return w.thumbnail||w.image}
 function toggleFav(id){if(favs.has(id))favs.delete(id);else favs.add(id);localStorage.setItem('duo-favs',JSON.stringify([...favs]));render();if(active?.id===id)refreshHeart()}
-function card(w){let local=hasLocal(w);let article=document.createElement('article');article.className='wall-card';article.innerHTML=`<button class="wall-preview" aria-label="Apri ${esc(w.title)}"><img loading="lazy" src="${esc(imagePath(w))}" alt="${esc(w.title)}"></button><button class="heart ${favs.has(w.id)?'liked':''}" aria-pressed="${favs.has(w.id)}" aria-label="${favs.has(w.id)?'Rimuovi dai':'Aggiungi ai'} preferiti"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1.1-1.1a5.5 5.5 0 0 0-7.8 7.8L12 21l8.8-8.6a5.5 5.5 0 0 0 0-7.8Z"/></svg></button><div class="wall-info"><div><strong>${esc(w.title)}</strong><small>${esc(w.width)} × ${esc(w.height)}</small></div><a class="card-arrow" href="${esc(w.image)}" download="${esc(w.filename||w.id)}" aria-label="Scarica ${esc(w.title)}" title="Scarica immagine"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12m-5-5 5 5 5-5M5 16v4a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-4"/></svg></a></div>`;const preview=article.querySelector('.wall-preview');const img=preview.querySelector('img');const reveal=()=>preview.classList.remove('loading');preview.classList.add('loading');img.addEventListener('load',reveal,{once:true});img.addEventListener('error',reveal,{once:true});if(img.complete)reveal();preview.onclick=()=>openDetail(w);article.querySelector('.heart').onclick=()=>toggleFav(w.id);return article}
-function render(){const filtered=wallpapers.filter(w=>(selected==='Tutti'||catFor(w)===selected)&&(w.title+' '+catFor(w)+' '+(w.subcategory||w.category||'')).toLowerCase().includes(term));$('gallery').replaceChildren(...filtered.map(card));$('results').textContent=filtered.length+' sfondi';$('empty').hidden=filtered.length!==0;const favourites=wallpapers.filter(w=>favs.has(w.id));$('fav-gallery').replaceChildren(...favourites.map(card));$('fav-empty').hidden=favourites.length>0;document.querySelectorAll('.filter').forEach(b=>b.classList.toggle('selected',b.dataset.filter===selected))}
+function card(w,items=wallpapers){let local=hasLocal(w);let article=document.createElement('article');article.className='wall-card';article.innerHTML=`<button class="wall-preview" aria-label="Apri ${esc(w.title)}"><img loading="lazy" src="${esc(imagePath(w))}" alt="${esc(w.title)}"></button><button class="heart ${favs.has(w.id)?'liked':''}" aria-pressed="${favs.has(w.id)}" aria-label="${favs.has(w.id)?'Rimuovi dai':'Aggiungi ai'} preferiti"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1.1-1.1a5.5 5.5 0 0 0-7.8 7.8L12 21l8.8-8.6a5.5 5.5 0 0 0 0-7.8Z"/></svg></button><div class="wall-info"><div><strong>${esc(w.title)}</strong><small>${esc(w.width)} × ${esc(w.height)}</small></div><a class="card-arrow" href="${esc(w.image)}" download="${esc(w.filename||w.id)}" aria-label="Scarica ${esc(w.title)}" title="Scarica immagine"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12m-5-5 5 5 5-5M5 16v4a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-4"/></svg></a></div>`;const preview=article.querySelector('.wall-preview');const img=preview.querySelector('img');const reveal=()=>preview.classList.remove('loading');preview.classList.add('loading');img.addEventListener('load',reveal,{once:true});img.addEventListener('error',reveal,{once:true});if(img.complete)reveal();preview.onclick=()=>openDetail(w,items);article.querySelector('.heart').onclick=()=>toggleFav(w.id);return article}
+function render(){const filtered=wallpapers.filter(w=>(selected==='Tutti'||catFor(w)===selected)&&(w.title+' '+catFor(w)+' '+(w.subcategory||w.category||'')).toLowerCase().includes(term));$('gallery').replaceChildren(...filtered.map(w=>card(w,filtered)));$('results').textContent=filtered.length+' sfondi';$('empty').hidden=filtered.length!==0;const favourites=wallpapers.filter(w=>favs.has(w.id));$('fav-gallery').replaceChildren(...favourites.map(w=>card(w,favourites)));$('fav-empty').hidden=favourites.length>0;document.querySelectorAll('.filter').forEach(b=>b.classList.toggle('selected',b.dataset.filter===selected))}
 
 /* Wait for a typing pause, then reveal the first match below the sticky header. */
 let searchScrollTimer;
@@ -25,7 +25,73 @@ function scrollToSearchResult(){
 
 function setFilter(name){selected=name;render();document.querySelector('#galleria').scrollIntoView({behavior:'smooth'})}
 function refreshHeart(){const liked=favs.has(active.id);const button=$('detail-heart');button.classList.add('detail-heart');button.classList.toggle('liked',liked);button.setAttribute('aria-pressed',String(liked));button.setAttribute('aria-label',liked?'Rimuovi dai preferiti':'Aggiungi ai preferiti');button.innerHTML='<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1.1-1.1a5.5 5.5 0 0 0-7.8 7.8L12 21l8.8-8.6a5.5 5.5 0 0 0 0-7.8Z"/></svg><span>'+(liked?'Nei preferiti':'Preferiti')+'</span>'} 
-function openDetail(w){active=w;$('detail-title').textContent=w.title;$('detail-resolution').textContent=w.width+' × '+w.height;$('detail-img').hidden=false;$('detail-fallback').hidden=true;$('detail-img').src=w.image;$('detail-img').style.objectFit='contain';$('open-photo').href=w.image;refreshHeart();$('detail').showModal();preparePhotoSave(w)}
+let detailItems=[];
+function refreshDetailNavigation(){
+  const index=detailItems.findIndex(w=>w.id===active.id);
+  $('detail-prev').disabled=index<=0;
+  $('detail-next').disabled=index<0||index>=detailItems.length-1;
+  $('detail-position').textContent=(index+1)+' / '+detailItems.length;
+}
+function showDetailWallpaper(w){
+  active=w;
+  $('detail-title').textContent=w.title;
+  $('detail-resolution').textContent=w.width+' × '+w.height;
+  $('detail-img').hidden=false;
+  $('detail-fallback').hidden=true;
+  $('detail-img').alt=w.title;
+  $('detail-img').style.aspectRatio=w.width+' / '+w.height;
+  $('detail-img').src=w.image;
+  $('detail-img').style.objectFit='contain';
+  $('open-photo').href=w.image;
+  refreshHeart();
+  refreshDetailNavigation();
+  preparePhotoSave(w);
+}
+function openDetail(w,items=wallpapers){
+  detailItems=items.some(item=>item.id===w.id)?[...items]:[w];
+  showDetailWallpaper(w);
+  if(!$('detail').open)$('detail').showModal();
+}
+function navigateDetail(direction){
+  if(!$('detail').open||!active)return;
+  const index=detailItems.findIndex(w=>w.id===active.id);
+  const next=detailItems[index+direction];
+  if(next)showDetailWallpaper(next);
+}
+$('detail-prev').onclick=()=>navigateDetail(-1);
+$('detail-next').onclick=()=>navigateDetail(1);
+$('detail').addEventListener('keydown',event=>{
+  if(event.altKey||event.ctrlKey||event.metaKey||event.shiftKey||event.target.closest('input,textarea,select,[contenteditable="true"]'))return;
+  if(event.key==='ArrowLeft'||event.key==='ArrowRight'){
+    event.preventDefault();
+    navigateDetail(event.key==='ArrowLeft'?-1:1);
+  }
+});
+/* Horizontal gestures browse images; vertical gestures keep scrolling/closing. */
+const detailPhoto=document.querySelector('.detail-photo');
+let detailSwipe=null;
+detailPhoto.addEventListener('touchstart',event=>{
+  detailSwipe=null;
+  if(event.touches.length!==1||event.target.closest('button,a'))return;
+  const touch=event.touches[0];
+  detailSwipe={x:touch.clientX,y:touch.clientY,time:Date.now()};
+},{passive:true});
+detailPhoto.addEventListener('touchmove',event=>{
+  if(!detailSwipe)return;
+  if(event.touches.length!==1){detailSwipe=null;return;}
+  const touch=event.touches[0];
+  const dx=Math.abs(touch.clientX-detailSwipe.x),dy=Math.abs(touch.clientY-detailSwipe.y);
+  if(dx>12&&dx>dy*1.4&&event.cancelable)event.preventDefault();
+},{passive:false});
+detailPhoto.addEventListener('touchend',event=>{
+  const origin=detailSwipe;detailSwipe=null;
+  if(!origin||!event.changedTouches.length||event.touches.length)return;
+  const touch=event.changedTouches[0];
+  const dx=touch.clientX-origin.x,dy=Math.abs(touch.clientY-origin.y);
+  if(Math.abs(dx)>=50&&Math.abs(dx)>dy*1.4&&Date.now()-origin.time<1000)navigateDetail(dx<0?1:-1);
+},{passive:true});
+detailPhoto.addEventListener('touchcancel',()=>{detailSwipe=null},{passive:true});
+$('detail').addEventListener('close',()=>{detailSwipe=null;detailItems=[]});
 $('close').onclick=()=>$('detail').close();$('detail').addEventListener('click',e=>{if(e.target===$('detail'))$('detail').close()});$('detail-heart').onclick=()=>toggleFav(active.id);$('search').addEventListener('input',e=>{term=e.target.value.toLowerCase().trim();render();scrollToSearchResult()});$('reset').onclick=()=>{selected='Tutti';term='';$('search').value='';clearTimeout(searchScrollTimer);render()};
 fetch('wallpapers.json?v=collection-229-knie-locomotive').then(r=>{if(!r.ok)throw Error('Catalogo non disponibile');return r.json()}).then(data=>{wallpapers=data;startHeroSlideshow(data);$('total-count').textContent=data.length;const categoryNames=[...new Set([...categories.map(c=>c.name),...data.map(catFor).filter(Boolean)])];const cats=['Tutti',...categoryNames.filter(name=>name!=='Vario'),...(categoryNames.includes('Vario')?['Vario']:[])];$('filters').replaceChildren(...cats.map(name=>{const b=document.createElement('button');b.className='filter';b.dataset.filter=name;b.textContent=name==='Tutti'?'Tutti - dal più recente':name;b.onclick=()=>setFilter(name);return b}));render();scrollToSearchResult()}).catch(err=>{$('gallery').textContent='Errore di caricamento: '+err.message+'. Pubblica su GitHub Pages o usa un server locale.'});
 
