@@ -33,3 +33,5 @@ La collezione Locomotiva Knie aggiunge tre sfondi con la sola locomotiva Re 420 
 Treni è una categoria dedicata con 18 sfondi ferroviari, comprese le tre locomotive Knie, il Bernina e i treni vintage. Il Robottino sul treno mantiene la categoria Robottini.
 
 La pagina offre IT / EN in alto, salva la lingua scelta e traduce interfaccia, categorie, titoli dei 229 sfondi e istruzioni di download.
+
+La collezione Omini in miniatura aggiunge 8 wallpaper nella categoria Vario, in testa al catalogo: caffè, orologio, fragola, matita, sneaker, fotocamera, croissant e limone. Titoli IT/EN, anteprime leggere e download 5340 × 3756 pixel ingranditi; dimensioni native registrate nel catalogo. Totale: 237 sfondi.
