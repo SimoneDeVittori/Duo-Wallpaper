@@ -175,3 +175,17 @@ html[lang="en"] .hero-stats{align-items:flex-start}html[lang="en"] .hero-stats .
   .topbar{position:fixed;inset:0 0 auto;width:100%;z-index:30;background:#05251d;backdrop-filter:none;-webkit-backdrop-filter:none;filter:none}
   body{padding-top:calc(65px + env(safe-area-inset-top,0px))}
 }
+
+/* Match the DUO wordmark to the green icon. */
+.topbar .brand-name{font-size:28px;line-height:1;font-weight:750}
+.topbar .brand>span:last-child{display:inline-flex;align-items:center;gap:5px}
+@media(max-width:760px){.topbar .muted-brand{font-size:12px}.topbar .brandicon{font-size:28px;line-height:1}}
+@media(max-width:370px){
+  .topbar{height:calc(110px + env(safe-area-inset-top,0px));display:grid;grid-template-columns:1fr auto;column-gap:8px;row-gap:5px;padding-bottom:8px}
+  .topbar .tools{display:contents}
+  .topbar .brand{grid-column:1;grid-row:1}
+  .topbar .language-switch{grid-column:2;grid-row:1}
+  .topbar .search{grid-column:1/-1;grid-row:2;width:100%}
+  .topbar .search input{width:100%}
+  body{padding-top:calc(110px + env(safe-area-inset-top,0px))}
+}
