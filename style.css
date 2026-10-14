@@ -156,3 +156,7 @@ html.android .hero-glow,html.android .orb{opacity:.45}
 @media(max-width:760px){.topbar .muted-brand{display:none}.tools{gap:6px}.language-switch button{padding:0}.search input{width:clamp(64px,19vw,95px)}}
 
 html[lang="en"] .hero-stats{align-items:flex-start}html[lang="en"] .hero-stats .statline{margin-top:8px}
+
+/* Bring the collection closer to the hero. */
+.gallery-section{padding-top:40px}
+@media(max-width:760px){.gallery-section{padding-top:24px}}
