@@ -1,5 +1,77 @@
 [
   {
+    "id": "locomotiva-knie-20261014-berna",
+    "title": "Locomotiva Knie a Berna",
+    "category": "Vario",
+    "subcategory": "Treni",
+    "image": "originals/locomotiva-knie-20261014-berna.jpg",
+    "thumbnail": "previews/locomotiva-knie-20261014-berna.jpg",
+    "source": "SimDev3D · Locomotiva Knie",
+    "filename": "locomotiva-knie-20261014-berna.jpg",
+    "width": 5340,
+    "height": 3756,
+    "description": "La locomotiva Knie Re 420 241 dalle foto di riferimento, senza vagoni né tendone; spazio in alto per l’orologio.",
+    "hero": true,
+    "generated": true,
+    "upscaled": true,
+    "nativeWidth": 1494,
+    "nativeHeight": 1052,
+    "clockSafeArea": {
+      "x": 0.25,
+      "y": 0,
+      "width": 0.5,
+      "height": 0.3
+    }
+  },
+  {
+    "id": "locomotiva-knie-20261014-ginevra",
+    "title": "Locomotiva Knie a Ginevra",
+    "category": "Vario",
+    "subcategory": "Treni",
+    "image": "originals/locomotiva-knie-20261014-ginevra.jpg",
+    "thumbnail": "previews/locomotiva-knie-20261014-ginevra.jpg",
+    "source": "SimDev3D · Locomotiva Knie",
+    "filename": "locomotiva-knie-20261014-ginevra.jpg",
+    "width": 5340,
+    "height": 3756,
+    "description": "La locomotiva Knie Re 420 241 dalle foto di riferimento, senza vagoni né tendone; spazio in alto per l’orologio.",
+    "hero": true,
+    "generated": true,
+    "upscaled": true,
+    "nativeWidth": 1494,
+    "nativeHeight": 1052,
+    "clockSafeArea": {
+      "x": 0.25,
+      "y": 0,
+      "width": 0.5,
+      "height": 0.3
+    }
+  },
+  {
+    "id": "locomotiva-knie-20261014-berna-cielo",
+    "title": "Locomotiva Knie — cielo di Berna",
+    "category": "Vario",
+    "subcategory": "Treni",
+    "image": "originals/locomotiva-knie-20261014-berna-cielo.jpg",
+    "thumbnail": "previews/locomotiva-knie-20261014-berna-cielo.jpg",
+    "source": "SimDev3D · Locomotiva Knie",
+    "filename": "locomotiva-knie-20261014-berna-cielo.jpg",
+    "width": 5340,
+    "height": 3756,
+    "description": "La locomotiva Knie Re 420 241 dalle foto di riferimento, senza vagoni né tendone; spazio in alto per l’orologio.",
+    "hero": true,
+    "generated": true,
+    "upscaled": true,
+    "nativeWidth": 1494,
+    "nativeHeight": 1052,
+    "clockSafeArea": {
+      "x": 0.25,
+      "y": 0,
+      "width": 0.5,
+      "height": 0.3
+    }
+  },
+  {
     "id": "extra6-20261014-coccodrillo-deposito",
     "title": "Coccodrillo nel deposito storico",
     "category": "Vario",
