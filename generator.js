@@ -5,8 +5,8 @@ const examples={it:{alps:'Un lago alpino di notte, montagne imponenti, colori sc
 let lang='it';try{lang=localStorage.getItem('duo-language')==='en'?'en':'it'}catch{}
 let state='inactive',busy=false,resultBlob=null,resultUrl=null,requestNumber=0;
 const endpoint=window.DUO_AI_CONFIG?.endpoint||'';
-let configured=false;try{configured=new URL(endpoint).protocol==='https:'}catch{}
-state=configured?'ready':'inactive';
+let endpointValid=false,configured=false;try{endpointValid=new URL(endpoint).protocol==='https:'}catch{}
+state='inactive';
 function status(key){state=key;$('status').textContent=copy[lang][key];$('status').dataset.state=key==='busy'?'busy':['error','invalid','limit'].includes(key)?'error':'';}
 function language(value){lang=value==='en'?'en':'it';try{localStorage.setItem('duo-language',lang)}catch{}document.documentElement.lang=lang;document.title=lang==='en'?'Generate your wallpaper with AI — DUO Wallpapers':'Genera il tuo sfondo con IA — DUO Wallpapers';document.querySelectorAll('[data-copy]').forEach(el=>{if(el.dataset.copy==='title')el.innerHTML=copy[lang].title;else el.textContent=copy[lang][el.dataset.copy]});document.querySelectorAll('[data-language]').forEach(el=>el.setAttribute('aria-pressed',String(el.dataset.language===lang)));$('prompt').placeholder=examples[lang].alps;$('result-image').alt=copy[lang].alt;status(state);}
 document.querySelectorAll('[data-language]').forEach(el=>el.onclick=()=>language(el.dataset.language));
@@ -27,4 +27,5 @@ $('generator-form').addEventListener('submit',async e=>{e.preventDefault();if(bu
 $('download').onclick=()=>{if(!resultUrl)return;const a=document.createElement('a');a.href=resultUrl;a.download='DUO-AI-5340x3756.jpg';a.click();$('save-note').textContent=copy[lang].saved;};
 $('save-photo').onclick=async()=>{if(!resultBlob)return;const file=new File([resultBlob],'DUO-AI-5340x3756.jpg',{type:'image/jpeg'});if(navigator.canShare?.({files:[file]})){try{await navigator.share({files:[file]});return}catch(error){if(error.name==='AbortError')return}}window.open(resultUrl,'_blank','noopener');$('save-note').textContent=copy[lang].manual;};
 language(lang);controls();count();
+if(endpointValid){const statusUrl=new URL(endpoint);statusUrl.pathname=statusUrl.pathname.replace(/\/generate\/?$/,'/status');fetch(statusUrl.href,{cache:'no-store',signal:AbortSignal.timeout(15000)}).then(async response=>{if(!response.ok)return;const data=await response.json();configured=data.ready===true;status(configured?'ready':'inactive');controls()}).catch(()=>{configured=false;status('inactive');controls()});}
 })();
