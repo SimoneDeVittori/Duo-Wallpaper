@@ -113,7 +113,7 @@ window.addEventListener('duo-language-change',()=>{
   renderFilters();render();updateDeviceClock();$('reset').onclick=resetGallery;
   if(active&&$('detail').open)showDetailWallpaper(active);
 });
-fetch('wallpapers.json?v=collection-247-macro').then(r=>{if(!r.ok)throw Error(duoT('Catalogo non disponibile'));return r.json()}).then(data=>{wallpapers=data;startHeroSlideshow(data);$('total-count').textContent=data.length;renderFilters();render();scrollToSearchResult()}).catch(err=>{$('gallery').textContent=duoT('Errore di caricamento:')+' '+err.message+duoT('. Pubblica su GitHub Pages o usa un server locale.')});
+fetch('wallpapers.json?v=collection-257-materiali').then(r=>{if(!r.ok)throw Error(duoT('Catalogo non disponibile'));return r.json()}).then(data=>{wallpapers=data;startHeroSlideshow(data);$('total-count').textContent=data.length;renderFilters();render();scrollToSearchResult()}).catch(err=>{$('gallery').textContent=duoT('Errore di caricamento:')+' '+err.message+duoT('. Pubblica su GitHub Pages o usa un server locale.')});
 
 /* Live lock screen: use the visitor's device time and local timezone. */
 function updateDeviceClock(){
