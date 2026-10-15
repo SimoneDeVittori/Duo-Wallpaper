@@ -1,5 +1,30 @@
 [
   {
+    "id": "cervino-tramonto-20261015",
+    "title": "Matterhorn al tramonto",
+    "titleEn": "Matterhorn at sunset",
+    "category": "Natura",
+    "subcategory": "Svizzera · Montagne",
+    "image": "originals/cervino-tramonto-20261015.png",
+    "thumbnail": "previews/cervino-tramonto-20261015.jpg",
+    "source": "SimDev3D",
+    "filename": "cervino-tramonto-20261015.png",
+    "width": 5340,
+    "height": 3756,
+    "description": "Il Matterhorn tra luci rosa e pesca, ombre fredde e nebbia.",
+    "hero": true,
+    "generated": true,
+    "upscaled": true,
+    "nativeWidth": 1495,
+    "nativeHeight": 1052,
+    "clockSafeArea": {
+      "x": 0.25,
+      "y": 0,
+      "width": 0.5,
+      "height": 0.32
+    }
+  },
+  {
     "id": "macro-insetti-20261015-mantide",
     "title": "Mantide di smeraldo",
     "titleEn": "Emerald mantis",
