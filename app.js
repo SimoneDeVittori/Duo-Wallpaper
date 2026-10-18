@@ -113,7 +113,7 @@ window.addEventListener('duo-language-change',()=>{
   renderFilters();render();updateDeviceClock();$('reset').onclick=resetGallery;
   if(active&&$('detail').open)showDetailWallpaper(active);
 });
-fetch('wallpapers.json?v=remove-matterhorn-20261015').then(r=>{if(!r.ok)throw Error(duoT('Catalogo non disponibile'));return r.json()}).then(data=>{wallpapers=data;startHeroSlideshow(data);$('total-count').textContent=data.length;renderFilters();render();scrollToSearchResult()}).catch(err=>{$('gallery').textContent=duoT('Errore di caricamento:')+' '+err.message+duoT('. Pubblica su GitHub Pages o usa un server locale.')});
+fetch('wallpapers.json?v=collection-272-autunno').then(r=>{if(!r.ok)throw Error(duoT('Catalogo non disponibile'));return r.json()}).then(data=>{wallpapers=data;startHeroSlideshow(data);$('total-count').textContent=data.length;renderFilters();render();scrollToSearchResult()}).catch(err=>{$('gallery').textContent=duoT('Errore di caricamento:')+' '+err.message+duoT('. Pubblica su GitHub Pages o usa un server locale.')});
 
 /* Live lock screen: use the visitor's device time and local timezone. */
 function updateDeviceClock(){
@@ -223,4 +223,5 @@ function placeHeroLogo(){
 }
 placeHeroLogo();
 mobileHero.addEventListener('change',placeHeroLogo);
+
 
