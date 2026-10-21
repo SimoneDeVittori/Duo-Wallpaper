@@ -224,37 +224,8 @@ function placeHeroLogo(){
 placeHeroLogo();
 mobileHero.addEventListener('change',placeHeroLogo);
 
-/* Return to the collection heading after browsing down the wallpapers. */
-(() => {
-  const button=$('back-to-wallpapers');
-  const section=$('galleria');
-  if(!button||!section)return;
-  let scheduled=false;
-  function update(){
-    scheduled=false;
-    const distance=-section.getBoundingClientRect().top;
-    button.hidden=distance<Math.max(320,window.innerHeight*.55);
-  }
-  function schedule(){
-    if(!scheduled){scheduled=true;requestAnimationFrame(update)}
-  }
-  function label(){
-    const english=window.duoLanguage?.()==='en';
-    button.setAttribute('aria-label',english?'Back to the top of wallpapers':'Torna all’inizio degli sfondi');
-    button.title=english?'Back to wallpapers':'Torna agli sfondi';
-  }
-  button.addEventListener('click',()=>{
-    const header=document.querySelector('.topbar');
-    const top=section.getBoundingClientRect().top+window.scrollY-(header?.getBoundingClientRect().height||0)-16;
-    window.scrollTo({top:Math.max(0,top),behavior:window.matchMedia('(prefers-reduced-motion:reduce)').matches?'instant':'smooth'});
-    const heading=section.querySelector('h2');
-    if(heading){heading.setAttribute('tabindex','-1');heading.focus({preventScroll:true})}
-  });
-  window.addEventListener('scroll',schedule,{passive:true});
-  window.addEventListener('resize',schedule);
-  window.addEventListener('duo-language-change',label);
-  label();update();
-})();
+
+
 
 
 
