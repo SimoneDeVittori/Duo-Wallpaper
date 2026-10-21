@@ -100,31 +100,6 @@
     }
   },
   {
-    "id": "apple-duo-20261021-titanio",
-    "title": "Titanio e luce",
-    "titleEn": "Titanium and light",
-    "category": "Vario",
-    "subcategory": "Apple Duo",
-    "image": "originals/apple-duo-20261021-titanio.jpg",
-    "thumbnail": "previews/apple-duo-20261021-titanio.jpg",
-    "source": "SimDev3D · Apple Duo",
-    "filename": "apple-duo-20261021-titanio.jpg",
-    "width": 5340,
-    "height": 3756,
-    "description": "Logo Apple in titanio spazzolato, vetro fumé e riflessi argento e blu ghiaccio. Logo Apple con materiali raffinati, giochi di luce e due pannelli di vetro; spazio per orologio e data.",
-    "hero": true,
-    "generated": true,
-    "upscaled": true,
-    "nativeWidth": 1494,
-    "nativeHeight": 1052,
-    "clockSafeArea": {
-      "x": 0.25,
-      "y": 0,
-      "width": 0.5,
-      "height": 0.32
-    }
-  },
-  {
     "id": "apple-duo-20261021-prisma",
     "title": "Prisma iridescente",
     "titleEn": "Iridescent prism",
