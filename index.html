@@ -8,6 +8,9 @@ const duoAndroid=/Android/i.test(navigator.userAgent)||navigator.userAgentData?.
 if(duoAndroid){document.documentElement.classList.add('android');document.querySelector('meta[name="color-scheme"]').content='only light';}
 </script><meta name="description" content="DUO Wallpapers — una collezione di sfondi 4K per iPhone Duo. Esplora, salva e scarica."><title>DUO Wallpapers — Sfondi 4K per iPhone Duo</title><link rel="stylesheet" href="style.css?v=ipad-header-20261021-2"><link rel="apple-touch-icon" sizes="180x180" href="duo-home-180-v2.png"><link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png?v=1"><link rel="icon" type="image/png" sizes="192x192" href="icon-192.png?v=1"><link rel="manifest" href="site.webmanifest?v=2"><meta name="apple-mobile-web-app-title" content="DUO Wallpapers"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black"><link rel="stylesheet" href="pull-refresh.css?v=1"><style id="favourites-pill-style">
 @media(max-width:1100px){
+ .topbar{height:calc(120px + env(safe-area-inset-top,0px));row-gap:14px}
+ body{padding-top:calc(120px + env(safe-area-inset-top,0px))}
+ html{scroll-padding-top:calc(136px + env(safe-area-inset-top,0px))}
  .topbar .mobile-favourites{display:flex;align-items:center;justify-content:center;gap:6px;width:104px;height:40px;padding:0 10px;border-radius:999px;font-size:12px;font-weight:700;line-height:1;white-space:nowrap;background:transparent}
  .topbar .mobile-favourites svg{width:18px;height:18px;flex:0 0 18px}
  .topbar .mobile-favourites::after{content:attr(aria-label)}
@@ -16,14 +19,14 @@ if(duoAndroid){document.documentElement.classList.add('android');document.queryS
  .topbar .brand-wordmark{width:min(132px,calc(100vw - 276px))!important;height:22px}
 }
 @media(max-width:350px){
- .topbar{height:calc(156px + env(safe-area-inset-top,0px));grid-template-rows:44px 38px 38px}
+ .topbar{height:calc(172px + env(safe-area-inset-top,0px));grid-template-rows:44px 38px 38px}
  .topbar .brand{max-width:100%}
  .topbar .brand-wordmark{width:132px!important}
  .topbar .tools{grid-row:3}
  .topbar .mobile-favourites{top:calc(54px + env(safe-area-inset-top,0px));left:16px;right:auto}
  .topbar .language-switch{top:calc(54px + env(safe-area-inset-top,0px))}
- body{padding-top:calc(156px + env(safe-area-inset-top,0px))}
- html{scroll-padding-top:calc(172px + env(safe-area-inset-top,0px))}
+ body{padding-top:calc(172px + env(safe-area-inset-top,0px))}
+ html{scroll-padding-top:calc(188px + env(safe-area-inset-top,0px))}
 }
 </style></head><body>
 <div class="noise"></div><header class="topbar"><a href="#home" class="brand" aria-label="DUO Wallpapers"><svg class="brandicon" viewBox="0 0 22 22" width="22" height="22" aria-hidden="true" fill="none"><rect x="1" y="1" width="20" height="20" stroke="currentColor" stroke-width="2"/><path d="M11 1v20" stroke="currentColor" stroke-width="1.5"/></svg><span><span class="brand-name"><svg class="brand-wordmark" viewBox="0 0 140 22" width="140" height="22" aria-hidden="true">
