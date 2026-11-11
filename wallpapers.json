@@ -1,5 +1,53 @@
 [
   {
+    "id": "peter-cervino-crepuscolo",
+    "title": "Peter e il Cervino al crepuscolo",
+    "category": "Cartoon",
+    "subcategory": "Personaggi 3D",
+    "image": "originals/peter-cervino-crepuscolo.jpg",
+    "thumbnail": "originals/peter-cervino-crepuscolo.jpg",
+    "filename": "peter-cervino-crepuscolo.jpg",
+    "width": 1536,
+    "height": 1081,
+    "hero": false
+  },
+  {
+    "id": "peter-cervino-tramonto-sinistra",
+    "title": "Peter e il Cervino al tramonto",
+    "category": "Cartoon",
+    "subcategory": "Personaggi 3D",
+    "image": "originals/peter-cervino-tramonto-sinistra.jpg",
+    "thumbnail": "originals/peter-cervino-tramonto-sinistra.jpg",
+    "filename": "peter-cervino-tramonto-sinistra.jpg",
+    "width": 1536,
+    "height": 1081,
+    "hero": false
+  },
+  {
+    "id": "cervino-crepuscolo-nuvole",
+    "title": "Il Cervino tra le nuvole",
+    "category": "Natura",
+    "subcategory": "Montagne",
+    "image": "originals/cervino-crepuscolo-nuvole.jpg",
+    "thumbnail": "originals/cervino-crepuscolo-nuvole.jpg",
+    "filename": "cervino-crepuscolo-nuvole.jpg",
+    "width": 1495,
+    "height": 1052,
+    "hero": false
+  },
+  {
+    "id": "peter-cervino-tramonto-destra",
+    "title": "Peter e il Cervino alla luce del tramonto",
+    "category": "Cartoon",
+    "subcategory": "Personaggi 3D",
+    "image": "originals/peter-cervino-tramonto-destra.jpg",
+    "thumbnail": "originals/peter-cervino-tramonto-destra.jpg",
+    "filename": "peter-cervino-tramonto-destra.jpg",
+    "width": 1536,
+    "height": 1081,
+    "hero": false
+  },
+  {
     "id": "characters-20261027-01-the-night-shift",
     "title": "Il turno di notte",
     "titleEn": "The night shift",
